@@ -1,0 +1,8 @@
+##[pylyzer] failed /home/kol/Documents/ros_workstation/sixdof/src/sixdof_moveit_config/launch/spawn_controllers.launch.py 1747914539 335
+.___v_desugar_1 = pyimport "__init__"
+.__init__ = pyimport "__init__"
+.MoveItConfigsBuilder: {moveit_configs_builder.MoveItConfigsBuilder}
+.___v_desugar_2 = pyimport "launches"
+.launches = pyimport "launches"
+.generate_spawn_controllers_launch: |Type_23434 <: Structural({.trajectory_execution = ?23587}), Type_23587: Type|(moveit_config: Type_23434) -> Never
+.generate_launch_description: () -> Never

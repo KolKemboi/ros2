@@ -1,0 +1,30 @@
+[0.010s] Invoking command in '/home/kol/Documents/ros_workstation/test_2/build/sixdof': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kol/Documents/ros_workstation/test_2/build/sixdof -- -j4 -l4
+[0.053s] Invoked command in '/home/kol/Documents/ros_workstation/test_2/build/sixdof' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kol/Documents/ros_workstation/test_2/build/sixdof -- -j4 -l4
+[0.063s] Invoking command in '/home/kol/Documents/ros_workstation/test_2/build/sixdof': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kol/Documents/ros_workstation/test_2/build/sixdof
+[0.071s] -- Install configuration: ""
+[0.071s] -- Up-to-date: /home/kol/Documents/ros_workstation/test_2/install/sixdof/share/sixdof/launch
+[0.071s] -- Up-to-date: /home/kol/Documents/ros_workstation/test_2/install/sixdof/share/sixdof/launch/__pycache__
+[0.071s] -- Installing: /home/kol/Documents/ros_workstation/test_2/install/sixdof/share/sixdof/launch/__pycache__/display.launch.d.er
+[0.071s] -- Installing: /home/kol/Documents/ros_workstation/test_2/install/sixdof/share/sixdof/launch/display.launch.py
+[0.072s] -- Installing: /home/kol/Documents/ros_workstation/test_2/install/sixdof/share/sixdof/launch/gazebo.launch.py
+[0.072s] -- Up-to-date: /home/kol/Documents/ros_workstation/test_2/install/sixdof/share/sixdof/meshes
+[0.072s] -- Up-to-date: /home/kol/Documents/ros_workstation/test_2/install/sixdof/share/sixdof/meshes/part_1.stl
+[0.072s] -- Up-to-date: /home/kol/Documents/ros_workstation/test_2/install/sixdof/share/sixdof/meshes/part_1.part
+[0.072s] -- Up-to-date: /home/kol/Documents/ros_workstation/test_2/install/sixdof/share/sixdof/urdf
+[0.072s] -- Installing: /home/kol/Documents/ros_workstation/test_2/install/sixdof/share/sixdof/urdf/robot.xacro
+[0.072s] -- Up-to-date: /home/kol/Documents/ros_workstation/test_2/install/sixdof/share/ament_index/resource_index/package_run_dependencies/sixdof
+[0.072s] -- Up-to-date: /home/kol/Documents/ros_workstation/test_2/install/sixdof/share/ament_index/resource_index/parent_prefix_path/sixdof
+[0.073s] -- Up-to-date: /home/kol/Documents/ros_workstation/test_2/install/sixdof/share/sixdof/environment/ament_prefix_path.sh
+[0.073s] -- Up-to-date: /home/kol/Documents/ros_workstation/test_2/install/sixdof/share/sixdof/environment/ament_prefix_path.dsv
+[0.073s] -- Up-to-date: /home/kol/Documents/ros_workstation/test_2/install/sixdof/share/sixdof/environment/path.sh
+[0.073s] -- Up-to-date: /home/kol/Documents/ros_workstation/test_2/install/sixdof/share/sixdof/environment/path.dsv
+[0.073s] -- Up-to-date: /home/kol/Documents/ros_workstation/test_2/install/sixdof/share/sixdof/local_setup.bash
+[0.073s] -- Up-to-date: /home/kol/Documents/ros_workstation/test_2/install/sixdof/share/sixdof/local_setup.sh
+[0.073s] -- Up-to-date: /home/kol/Documents/ros_workstation/test_2/install/sixdof/share/sixdof/local_setup.zsh
+[0.073s] -- Up-to-date: /home/kol/Documents/ros_workstation/test_2/install/sixdof/share/sixdof/local_setup.dsv
+[0.073s] -- Up-to-date: /home/kol/Documents/ros_workstation/test_2/install/sixdof/share/sixdof/package.dsv
+[0.074s] -- Up-to-date: /home/kol/Documents/ros_workstation/test_2/install/sixdof/share/ament_index/resource_index/packages/sixdof
+[0.074s] -- Up-to-date: /home/kol/Documents/ros_workstation/test_2/install/sixdof/share/sixdof/cmake/sixdofConfig.cmake
+[0.074s] -- Up-to-date: /home/kol/Documents/ros_workstation/test_2/install/sixdof/share/sixdof/cmake/sixdofConfig-version.cmake
+[0.074s] -- Up-to-date: /home/kol/Documents/ros_workstation/test_2/install/sixdof/share/sixdof/package.xml
+[0.075s] Invoked command in '/home/kol/Documents/ros_workstation/test_2/build/sixdof' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kol/Documents/ros_workstation/test_2/build/sixdof

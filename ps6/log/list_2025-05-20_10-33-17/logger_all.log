@@ -1,0 +1,56 @@
+[0.840s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/kol/Documents/ros_workstation/ps6']
+[0.840s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/kol/Documents/ros_workstation/ps6'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7aa5427a0af0>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7aa54275faf0>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7aa54275faf0>>, mixin_verb=('list',))
+[1.700s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.701s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.701s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.701s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.701s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.701s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/kol/Documents/ros_workstation/ps6'
+[1.701s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kol/Documents/ros_workstation/ps6) by extensions ['ignore', 'ignore_ament_install']
+[1.701s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kol/Documents/ros_workstation/ps6) by extension 'ignore'
+[1.701s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kol/Documents/ros_workstation/ps6) by extension 'ignore_ament_install'
+[1.702s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kol/Documents/ros_workstation/ps6) by extensions ['colcon_pkg']
+[1.702s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kol/Documents/ros_workstation/ps6) by extension 'colcon_pkg'
+[1.702s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kol/Documents/ros_workstation/ps6) by extensions ['colcon_meta']
+[1.702s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kol/Documents/ros_workstation/ps6) by extension 'colcon_meta'
+[1.702s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kol/Documents/ros_workstation/ps6) by extensions ['ros']
+[1.702s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kol/Documents/ros_workstation/ps6) by extension 'ros'
+[1.726s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kol/Documents/ros_workstation/ps6) by extensions ['cmake', 'python']
+[1.726s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kol/Documents/ros_workstation/ps6) by extension 'cmake'
+[1.726s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kol/Documents/ros_workstation/ps6) by extension 'python'
+[1.726s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kol/Documents/ros_workstation/ps6) by extensions ['python_setup_py']
+[1.726s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kol/Documents/ros_workstation/ps6) by extension 'python_setup_py'
+[1.727s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kol/Documents/ros_workstation/ps6/build) by extensions ['ignore', 'ignore_ament_install']
+[1.727s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kol/Documents/ros_workstation/ps6/build) by extension 'ignore'
+[1.728s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kol/Documents/ros_workstation/ps6/build) ignored
+[1.728s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kol/Documents/ros_workstation/ps6/install) by extensions ['ignore', 'ignore_ament_install']
+[1.728s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kol/Documents/ros_workstation/ps6/install) by extension 'ignore'
+[1.728s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kol/Documents/ros_workstation/ps6/install) ignored
+[1.728s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kol/Documents/ros_workstation/ps6/log) by extensions ['ignore', 'ignore_ament_install']
+[1.729s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kol/Documents/ros_workstation/ps6/log) by extension 'ignore'
+[1.729s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kol/Documents/ros_workstation/ps6/log) ignored
+[1.729s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kol/Documents/ros_workstation/ps6/src) by extensions ['ignore', 'ignore_ament_install']
+[1.729s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kol/Documents/ros_workstation/ps6/src) by extension 'ignore'
+[1.729s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kol/Documents/ros_workstation/ps6/src) by extension 'ignore_ament_install'
+[1.729s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kol/Documents/ros_workstation/ps6/src) by extensions ['colcon_pkg']
+[1.729s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kol/Documents/ros_workstation/ps6/src) by extension 'colcon_pkg'
+[1.729s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kol/Documents/ros_workstation/ps6/src) by extensions ['colcon_meta']
+[1.729s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kol/Documents/ros_workstation/ps6/src) by extension 'colcon_meta'
+[1.730s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kol/Documents/ros_workstation/ps6/src) by extensions ['ros']
+[1.730s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kol/Documents/ros_workstation/ps6/src) by extension 'ros'
+[1.730s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kol/Documents/ros_workstation/ps6/src) by extensions ['cmake', 'python']
+[1.730s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kol/Documents/ros_workstation/ps6/src) by extension 'cmake'
+[1.730s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kol/Documents/ros_workstation/ps6/src) by extension 'python'
+[1.730s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kol/Documents/ros_workstation/ps6/src) by extensions ['python_setup_py']
+[1.730s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kol/Documents/ros_workstation/ps6/src) by extension 'python_setup_py'
+[1.731s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kol/Documents/ros_workstation/ps6/src/ps6) by extensions ['ignore', 'ignore_ament_install']
+[1.731s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kol/Documents/ros_workstation/ps6/src/ps6) by extension 'ignore'
+[1.731s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kol/Documents/ros_workstation/ps6/src/ps6) by extension 'ignore_ament_install'
+[1.731s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kol/Documents/ros_workstation/ps6/src/ps6) by extensions ['colcon_pkg']
+[1.731s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kol/Documents/ros_workstation/ps6/src/ps6) by extension 'colcon_pkg'
+[1.731s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kol/Documents/ros_workstation/ps6/src/ps6) by extensions ['colcon_meta']
+[1.731s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kol/Documents/ros_workstation/ps6/src/ps6) by extension 'colcon_meta'
+[1.732s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kol/Documents/ros_workstation/ps6/src/ps6) by extensions ['ros']
+[1.732s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kol/Documents/ros_workstation/ps6/src/ps6) by extension 'ros'
+[1.738s] DEBUG:colcon.colcon_core.package_identification:Package '/home/kol/Documents/ros_workstation/ps6/src/ps6' with type 'ros.ament_cmake' and name 'ps6'
+[1.738s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

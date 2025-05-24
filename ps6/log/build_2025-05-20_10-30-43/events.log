@@ -1,0 +1,97 @@
+[0.000000] (-) TimerEvent: {}
+[0.000301] (ps6) JobQueued: {'identifier': 'ps6', 'dependencies': OrderedDict()}
+[0.001015] (ps6) JobStarted: {'identifier': 'ps6'}
+[0.008921] (ps6) JobProgress: {'identifier': 'ps6', 'progress': 'cmake'}
+[0.014073] (ps6) JobProgress: {'identifier': 'ps6', 'progress': 'build'}
+[0.014942] (ps6) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kol/Documents/ros_workstation/ps6/build/ps6', '--', '-j4', '-l4'], 'cwd': '/home/kol/Documents/ros_workstation/ps6/build/ps6', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('NVIM', '/run/user/1000/nvim.2026766.0'), ('SNAP_INSTANCE_KEY', ''), ('USER', 'kol'), ('SNAP_COMMON', '/var/snap/nvim/common'), ('LC_TIME', 'sw_KE'), ('NVIM_LOG_FILE', '/home/kol/.local/state/nvim/log'), ('XDG_SESSION_TYPE', 'wayland'), ('SNAP_UID', '1000'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void'), ('HOME', '/home/kol'), ('SNAP_LIBRARY_PATH', '/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void'), ('OLDPWD', '/home/kol/Documents/ros_workstation/ps6/src/ps6'), ('DESKTOP_SESSION', 'ubuntu'), ('SNAP_USER_DATA', '/home/kol/snap/nvim/3741'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'sw_KE'), ('SYSTEMD_EXEC_PID', '1897'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('SNAP_REVISION', '3741'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('MASON', '/home/kol/.local/share/nvim/mason'), ('LOGNAME', 'kol'), ('ONSHAPE_SECRET_KEY', 'm2JTSfliTyMxQNmwFJjERckKjYJaD3LAdnt9J5vGRqNTbBpP'), ('SNAP_CONTEXT', 'FfkihXOdNQDFQiBaK6mjqPER9RAa2dedeGeCelfQOOGOWHuq-9A8'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('LG_CONFIG_FILE', '/home/kol/.config/lazygit/config.yml,/home/kol/.cache/nvim/astroui-lazygit-config.yml'), ('XDG_SESSION_CLASS', 'user'), ('SNAP_VERSION', 'v0.11.1'), ('USERNAME', 'kol'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('SNAP_INSTANCE_NAME', 'nvim'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/kol/.npm-global/bin:/home/kol/.local/share/nvim/mason/bin:/home/kol/.npm-global/bin:/opt/ros/humble/bin:/home/kol/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/elsa:@/tmp/.ICE-unix/1714,unix/elsa:/tmp/.ICE-unix/1714'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'sw_KE'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d74d0342_bb47_4065_881c_f796dccc5bce'), ('GNOME_SETUP_DISPLAY', ':1'), ('SNAP_DATA', '/var/snap/nvim/3741'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'sw_KE'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.Q4DF62'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1840'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SNAP_USER_COMMON', '/home/kol/snap/nvim/common'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SNAP_ARCH', 'amd64'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SNAP_COOKIE', 'FfkihXOdNQDFQiBaK6mjqPER9RAa2dedeGeCelfQOOGOWHuq-9A8'), ('SHELL', '/bin/bash'), ('LC_NAME', 'sw_KE'), ('QT_ACCESSIBILITY', '1'), ('SNAP_REEXEC', ''), ('MYVIMRC', '/home/kol/.config/nvim/init.lua'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SNAP_NAME', 'nvim'), ('LC_MEASUREMENT', 'sw_KE'), ('LC_IDENTIFICATION', 'sw_KE'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kol/Documents/ros_workstation/ps6/build/ps6'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('ONSHAPE_ACCESS_KEY', 'OqPiKzhJKTymMNL3Em5ZnVgO'), ('SNAP_REAL_HOME', '/home/kol'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('SNAP_EUID', '1000'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('SNAP', '/snap/nvim/3741'), ('LC_NUMERIC', 'sw_KE'), ('LC_PAPER', 'sw_KE'), ('ONSHAPE_API', 'https://cad.onshape.com'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.067668] (ps6) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cust_sub\x1b[0m\n'}
+[0.067923] (ps6) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cust_pub\x1b[0m\n'}
+[0.079165] (ps6) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/cust_sub.dir/src/sub.cpp.o\x1b[0m\n'}
+[0.079467] (ps6) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/cust_pub.dir/src/pub.cpp.o\x1b[0m\n'}
+[0.098935] (-) TimerEvent: {}
+[0.199768] (-) TimerEvent: {}
+[0.300063] (-) TimerEvent: {}
+[0.400380] (-) TimerEvent: {}
+[0.500662] (-) TimerEvent: {}
+[0.601009] (-) TimerEvent: {}
+[0.701815] (-) TimerEvent: {}
+[0.802567] (-) TimerEvent: {}
+[0.903480] (-) TimerEvent: {}
+[1.004448] (-) TimerEvent: {}
+[1.105084] (-) TimerEvent: {}
+[1.205406] (-) TimerEvent: {}
+[1.305718] (-) TimerEvent: {}
+[1.406380] (-) TimerEvent: {}
+[1.506708] (-) TimerEvent: {}
+[1.607052] (-) TimerEvent: {}
+[1.707367] (-) TimerEvent: {}
+[1.807688] (-) TimerEvent: {}
+[1.908014] (-) TimerEvent: {}
+[2.008316] (-) TimerEvent: {}
+[2.108611] (-) TimerEvent: {}
+[2.208916] (-) TimerEvent: {}
+[2.309221] (-) TimerEvent: {}
+[2.410366] (-) TimerEvent: {}
+[2.510698] (-) TimerEvent: {}
+[2.611002] (-) TimerEvent: {}
+[2.711326] (-) TimerEvent: {}
+[2.811647] (-) TimerEvent: {}
+[2.911964] (-) TimerEvent: {}
+[2.938852] (ps6) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kol/Documents/ros_workstation/ps6/src/ps6/src/sub.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Subscriber::topic_callback(const Pose&) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.939134] (ps6) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kol/Documents/ros_workstation/ps6/src/ps6/src/sub.cpp:22:51:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kpose\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.939281] (ps6) StderrLine: {'line': b'   22 |   void topic_callback(\x1b[01;35m\x1b[Kconst turtlesim::msg::Pose &pose\x1b[m\x1b[K) const {\n'}
+[2.939403] (ps6) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[2.942069] (ps6) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kol/Documents/ros_workstation/ps6/src/ps6/src/sub.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.942529] (ps6) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kol/Documents/ros_workstation/ps6/src/ps6/src/sub.cpp:30:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kspin(std::shared_ptr<Subscriber>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.942664] (ps6) StderrLine: {'line': b'   30 |   \x1b[01;31m\x1b[Krclcpp::spin(sub)\x1b[m\x1b[K;\n'}
+[2.942797] (ps6) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[2.942896] (ps6) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/kol/Documents/ros_workstation/ps6/src/ps6/src/sub.cpp:3\x1b[m\x1b[K:\n'}
+[2.942991] (ps6) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:45:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::spin(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.943090] (ps6) StderrLine: {'line': b'   45 | \x1b[01;36m\x1b[Kspin\x1b[m\x1b[K(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr);\n'}
+[2.943193] (ps6) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.943294] (ps6) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:45:60:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kshared_ptr<\x1b[01;32m\x1b[KSubscriber\x1b[m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kshared_ptr<\x1b[01;32m\x1b[Krclcpp::node_interfaces::NodeBaseInterface\x1b[m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.943403] (ps6) StderrLine: {'line': b'   45 | spin(\x1b[01;36m\x1b[Krclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr\x1b[m\x1b[K);\n'}
+[2.943507] (ps6) StderrLine: {'line': b'      |      \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[2.943616] (ps6) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:49:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::spin(rclcpp::Node::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.943738] (ps6) StderrLine: {'line': b'   49 | \x1b[01;36m\x1b[Kspin\x1b[m\x1b[K(rclcpp::Node::SharedPtr node_ptr);\n'}
+[2.943860] (ps6) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.943967] (ps6) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:49:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kshared_ptr<\x1b[01;32m\x1b[KSubscriber\x1b[m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kshared_ptr<\x1b[01;32m\x1b[Krclcpp::Node\x1b[m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.944080] (ps6) StderrLine: {'line': b'   49 | spin(\x1b[01;36m\x1b[Krclcpp::Node::SharedPtr node_ptr\x1b[m\x1b[K);\n'}
+[2.944186] (ps6) StderrLine: {'line': b'      |      \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[3.012072] (-) TimerEvent: {}
+[3.112384] (-) TimerEvent: {}
+[3.212706] (-) TimerEvent: {}
+[3.313027] (-) TimerEvent: {}
+[3.413410] (-) TimerEvent: {}
+[3.513746] (-) TimerEvent: {}
+[3.614055] (-) TimerEvent: {}
+[3.714367] (-) TimerEvent: {}
+[3.814696] (-) TimerEvent: {}
+[3.915025] (-) TimerEvent: {}
+[4.015777] (-) TimerEvent: {}
+[4.116115] (-) TimerEvent: {}
+[4.216757] (-) TimerEvent: {}
+[4.317384] (-) TimerEvent: {}
+[4.417881] (-) TimerEvent: {}
+[4.518864] (-) TimerEvent: {}
+[4.619180] (-) TimerEvent: {}
+[4.719489] (-) TimerEvent: {}
+[4.819739] (-) TimerEvent: {}
+[4.920027] (-) TimerEvent: {}
+[5.020327] (-) TimerEvent: {}
+[5.120660] (-) TimerEvent: {}
+[5.220980] (-) TimerEvent: {}
+[5.264996] (ps6) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable cust_pub\x1b[0m\n'}
+[5.322747] (-) TimerEvent: {}
+[5.423107] (-) TimerEvent: {}
+[5.523412] (-) TimerEvent: {}
+[5.604528] (ps6) StdoutLine: {'line': b'[ 75%] Built target cust_pub\n'}
+[5.623542] (-) TimerEvent: {}
+[5.723756] (-) TimerEvent: {}
+[5.824042] (-) TimerEvent: {}
+[5.842582] (ps6) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/cust_sub.dir/build.make:76: CMakeFiles/cust_sub.dir/src/sub.cpp.o] Error 1\n'}
+[5.842889] (ps6) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/cust_sub.dir/all] Error 2\n'}
+[5.843084] (ps6) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[5.845183] (ps6) CommandEnded: {'returncode': 2}
+[5.858661] (ps6) JobEnded: {'identifier': 'ps6', 'rc': 2}
+[5.870280] (-) EventReactorShutdown: {}

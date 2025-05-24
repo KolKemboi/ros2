@@ -1,0 +1,2 @@
+source;share/sixdof/environment/ament_prefix_path.sh
+source;share/sixdof/environment/path.sh

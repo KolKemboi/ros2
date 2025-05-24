@@ -1,0 +1,77 @@
+[0.115s] Invoking command in '/home/kol/Documents/ros_workstation/pub_sub_1/build/pub_sub_1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kol/Documents/ros_workstation/pub_sub_1/src/pub_sub_1 -DCMAKE_INSTALL_PREFIX=/home/kol/Documents/ros_workstation/pub_sub_1/install/pub_sub_1
+[0.884s] -- The C compiler identification is GNU 11.4.0
+[1.368s] -- The CXX compiler identification is GNU 11.4.0
+[1.435s] -- Detecting C compiler ABI info
+[2.298s] -- Detecting C compiler ABI info - done
+[2.335s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.344s] -- Detecting C compile features
+[2.349s] -- Detecting C compile features - done
+[2.370s] -- Detecting CXX compiler ABI info
+[3.288s] -- Detecting CXX compiler ABI info - done
+[3.325s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.326s] -- Detecting CXX compile features
+[3.329s] -- Detecting CXX compile features - done
+[3.349s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.307s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.850s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[5.071s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[5.096s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.141s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[5.209s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.298s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.542s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[5.557s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[6.719s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[6.895s] -- Found FastRTPS: /opt/ros/humble/include  
+[7.159s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.214s] -- Looking for pthread.h
+[8.012s] -- Looking for pthread.h - found
+[8.015s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.835s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[8.841s] -- Found Threads: TRUE  
+[9.147s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[9.227s] -- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+[9.460s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[9.893s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[9.894s] -- Configured cppcheck include dirs: 
+[9.895s] -- Configured cppcheck exclude dirs and/or files: 
+[9.899s] -- Added test 'lint_cmake' to check CMake code style
+[9.906s] -- Added test 'uncrustify' to check C / C++ code style
+[9.909s] -- Configured uncrustify additional arguments: 
+[9.911s] -- Added test 'xmllint' to check XML markup files
+[9.919s] -- Configuring done
+[9.982s] -- Generating done
+[10.011s] -- Build files have been written to: /home/kol/Documents/ros_workstation/pub_sub_1/build/pub_sub_1
+[10.062s] Invoked command in '/home/kol/Documents/ros_workstation/pub_sub_1/build/pub_sub_1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kol/Documents/ros_workstation/pub_sub_1/src/pub_sub_1 -DCMAKE_INSTALL_PREFIX=/home/kol/Documents/ros_workstation/pub_sub_1/install/pub_sub_1
+[10.078s] Invoking command in '/home/kol/Documents/ros_workstation/pub_sub_1/build/pub_sub_1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kol/Documents/ros_workstation/pub_sub_1/build/pub_sub_1 -- -j4 -l4
+[10.738s] [ 50%] [32mBuilding CXX object CMakeFiles/cust_pub.dir/src/pub.cpp.o[0m
+[10.872s] [01m[K/home/kol/Documents/ros_workstation/pub_sub_1/src/pub_sub_1/src/pub.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[10.873s] [01m[K/home/kol/Documents/ros_workstation/pub_sub_1/src/pub_sub_1/src/pub.cpp:1:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.873s]     1 | int main([01;35m[Kint argc[m[K, char *argv[]) { return 0; }
+[10.874s]       |          [01;35m[K~~~~^~~~[m[K
+[10.874s] [01m[K/home/kol/Documents/ros_workstation/pub_sub_1/src/pub_sub_1/src/pub.cpp:1:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.875s]     1 | int main(int argc, [01;35m[Kchar *argv[][m[K) { return 0; }
+[10.876s]       |                    [01;35m[K~~~~~~^~~~~~[m[K
+[11.060s] [100%] [32m[1mLinking CXX executable cust_pub[0m
+[11.684s] [100%] Built target cust_pub
+[11.787s] Invoked command in '/home/kol/Documents/ros_workstation/pub_sub_1/build/pub_sub_1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kol/Documents/ros_workstation/pub_sub_1/build/pub_sub_1 -- -j4 -l4
+[11.861s] Invoking command in '/home/kol/Documents/ros_workstation/pub_sub_1/build/pub_sub_1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kol/Documents/ros_workstation/pub_sub_1/build/pub_sub_1
+[11.921s] -- Install configuration: ""
+[11.922s] -- Installing: /home/kol/Documents/ros_workstation/pub_sub_1/install/pub_sub_1/lib/cust_pub
+[11.926s] -- Set runtime path of "/home/kol/Documents/ros_workstation/pub_sub_1/install/pub_sub_1/lib/cust_pub" to ""
+[11.927s] -- Installing: /home/kol/Documents/ros_workstation/pub_sub_1/install/pub_sub_1/share/ament_index/resource_index/package_run_dependencies/pub_sub_1
+[11.927s] -- Installing: /home/kol/Documents/ros_workstation/pub_sub_1/install/pub_sub_1/share/ament_index/resource_index/parent_prefix_path/pub_sub_1
+[11.928s] -- Installing: /home/kol/Documents/ros_workstation/pub_sub_1/install/pub_sub_1/share/pub_sub_1/environment/ament_prefix_path.sh
+[11.929s] -- Installing: /home/kol/Documents/ros_workstation/pub_sub_1/install/pub_sub_1/share/pub_sub_1/environment/ament_prefix_path.dsv
+[11.929s] -- Installing: /home/kol/Documents/ros_workstation/pub_sub_1/install/pub_sub_1/share/pub_sub_1/environment/path.sh
+[11.930s] -- Installing: /home/kol/Documents/ros_workstation/pub_sub_1/install/pub_sub_1/share/pub_sub_1/environment/path.dsv
+[11.931s] -- Installing: /home/kol/Documents/ros_workstation/pub_sub_1/install/pub_sub_1/share/pub_sub_1/local_setup.bash
+[11.932s] -- Installing: /home/kol/Documents/ros_workstation/pub_sub_1/install/pub_sub_1/share/pub_sub_1/local_setup.sh
+[11.932s] -- Installing: /home/kol/Documents/ros_workstation/pub_sub_1/install/pub_sub_1/share/pub_sub_1/local_setup.zsh
+[11.933s] -- Installing: /home/kol/Documents/ros_workstation/pub_sub_1/install/pub_sub_1/share/pub_sub_1/local_setup.dsv
+[11.934s] -- Installing: /home/kol/Documents/ros_workstation/pub_sub_1/install/pub_sub_1/share/pub_sub_1/package.dsv
+[11.935s] -- Installing: /home/kol/Documents/ros_workstation/pub_sub_1/install/pub_sub_1/share/ament_index/resource_index/packages/pub_sub_1
+[11.936s] -- Installing: /home/kol/Documents/ros_workstation/pub_sub_1/install/pub_sub_1/share/pub_sub_1/cmake/pub_sub_1Config.cmake
+[11.937s] -- Installing: /home/kol/Documents/ros_workstation/pub_sub_1/install/pub_sub_1/share/pub_sub_1/cmake/pub_sub_1Config-version.cmake
+[11.938s] -- Installing: /home/kol/Documents/ros_workstation/pub_sub_1/install/pub_sub_1/share/pub_sub_1/package.xml
+[11.953s] Invoked command in '/home/kol/Documents/ros_workstation/pub_sub_1/build/pub_sub_1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kol/Documents/ros_workstation/pub_sub_1/build/pub_sub_1

@@ -1,0 +1,26 @@
+-- Install configuration: ""
+-- Up-to-date: /home/kol/Documents/ros_workstation/test_2/install/sixdof/share/sixdof/launch
+-- Up-to-date: /home/kol/Documents/ros_workstation/test_2/install/sixdof/share/sixdof/launch/__pycache__
+-- Installing: /home/kol/Documents/ros_workstation/test_2/install/sixdof/share/sixdof/launch/__pycache__/display.launch.d.er
+-- Installing: /home/kol/Documents/ros_workstation/test_2/install/sixdof/share/sixdof/launch/display.launch.py
+-- Installing: /home/kol/Documents/ros_workstation/test_2/install/sixdof/share/sixdof/launch/gazebo.launch.py
+-- Up-to-date: /home/kol/Documents/ros_workstation/test_2/install/sixdof/share/sixdof/meshes
+-- Up-to-date: /home/kol/Documents/ros_workstation/test_2/install/sixdof/share/sixdof/meshes/part_1.stl
+-- Up-to-date: /home/kol/Documents/ros_workstation/test_2/install/sixdof/share/sixdof/meshes/part_1.part
+-- Up-to-date: /home/kol/Documents/ros_workstation/test_2/install/sixdof/share/sixdof/urdf
+-- Installing: /home/kol/Documents/ros_workstation/test_2/install/sixdof/share/sixdof/urdf/robot.xacro
+-- Up-to-date: /home/kol/Documents/ros_workstation/test_2/install/sixdof/share/ament_index/resource_index/package_run_dependencies/sixdof
+-- Up-to-date: /home/kol/Documents/ros_workstation/test_2/install/sixdof/share/ament_index/resource_index/parent_prefix_path/sixdof
+-- Up-to-date: /home/kol/Documents/ros_workstation/test_2/install/sixdof/share/sixdof/environment/ament_prefix_path.sh
+-- Up-to-date: /home/kol/Documents/ros_workstation/test_2/install/sixdof/share/sixdof/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/kol/Documents/ros_workstation/test_2/install/sixdof/share/sixdof/environment/path.sh
+-- Up-to-date: /home/kol/Documents/ros_workstation/test_2/install/sixdof/share/sixdof/environment/path.dsv
+-- Up-to-date: /home/kol/Documents/ros_workstation/test_2/install/sixdof/share/sixdof/local_setup.bash
+-- Up-to-date: /home/kol/Documents/ros_workstation/test_2/install/sixdof/share/sixdof/local_setup.sh
+-- Up-to-date: /home/kol/Documents/ros_workstation/test_2/install/sixdof/share/sixdof/local_setup.zsh
+-- Up-to-date: /home/kol/Documents/ros_workstation/test_2/install/sixdof/share/sixdof/local_setup.dsv
+-- Up-to-date: /home/kol/Documents/ros_workstation/test_2/install/sixdof/share/sixdof/package.dsv
+-- Up-to-date: /home/kol/Documents/ros_workstation/test_2/install/sixdof/share/ament_index/resource_index/packages/sixdof
+-- Up-to-date: /home/kol/Documents/ros_workstation/test_2/install/sixdof/share/sixdof/cmake/sixdofConfig.cmake
+-- Up-to-date: /home/kol/Documents/ros_workstation/test_2/install/sixdof/share/sixdof/cmake/sixdofConfig-version.cmake
+-- Up-to-date: /home/kol/Documents/ros_workstation/test_2/install/sixdof/share/sixdof/package.xml

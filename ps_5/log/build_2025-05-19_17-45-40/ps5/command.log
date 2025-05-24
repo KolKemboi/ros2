@@ -1,0 +1,4 @@
+Invoking command in '/home/kol/Documents/ros_workstation/ps_5/build/ps5': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kol/Documents/ros_workstation/ps_5/build/ps5 -- -j4 -l4
+Invoked command in '/home/kol/Documents/ros_workstation/ps_5/build/ps5' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kol/Documents/ros_workstation/ps_5/build/ps5 -- -j4 -l4
+Invoking command in '/home/kol/Documents/ros_workstation/ps_5/build/ps5': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kol/Documents/ros_workstation/ps_5/build/ps5
+Invoked command in '/home/kol/Documents/ros_workstation/ps_5/build/ps5' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kol/Documents/ros_workstation/ps_5/build/ps5

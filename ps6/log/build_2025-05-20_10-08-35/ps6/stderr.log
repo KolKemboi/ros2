@@ -1,0 +1,4 @@
+[31mCMake Error at CMakeLists.txt:15 (ament_build_dependencies):
+  Unknown CMake command "ament_build_dependencies".
+
+[0m

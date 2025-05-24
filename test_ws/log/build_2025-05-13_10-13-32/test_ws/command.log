@@ -1,0 +1,2 @@
+Invoking command in '/home/kol/Documents/ros_workstation/test_ws/build/test_ws': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kol/Documents/ros_workstation/test_ws/src/test_ws -DCMAKE_INSTALL_PREFIX=/home/kol/Documents/ros_workstation/test_ws/install/test_ws
+Invoked command in '/home/kol/Documents/ros_workstation/test_ws/build/test_ws' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kol/Documents/ros_workstation/test_ws/src/test_ws -DCMAKE_INSTALL_PREFIX=/home/kol/Documents/ros_workstation/test_ws/install/test_ws

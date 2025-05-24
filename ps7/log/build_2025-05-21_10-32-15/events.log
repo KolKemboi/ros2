@@ -1,0 +1,142 @@
+[0.000000] (-) TimerEvent: {}
+[0.000385] (ps7) JobQueued: {'identifier': 'ps7', 'dependencies': OrderedDict()}
+[0.000442] (ps7) JobStarted: {'identifier': 'ps7'}
+[0.008217] (ps7) JobProgress: {'identifier': 'ps7', 'progress': 'cmake'}
+[0.008773] (ps7) JobProgress: {'identifier': 'ps7', 'progress': 'build'}
+[0.009491] (ps7) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kol/Documents/ros_workstation/ps7/build/ps7', '--', '-j4', '-l4'], 'cwd': '/home/kol/Documents/ros_workstation/ps7/build/ps7', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('NVIM', '/run/user/1000/nvim.40661.0'), ('SNAP_INSTANCE_KEY', ''), ('USER', 'kol'), ('SNAP_COMMON', '/var/snap/nvim/common'), ('LC_TIME', 'sw_KE'), ('NVIM_LOG_FILE', '/home/kol/.local/state/nvim/log'), ('XDG_SESSION_TYPE', 'wayland'), ('SNAP_UID', '1000'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void'), ('HOME', '/home/kol'), ('SNAP_LIBRARY_PATH', '/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void'), ('OLDPWD', '/home/kol/Documents/ros_workstation/ps7/src/ps7'), ('DESKTOP_SESSION', 'ubuntu'), ('SNAP_USER_DATA', '/home/kol/snap/nvim/3741'), ('NVM_BIN', '/home/kol/.nvm/versions/node/v18.20.8/bin'), ('NVM_INC', '/home/kol/.nvm/versions/node/v18.20.8/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'sw_KE'), ('SYSTEMD_EXEC_PID', '2052'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('SNAP_REVISION', '3741'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/kol/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('MASON', '/home/kol/.local/share/nvim/mason'), ('LOGNAME', 'kol'), ('ONSHAPE_SECRET_KEY', 'm2JTSfliTyMxQNmwFJjERckKjYJaD3LAdnt9J5vGRqNTbBpP'), ('SNAP_CONTEXT', 'FfkihXOdNQDFQiBaK6mjqPER9RAa2dedeGeCelfQOOGOWHuq-9A8'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('LG_CONFIG_FILE', '/home/kol/.config/lazygit/config.yml,/home/kol/.cache/nvim/astroui-lazygit-config.yml'), ('XDG_SESSION_CLASS', 'user'), ('SNAP_VERSION', 'v0.11.1'), ('USERNAME', 'kol'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('SNAP_INSTANCE_NAME', 'nvim'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/kol/.npm-global/bin:/home/kol/.local/share/nvim/mason/bin:/home/kol/.nvm/versions/node/v18.20.8/bin:/home/kol/.npm-global/bin:/opt/ros/humble/bin:/home/kol/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/elsa:@/tmp/.ICE-unix/1870,unix/elsa:/tmp/.ICE-unix/1870'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'sw_KE'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f64bd694_b1d5_4f30_b3c8_08958711727a'), ('GNOME_SETUP_DISPLAY', ':1'), ('SNAP_DATA', '/var/snap/nvim/3741'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'sw_KE'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.0ROT62'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.320'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SNAP_USER_COMMON', '/home/kol/snap/nvim/common'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SNAP_ARCH', 'amd64'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SNAP_COOKIE', 'FfkihXOdNQDFQiBaK6mjqPER9RAa2dedeGeCelfQOOGOWHuq-9A8'), ('SHELL', '/bin/bash'), ('LC_NAME', 'sw_KE'), ('QT_ACCESSIBILITY', '1'), ('SNAP_REEXEC', ''), ('MYVIMRC', '/home/kol/.config/nvim/init.lua'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SNAP_NAME', 'nvim'), ('LC_MEASUREMENT', 'sw_KE'), ('LC_IDENTIFICATION', 'sw_KE'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kol/Documents/ros_workstation/ps7/build/ps7'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('ONSHAPE_ACCESS_KEY', 'OqPiKzhJKTymMNL3Em5ZnVgO'), ('SNAP_REAL_HOME', '/home/kol'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('SNAP_EUID', '1000'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('SNAP', '/snap/nvim/3741'), ('LC_NUMERIC', 'sw_KE'), ('LC_PAPER', 'sw_KE'), ('ONSHAPE_API', 'https://cad.onshape.com'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.058739] (ps7) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cust_sub\x1b[0m\n'}
+[0.060411] (ps7) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cust_pub\x1b[0m\n'}
+[0.071511] (ps7) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/cust_sub.dir/src/sub.cpp.o\x1b[0m\n'}
+[0.071979] (ps7) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/cust_pub.dir/src/pub.cpp.o\x1b[0m\n'}
+[0.099506] (-) TimerEvent: {}
+[0.199820] (-) TimerEvent: {}
+[0.300251] (-) TimerEvent: {}
+[0.400545] (-) TimerEvent: {}
+[0.500798] (-) TimerEvent: {}
+[0.601110] (-) TimerEvent: {}
+[0.701417] (-) TimerEvent: {}
+[0.801718] (-) TimerEvent: {}
+[0.902151] (-) TimerEvent: {}
+[1.002520] (-) TimerEvent: {}
+[1.102862] (-) TimerEvent: {}
+[1.205003] (-) TimerEvent: {}
+[1.305341] (-) TimerEvent: {}
+[1.405643] (-) TimerEvent: {}
+[1.505965] (-) TimerEvent: {}
+[1.606296] (-) TimerEvent: {}
+[1.706597] (-) TimerEvent: {}
+[1.806906] (-) TimerEvent: {}
+[1.907335] (-) TimerEvent: {}
+[2.007644] (-) TimerEvent: {}
+[2.107955] (-) TimerEvent: {}
+[2.208265] (-) TimerEvent: {}
+[2.308558] (-) TimerEvent: {}
+[2.408810] (-) TimerEvent: {}
+[2.509122] (-) TimerEvent: {}
+[2.609475] (-) TimerEvent: {}
+[2.710514] (-) TimerEvent: {}
+[2.810809] (-) TimerEvent: {}
+[2.911151] (-) TimerEvent: {}
+[3.011427] (-) TimerEvent: {}
+[3.111737] (-) TimerEvent: {}
+[3.212042] (-) TimerEvent: {}
+[3.312358] (-) TimerEvent: {}
+[3.412680] (-) TimerEvent: {}
+[3.513017] (-) TimerEvent: {}
+[3.613345] (-) TimerEvent: {}
+[3.713598] (-) TimerEvent: {}
+[3.813892] (-) TimerEvent: {}
+[3.914216] (-) TimerEvent: {}
+[4.014746] (-) TimerEvent: {}
+[4.115106] (-) TimerEvent: {}
+[4.215362] (-) TimerEvent: {}
+[4.315776] (-) TimerEvent: {}
+[4.416653] (-) TimerEvent: {}
+[4.516986] (-) TimerEvent: {}
+[4.618127] (-) TimerEvent: {}
+[4.718447] (-) TimerEvent: {}
+[4.821121] (-) TimerEvent: {}
+[4.921412] (-) TimerEvent: {}
+[5.021728] (-) TimerEvent: {}
+[5.122076] (-) TimerEvent: {}
+[5.222379] (-) TimerEvent: {}
+[5.317142] (ps7) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable cust_pub\x1b[0m\n'}
+[5.322490] (-) TimerEvent: {}
+[5.422821] (-) TimerEvent: {}
+[5.523184] (-) TimerEvent: {}
+[5.614544] (ps7) StdoutLine: {'line': b'[ 75%] Built target cust_pub\n'}
+[5.623303] (-) TimerEvent: {}
+[5.723589] (-) TimerEvent: {}
+[5.823902] (-) TimerEvent: {}
+[5.924139] (-) TimerEvent: {}
+[6.024424] (-) TimerEvent: {}
+[6.124733] (-) TimerEvent: {}
+[6.225021] (-) TimerEvent: {}
+[6.325270] (-) TimerEvent: {}
+[6.425530] (-) TimerEvent: {}
+[6.525801] (-) TimerEvent: {}
+[6.626083] (-) TimerEvent: {}
+[6.726355] (-) TimerEvent: {}
+[6.826635] (-) TimerEvent: {}
+[6.926903] (-) TimerEvent: {}
+[7.027141] (-) TimerEvent: {}
+[7.127439] (-) TimerEvent: {}
+[7.227768] (-) TimerEvent: {}
+[7.328045] (-) TimerEvent: {}
+[7.428298] (-) TimerEvent: {}
+[7.528630] (-) TimerEvent: {}
+[7.628943] (-) TimerEvent: {}
+[7.729201] (-) TimerEvent: {}
+[7.829487] (-) TimerEvent: {}
+[7.929797] (-) TimerEvent: {}
+[8.030108] (-) TimerEvent: {}
+[8.130520] (-) TimerEvent: {}
+[8.230812] (-) TimerEvent: {}
+[8.331104] (-) TimerEvent: {}
+[8.431451] (-) TimerEvent: {}
+[8.531973] (-) TimerEvent: {}
+[8.632436] (-) TimerEvent: {}
+[8.733271] (-) TimerEvent: {}
+[8.833636] (-) TimerEvent: {}
+[8.933922] (-) TimerEvent: {}
+[9.034186] (-) TimerEvent: {}
+[9.134458] (-) TimerEvent: {}
+[9.234739] (-) TimerEvent: {}
+[9.335032] (-) TimerEvent: {}
+[9.435398] (-) TimerEvent: {}
+[9.533012] (ps7) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable cust_sub\x1b[0m\n'}
+[9.535488] (-) TimerEvent: {}
+[9.635791] (-) TimerEvent: {}
+[9.736113] (-) TimerEvent: {}
+[9.836362] (-) TimerEvent: {}
+[9.936700] (-) TimerEvent: {}
+[10.032149] (ps7) StdoutLine: {'line': b'[100%] Built target cust_sub\n'}
+[10.036826] (-) TimerEvent: {}
+[10.044665] (ps7) CommandEnded: {'returncode': 0}
+[10.046222] (ps7) JobProgress: {'identifier': 'ps7', 'progress': 'install'}
+[10.058003] (ps7) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kol/Documents/ros_workstation/ps7/build/ps7'], 'cwd': '/home/kol/Documents/ros_workstation/ps7/build/ps7', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('NVIM', '/run/user/1000/nvim.40661.0'), ('SNAP_INSTANCE_KEY', ''), ('USER', 'kol'), ('SNAP_COMMON', '/var/snap/nvim/common'), ('LC_TIME', 'sw_KE'), ('NVIM_LOG_FILE', '/home/kol/.local/state/nvim/log'), ('XDG_SESSION_TYPE', 'wayland'), ('SNAP_UID', '1000'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void'), ('HOME', '/home/kol'), ('SNAP_LIBRARY_PATH', '/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void'), ('OLDPWD', '/home/kol/Documents/ros_workstation/ps7/src/ps7'), ('DESKTOP_SESSION', 'ubuntu'), ('SNAP_USER_DATA', '/home/kol/snap/nvim/3741'), ('NVM_BIN', '/home/kol/.nvm/versions/node/v18.20.8/bin'), ('NVM_INC', '/home/kol/.nvm/versions/node/v18.20.8/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'sw_KE'), ('SYSTEMD_EXEC_PID', '2052'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('SNAP_REVISION', '3741'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/kol/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('MASON', '/home/kol/.local/share/nvim/mason'), ('LOGNAME', 'kol'), ('ONSHAPE_SECRET_KEY', 'm2JTSfliTyMxQNmwFJjERckKjYJaD3LAdnt9J5vGRqNTbBpP'), ('SNAP_CONTEXT', 'FfkihXOdNQDFQiBaK6mjqPER9RAa2dedeGeCelfQOOGOWHuq-9A8'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('LG_CONFIG_FILE', '/home/kol/.config/lazygit/config.yml,/home/kol/.cache/nvim/astroui-lazygit-config.yml'), ('XDG_SESSION_CLASS', 'user'), ('SNAP_VERSION', 'v0.11.1'), ('USERNAME', 'kol'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('SNAP_INSTANCE_NAME', 'nvim'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/kol/.npm-global/bin:/home/kol/.local/share/nvim/mason/bin:/home/kol/.nvm/versions/node/v18.20.8/bin:/home/kol/.npm-global/bin:/opt/ros/humble/bin:/home/kol/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/elsa:@/tmp/.ICE-unix/1870,unix/elsa:/tmp/.ICE-unix/1870'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'sw_KE'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f64bd694_b1d5_4f30_b3c8_08958711727a'), ('GNOME_SETUP_DISPLAY', ':1'), ('SNAP_DATA', '/var/snap/nvim/3741'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'sw_KE'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.0ROT62'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.320'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SNAP_USER_COMMON', '/home/kol/snap/nvim/common'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SNAP_ARCH', 'amd64'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SNAP_COOKIE', 'FfkihXOdNQDFQiBaK6mjqPER9RAa2dedeGeCelfQOOGOWHuq-9A8'), ('SHELL', '/bin/bash'), ('LC_NAME', 'sw_KE'), ('QT_ACCESSIBILITY', '1'), ('SNAP_REEXEC', ''), ('MYVIMRC', '/home/kol/.config/nvim/init.lua'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SNAP_NAME', 'nvim'), ('LC_MEASUREMENT', 'sw_KE'), ('LC_IDENTIFICATION', 'sw_KE'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kol/Documents/ros_workstation/ps7/build/ps7'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('ONSHAPE_ACCESS_KEY', 'OqPiKzhJKTymMNL3Em5ZnVgO'), ('SNAP_REAL_HOME', '/home/kol'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('SNAP_EUID', '1000'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('SNAP', '/snap/nvim/3741'), ('LC_NUMERIC', 'sw_KE'), ('LC_PAPER', 'sw_KE'), ('ONSHAPE_API', 'https://cad.onshape.com'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[10.069963] (ps7) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.070274] (ps7) StdoutLine: {'line': b'-- Installing: /home/kol/Documents/ros_workstation/ps7/install/ps7/lib/ps7/cust_sub\n'}
+[10.074667] (ps7) StdoutLine: {'line': b'-- Set runtime path of "/home/kol/Documents/ros_workstation/ps7/install/ps7/lib/ps7/cust_sub" to ""\n'}
+[10.074924] (ps7) StdoutLine: {'line': b'-- Installing: /home/kol/Documents/ros_workstation/ps7/install/ps7/lib/ps7/cust_pub\n'}
+[10.076586] (ps7) StdoutLine: {'line': b'-- Set runtime path of "/home/kol/Documents/ros_workstation/ps7/install/ps7/lib/ps7/cust_pub" to ""\n'}
+[10.077162] (ps7) StdoutLine: {'line': b'-- Up-to-date: /home/kol/Documents/ros_workstation/ps7/install/ps7/share/ps7/launch\n'}
+[10.077327] (ps7) StdoutLine: {'line': b'-- Up-to-date: /home/kol/Documents/ros_workstation/ps7/install/ps7/share/ps7/launch/pkg.launch.py\n'}
+[10.077452] (ps7) StdoutLine: {'line': b'-- Up-to-date: /home/kol/Documents/ros_workstation/ps7/install/ps7/share/ament_index/resource_index/package_run_dependencies/ps7\n'}
+[10.077570] (ps7) StdoutLine: {'line': b'-- Up-to-date: /home/kol/Documents/ros_workstation/ps7/install/ps7/share/ament_index/resource_index/parent_prefix_path/ps7\n'}
+[10.077677] (ps7) StdoutLine: {'line': b'-- Up-to-date: /home/kol/Documents/ros_workstation/ps7/install/ps7/share/ps7/environment/ament_prefix_path.sh\n'}
+[10.077875] (ps7) StdoutLine: {'line': b'-- Up-to-date: /home/kol/Documents/ros_workstation/ps7/install/ps7/share/ps7/environment/ament_prefix_path.dsv\n'}
+[10.078023] (ps7) StdoutLine: {'line': b'-- Up-to-date: /home/kol/Documents/ros_workstation/ps7/install/ps7/share/ps7/environment/path.sh\n'}
+[10.078231] (ps7) StdoutLine: {'line': b'-- Up-to-date: /home/kol/Documents/ros_workstation/ps7/install/ps7/share/ps7/environment/path.dsv\n'}
+[10.078340] (ps7) StdoutLine: {'line': b'-- Up-to-date: /home/kol/Documents/ros_workstation/ps7/install/ps7/share/ps7/local_setup.bash\n'}
+[10.078442] (ps7) StdoutLine: {'line': b'-- Up-to-date: /home/kol/Documents/ros_workstation/ps7/install/ps7/share/ps7/local_setup.sh\n'}
+[10.078606] (ps7) StdoutLine: {'line': b'-- Up-to-date: /home/kol/Documents/ros_workstation/ps7/install/ps7/share/ps7/local_setup.zsh\n'}
+[10.078705] (ps7) StdoutLine: {'line': b'-- Up-to-date: /home/kol/Documents/ros_workstation/ps7/install/ps7/share/ps7/local_setup.dsv\n'}
+[10.078802] (ps7) StdoutLine: {'line': b'-- Up-to-date: /home/kol/Documents/ros_workstation/ps7/install/ps7/share/ps7/package.dsv\n'}
+[10.078912] (ps7) StdoutLine: {'line': b'-- Up-to-date: /home/kol/Documents/ros_workstation/ps7/install/ps7/share/ament_index/resource_index/packages/ps7\n'}
+[10.079034] (ps7) StdoutLine: {'line': b'-- Up-to-date: /home/kol/Documents/ros_workstation/ps7/install/ps7/share/ps7/cmake/ps7Config.cmake\n'}
+[10.079187] (ps7) StdoutLine: {'line': b'-- Up-to-date: /home/kol/Documents/ros_workstation/ps7/install/ps7/share/ps7/cmake/ps7Config-version.cmake\n'}
+[10.079303] (ps7) StdoutLine: {'line': b'-- Up-to-date: /home/kol/Documents/ros_workstation/ps7/install/ps7/share/ps7/package.xml\n'}
+[10.081555] (ps7) CommandEnded: {'returncode': 0}
+[10.105795] (ps7) JobEnded: {'identifier': 'ps7', 'rc': 0}
+[10.106885] (-) EventReactorShutdown: {}

@@ -1,0 +1,16 @@
+##[pylyzer] failed /home/kol/Documents/ros_workstation/sixhrs/src/sixhrs/launch/gazebo.launch.py 1747491870 841
+.os: Never
+
+.___v_desugar_1 = pyimport "packages"
+.packages = pyimport "packages"
+.get_package_share_directory: (package_name: Bool, print_warning: Structural({.__and__ = (self: Never, Bool) -> Bool}) := {True} and Structural({.__and__ = (self: Never, Bool) -> Bool})) -> Never
+.___v_desugar_2 = pyimport "__init__"
+.__init__ = pyimport "__init__"
+.LaunchDescription: Never
+.___v_desugar_3 = pyimport "__init__"
+
+.Command: {command.Command}
+.___v_desugar_4 = pyimport "__init__"
+
+.Node: {node.Node}
+.generate_launch_description: () -> Never

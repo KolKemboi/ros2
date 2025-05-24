@@ -1,0 +1,42 @@
+[0.029s] Invoking command in '/home/kol/Documents/ros_workstation/ps_2/build/ps_2': /usr/bin/cmake /home/kol/Documents/ros_workstation/ps_2/src/ps_2 -DCMAKE_INSTALL_PREFIX=/home/kol/Documents/ros_workstation/ps_2/install/ps_2
+[0.048s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.215s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.249s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.252s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.261s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.271s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.285s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.325s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.327s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.472s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.530s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.545s] -- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+[0.592s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.656s] Error parsing '/home/kol/Documents/ros_workstation/ps_2/src/ps_2/package.xml':
+[0.706s] Traceback (most recent call last):
+[0.706s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[0.706s]     main()
+[0.706s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[0.706s]     raise e
+[0.706s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[0.707s]     package = parse_package_string(
+[0.707s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 786, in parse_package_string
+[0.707s]     raise InvalidPackage('Error(s):%s' % (''.join(['\n- %s' % e for e in errors])), filename)
+[0.707s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/kol/Documents/ros_workstation/ps_2/src/ps_2/package.xml':
+[0.707s] Error(s):
+[0.707s] - The generic dependency on 'turtlesim' is redundant with: exec_depend
+[0.729s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[0.729s]   execute_process(/usr/bin/python3
+[0.730s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.730s]   /home/kol/Documents/ros_workstation/ps_2/src/ps_2/package.xml
+[0.730s]   /home/kol/Documents/ros_workstation/ps_2/build/ps_2/ament_cmake_core/package.cmake)
+[0.730s]   returned error code 1
+[0.730s] Call Stack (most recent call first):
+[0.730s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.731s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[0.731s]   CMakeLists.txt:42 (ament_lint_auto_find_test_dependencies)
+[0.731s] 
+[0.731s] [0m
+[0.731s] -- Configuring incomplete, errors occurred!
+[0.731s] See also "/home/kol/Documents/ros_workstation/ps_2/build/ps_2/CMakeFiles/CMakeOutput.log".
+[0.745s] Invoked command in '/home/kol/Documents/ros_workstation/ps_2/build/ps_2' returned '1': /usr/bin/cmake /home/kol/Documents/ros_workstation/ps_2/src/ps_2 -DCMAKE_INSTALL_PREFIX=/home/kol/Documents/ros_workstation/ps_2/install/ps_2

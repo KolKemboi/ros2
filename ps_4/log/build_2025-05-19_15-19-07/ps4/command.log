@@ -1,0 +1,6 @@
+Invoking command in '/home/kol/Documents/ros_workstation/ps_4/build/ps4': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kol/Documents/ros_workstation/ps_4/src/ps4 -DCMAKE_INSTALL_PREFIX=/home/kol/Documents/ros_workstation/ps_4/install/ps4
+Invoked command in '/home/kol/Documents/ros_workstation/ps_4/build/ps4' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kol/Documents/ros_workstation/ps_4/src/ps4 -DCMAKE_INSTALL_PREFIX=/home/kol/Documents/ros_workstation/ps_4/install/ps4
+Invoking command in '/home/kol/Documents/ros_workstation/ps_4/build/ps4': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kol/Documents/ros_workstation/ps_4/build/ps4 -- -j4 -l4
+Invoked command in '/home/kol/Documents/ros_workstation/ps_4/build/ps4' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kol/Documents/ros_workstation/ps_4/build/ps4 -- -j4 -l4
+Invoking command in '/home/kol/Documents/ros_workstation/ps_4/build/ps4': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kol/Documents/ros_workstation/ps_4/build/ps4
+Invoked command in '/home/kol/Documents/ros_workstation/ps_4/build/ps4' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kol/Documents/ros_workstation/ps_4/build/ps4

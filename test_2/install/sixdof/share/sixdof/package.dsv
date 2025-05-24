@@ -1,0 +1,8 @@
+source;share/sixdof/hook/cmake_prefix_path.ps1
+source;share/sixdof/hook/cmake_prefix_path.dsv
+source;share/sixdof/hook/cmake_prefix_path.sh
+source;share/sixdof/local_setup.bash
+source;share/sixdof/local_setup.dsv
+source;share/sixdof/local_setup.ps1
+source;share/sixdof/local_setup.sh
+source;share/sixdof/local_setup.zsh

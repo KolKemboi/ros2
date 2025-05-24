@@ -1,0 +1,28 @@
+[0.017s] Invoking command in '/home/kol/Documents/ros_workstation/ps7/build/ps7': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kol/Documents/ros_workstation/ps7/build/ps7 -- -j4 -l4
+[0.062s] [35m[1mConsolidate compiler generated dependencies of target cust_sub[0m
+[0.062s] [35m[1mConsolidate compiler generated dependencies of target cust_pub[0m
+[0.084s] [100%] Built target cust_pub
+[0.085s] [100%] Built target cust_sub
+[0.099s] Invoked command in '/home/kol/Documents/ros_workstation/ps7/build/ps7' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kol/Documents/ros_workstation/ps7/build/ps7 -- -j4 -l4
+[0.110s] Invoking command in '/home/kol/Documents/ros_workstation/ps7/build/ps7': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kol/Documents/ros_workstation/ps7/build/ps7
+[0.120s] -- Install configuration: ""
+[0.120s] -- Up-to-date: /home/kol/Documents/ros_workstation/ps7/install/ps7/lib/ps7/cust_sub
+[0.121s] -- Up-to-date: /home/kol/Documents/ros_workstation/ps7/install/ps7/lib/ps7/cust_pub
+[0.121s] -- Up-to-date: /home/kol/Documents/ros_workstation/ps7/install/ps7/share/ps7/launch
+[0.121s] -- Installing: /home/kol/Documents/ros_workstation/ps7/install/ps7/share/ps7/launch/pkg.launch.py
+[0.121s] -- Up-to-date: /home/kol/Documents/ros_workstation/ps7/install/ps7/share/ament_index/resource_index/package_run_dependencies/ps7
+[0.121s] -- Up-to-date: /home/kol/Documents/ros_workstation/ps7/install/ps7/share/ament_index/resource_index/parent_prefix_path/ps7
+[0.122s] -- Up-to-date: /home/kol/Documents/ros_workstation/ps7/install/ps7/share/ps7/environment/ament_prefix_path.sh
+[0.122s] -- Up-to-date: /home/kol/Documents/ros_workstation/ps7/install/ps7/share/ps7/environment/ament_prefix_path.dsv
+[0.122s] -- Up-to-date: /home/kol/Documents/ros_workstation/ps7/install/ps7/share/ps7/environment/path.sh
+[0.122s] -- Up-to-date: /home/kol/Documents/ros_workstation/ps7/install/ps7/share/ps7/environment/path.dsv
+[0.122s] -- Up-to-date: /home/kol/Documents/ros_workstation/ps7/install/ps7/share/ps7/local_setup.bash
+[0.122s] -- Up-to-date: /home/kol/Documents/ros_workstation/ps7/install/ps7/share/ps7/local_setup.sh
+[0.122s] -- Up-to-date: /home/kol/Documents/ros_workstation/ps7/install/ps7/share/ps7/local_setup.zsh
+[0.123s] -- Up-to-date: /home/kol/Documents/ros_workstation/ps7/install/ps7/share/ps7/local_setup.dsv
+[0.123s] -- Installing: /home/kol/Documents/ros_workstation/ps7/install/ps7/share/ps7/package.dsv
+[0.123s] -- Up-to-date: /home/kol/Documents/ros_workstation/ps7/install/ps7/share/ament_index/resource_index/packages/ps7
+[0.123s] -- Up-to-date: /home/kol/Documents/ros_workstation/ps7/install/ps7/share/ps7/cmake/ps7Config.cmake
+[0.123s] -- Up-to-date: /home/kol/Documents/ros_workstation/ps7/install/ps7/share/ps7/cmake/ps7Config-version.cmake
+[0.123s] -- Up-to-date: /home/kol/Documents/ros_workstation/ps7/install/ps7/share/ps7/package.xml
+[0.126s] Invoked command in '/home/kol/Documents/ros_workstation/ps7/build/ps7' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kol/Documents/ros_workstation/ps7/build/ps7

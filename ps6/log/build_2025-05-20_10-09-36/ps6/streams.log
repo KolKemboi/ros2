@@ -1,0 +1,73 @@
+[0.027s] Invoking command in '/home/kol/Documents/ros_workstation/ps6/build/ps6': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kol/Documents/ros_workstation/ps6/src/ps6 -DCMAKE_INSTALL_PREFIX=/home/kol/Documents/ros_workstation/ps6/install/ps6
+[0.059s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.230s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.263s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.267s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.273s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.287s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.300s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.344s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.346s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.493s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.552s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.567s] -- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+[0.620s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.725s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.725s] -- Configured cppcheck include dirs: 
+[0.726s] -- Configured cppcheck exclude dirs and/or files: 
+[0.726s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.727s] -- Added test 'lint_cmake' to check CMake code style
+[0.727s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.729s] -- Added test 'uncrustify' to check C / C++ code style
+[0.729s] -- Configured uncrustify additional arguments: 
+[0.729s] -- Added test 'xmllint' to check XML markup files
+[0.731s] -- Configuring done
+[0.748s] -- Generating done
+[0.755s] -- Build files have been written to: /home/kol/Documents/ros_workstation/ps6/build/ps6
+[0.764s] Invoked command in '/home/kol/Documents/ros_workstation/ps6/build/ps6' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kol/Documents/ros_workstation/ps6/src/ps6 -DCMAKE_INSTALL_PREFIX=/home/kol/Documents/ros_workstation/ps6/install/ps6
+[0.767s] Invoking command in '/home/kol/Documents/ros_workstation/ps6/build/ps6': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kol/Documents/ros_workstation/ps6/build/ps6 -- -j4 -l4
+[0.942s] [ 25%] [32mBuilding CXX object CMakeFiles/cust_sub.dir/src/sub.cpp.o[0m
+[0.945s] [ 50%] [32mBuilding CXX object CMakeFiles/cust_pub.dir/src/pub.cpp.o[0m
+[0.987s] [01m[K/home/kol/Documents/ros_workstation/ps6/src/ps6/src/sub.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[0.988s] [01m[K/home/kol/Documents/ros_workstation/ps6/src/ps6/src/sub.cpp:1:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[0.988s]     1 | int main([01;35m[Kint argc[m[K, char *argv[]) { return 0; }
+[0.988s]       |          [01;35m[K~~~~^~~~[m[K
+[0.988s] [01m[K/home/kol/Documents/ros_workstation/ps6/src/ps6/src/sub.cpp:1:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[0.988s]     1 | int main(int argc, [01;35m[Kchar *argv[][m[K) { return 0; }
+[0.988s]       |                    [01;35m[K~~~~~~^~~~~~[m[K
+[0.989s] [01m[K/home/kol/Documents/ros_workstation/ps6/src/ps6/src/pub.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[0.989s] [01m[K/home/kol/Documents/ros_workstation/ps6/src/ps6/src/pub.cpp:1:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[0.989s]     1 | int main([01;35m[Kint argc[m[K, char *argv[]) { return 0; }
+[0.989s]       |          [01;35m[K~~~~^~~~[m[K
+[0.989s] [01m[K/home/kol/Documents/ros_workstation/ps6/src/ps6/src/pub.cpp:1:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[0.990s]     1 | int main(int argc, [01;35m[Kchar *argv[][m[K) { return 0; }
+[0.990s]       |                    [01;35m[K~~~~~~^~~~~~[m[K
+[1.049s] [ 75%] [32m[1mLinking CXX executable cust_sub[0m
+[1.053s] [100%] [32m[1mLinking CXX executable cust_pub[0m
+[1.264s] [100%] Built target cust_sub
+[1.270s] [100%] Built target cust_pub
+[1.297s] Invoked command in '/home/kol/Documents/ros_workstation/ps6/build/ps6' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kol/Documents/ros_workstation/ps6/build/ps6 -- -j4 -l4
+[1.318s] Invoking command in '/home/kol/Documents/ros_workstation/ps6/build/ps6': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kol/Documents/ros_workstation/ps6/build/ps6
+[1.336s] -- Install configuration: ""
+[1.336s] -- Installing: /home/kol/Documents/ros_workstation/ps6/install/ps6/lib/ps6/cust_pub
+[1.337s] -- Set runtime path of "/home/kol/Documents/ros_workstation/ps6/install/ps6/lib/ps6/cust_pub" to ""
+[1.337s] -- Installing: /home/kol/Documents/ros_workstation/ps6/install/ps6/lib/ps6/cust_sub
+[1.339s] -- Set runtime path of "/home/kol/Documents/ros_workstation/ps6/install/ps6/lib/ps6/cust_sub" to ""
+[1.339s] -- Installing: /home/kol/Documents/ros_workstation/ps6/install/ps6/share/ps6/launch
+[1.339s] -- Installing: /home/kol/Documents/ros_workstation/ps6/install/ps6/share/ps6/launch/pkg.launch.py
+[1.339s] -- Installing: /home/kol/Documents/ros_workstation/ps6/install/ps6/share/ament_index/resource_index/package_run_dependencies/ps6
+[1.339s] -- Installing: /home/kol/Documents/ros_workstation/ps6/install/ps6/share/ament_index/resource_index/parent_prefix_path/ps6
+[1.339s] -- Installing: /home/kol/Documents/ros_workstation/ps6/install/ps6/share/ps6/environment/ament_prefix_path.sh
+[1.342s] -- Installing: /home/kol/Documents/ros_workstation/ps6/install/ps6/share/ps6/environment/ament_prefix_path.dsv
+[1.342s] -- Installing: /home/kol/Documents/ros_workstation/ps6/install/ps6/share/ps6/environment/path.sh
+[1.342s] -- Installing: /home/kol/Documents/ros_workstation/ps6/install/ps6/share/ps6/environment/path.dsv
+[1.342s] -- Installing: /home/kol/Documents/ros_workstation/ps6/install/ps6/share/ps6/local_setup.bash
+[1.342s] -- Installing: /home/kol/Documents/ros_workstation/ps6/install/ps6/share/ps6/local_setup.sh
+[1.343s] -- Installing: /home/kol/Documents/ros_workstation/ps6/install/ps6/share/ps6/local_setup.zsh
+[1.343s] -- Installing: /home/kol/Documents/ros_workstation/ps6/install/ps6/share/ps6/local_setup.dsv
+[1.343s] -- Installing: /home/kol/Documents/ros_workstation/ps6/install/ps6/share/ps6/package.dsv
+[1.343s] -- Installing: /home/kol/Documents/ros_workstation/ps6/install/ps6/share/ament_index/resource_index/packages/ps6
+[1.343s] -- Installing: /home/kol/Documents/ros_workstation/ps6/install/ps6/share/ps6/cmake/ps6Config.cmake
+[1.343s] -- Installing: /home/kol/Documents/ros_workstation/ps6/install/ps6/share/ps6/cmake/ps6Config-version.cmake
+[1.343s] -- Installing: /home/kol/Documents/ros_workstation/ps6/install/ps6/share/ps6/package.xml
+[1.347s] Invoked command in '/home/kol/Documents/ros_workstation/ps6/build/ps6' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kol/Documents/ros_workstation/ps6/build/ps6

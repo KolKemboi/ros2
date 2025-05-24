@@ -1,0 +1,1 @@
+/home/kol/Documents/ros_workstation/pub_sub_1/build/pub_sub_1/ament_cmake_core/pub_sub_1Config-version.cmake

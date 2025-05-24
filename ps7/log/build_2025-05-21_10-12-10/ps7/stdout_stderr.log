@@ -1,0 +1,87 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/kol/Documents/ros_workstation/ps7/build/ps7
+[ 25%] [32mBuilding CXX object CMakeFiles/cust_pub.dir/src/pub.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/cust_sub.dir/src/sub.cpp.o[0m
+[01m[K/home/kol/Documents/ros_workstation/ps7/src/ps7/src/sub.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/kol/Documents/ros_workstation/ps7/src/ps7/src/sub.cpp:2:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    2 | int main([01;35m[Kint argc[m[K, char *argv[]) { return 0; }
+      |          [01;35m[K~~~~^~~~[m[K
+[01m[K/home/kol/Documents/ros_workstation/ps7/src/ps7/src/pub.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/kol/Documents/ros_workstation/ps7/src/ps7/src/pub.cpp:1:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    1 | int main([01;35m[Kint argc[m[K, char *argv[]) { return 0; }
+      |          [01;35m[K~~~~^~~~[m[K
+[01m[K/home/kol/Documents/ros_workstation/ps7/src/ps7/src/sub.cpp:2:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    2 | int main(int argc, [01;35m[Kchar *argv[][m[K) { return 0; }
+      |                    [01;35m[K~~~~~~^~~~~~[m[K
+[01m[K/home/kol/Documents/ros_workstation/ps7/src/ps7/src/pub.cpp:1:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    1 | int main(int argc, [01;35m[Kchar *argv[][m[K) { return 0; }
+      |                    [01;35m[K~~~~~~^~~~~~[m[K
+[100%] [32m[1mLinking CXX executable cust_sub[0m
+[100%] [32m[1mLinking CXX executable cust_pub[0m
+[100%] Built target cust_sub
+[100%] Built target cust_pub
+-- Install configuration: ""
+-- Installing: /home/kol/Documents/ros_workstation/ps7/install/ps7/lib/ps7/cust_sub
+-- Set runtime path of "/home/kol/Documents/ros_workstation/ps7/install/ps7/lib/ps7/cust_sub" to ""
+-- Installing: /home/kol/Documents/ros_workstation/ps7/install/ps7/lib/ps7/cust_pub
+-- Set runtime path of "/home/kol/Documents/ros_workstation/ps7/install/ps7/lib/ps7/cust_pub" to ""
+-- Installing: /home/kol/Documents/ros_workstation/ps7/install/ps7/share/ps7/launch
+-- Installing: /home/kol/Documents/ros_workstation/ps7/install/ps7/share/ps7/launch/pkg.launch.py
+-- Installing: /home/kol/Documents/ros_workstation/ps7/install/ps7/share/ament_index/resource_index/package_run_dependencies/ps7
+-- Installing: /home/kol/Documents/ros_workstation/ps7/install/ps7/share/ament_index/resource_index/parent_prefix_path/ps7
+-- Installing: /home/kol/Documents/ros_workstation/ps7/install/ps7/share/ps7/environment/ament_prefix_path.sh
+-- Installing: /home/kol/Documents/ros_workstation/ps7/install/ps7/share/ps7/environment/ament_prefix_path.dsv
+-- Installing: /home/kol/Documents/ros_workstation/ps7/install/ps7/share/ps7/environment/path.sh
+-- Installing: /home/kol/Documents/ros_workstation/ps7/install/ps7/share/ps7/environment/path.dsv
+-- Installing: /home/kol/Documents/ros_workstation/ps7/install/ps7/share/ps7/local_setup.bash
+-- Installing: /home/kol/Documents/ros_workstation/ps7/install/ps7/share/ps7/local_setup.sh
+-- Installing: /home/kol/Documents/ros_workstation/ps7/install/ps7/share/ps7/local_setup.zsh
+-- Installing: /home/kol/Documents/ros_workstation/ps7/install/ps7/share/ps7/local_setup.dsv
+-- Installing: /home/kol/Documents/ros_workstation/ps7/install/ps7/share/ps7/package.dsv
+-- Installing: /home/kol/Documents/ros_workstation/ps7/install/ps7/share/ament_index/resource_index/packages/ps7
+-- Installing: /home/kol/Documents/ros_workstation/ps7/install/ps7/share/ps7/cmake/ps7Config.cmake
+-- Installing: /home/kol/Documents/ros_workstation/ps7/install/ps7/share/ps7/cmake/ps7Config-version.cmake
+-- Installing: /home/kol/Documents/ros_workstation/ps7/install/ps7/share/ps7/package.xml

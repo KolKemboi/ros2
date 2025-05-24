@@ -1,0 +1,52 @@
+[0.054s] Invoking command in '/home/kol/Documents/ros_workstation/pub_sub_1/build/pub_sub_1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kol/Documents/ros_workstation/pub_sub_1/src/pub_sub_1 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kol/Documents/ros_workstation/pub_sub_1/install/pub_sub_1
+[0.092s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.590s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.624s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.748s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.760s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.801s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.842s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.891s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.010s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.019s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.453s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.685s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.742s] -- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+[1.932s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.259s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.260s] -- Configured cppcheck include dirs: 
+[2.261s] -- Configured cppcheck exclude dirs and/or files: 
+[2.263s] -- Added test 'lint_cmake' to check CMake code style
+[2.273s] -- Added test 'uncrustify' to check C / C++ code style
+[2.274s] -- Configured uncrustify additional arguments: 
+[2.275s] -- Added test 'xmllint' to check XML markup files
+[2.283s] -- Configuring done
+[2.351s] -- Generating done
+[2.375s] -- Build files have been written to: /home/kol/Documents/ros_workstation/pub_sub_1/build/pub_sub_1
+[2.408s] Invoked command in '/home/kol/Documents/ros_workstation/pub_sub_1/build/pub_sub_1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kol/Documents/ros_workstation/pub_sub_1/src/pub_sub_1 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kol/Documents/ros_workstation/pub_sub_1/install/pub_sub_1
+[2.420s] Invoking command in '/home/kol/Documents/ros_workstation/pub_sub_1/build/pub_sub_1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kol/Documents/ros_workstation/pub_sub_1/build/pub_sub_1 -- -j4 -l4
+[2.608s] [35m[1mConsolidate compiler generated dependencies of target cust_pub[0m
+[2.658s] [ 50%] [32mBuilding CXX object CMakeFiles/cust_pub.dir/src/pub.cpp.o[0m
+[24.872s] [100%] [32m[1mLinking CXX executable cust_pub[0m
+[26.110s] [100%] Built target cust_pub
+[26.176s] Invoked command in '/home/kol/Documents/ros_workstation/pub_sub_1/build/pub_sub_1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kol/Documents/ros_workstation/pub_sub_1/build/pub_sub_1 -- -j4 -l4
+[26.241s] Invoking command in '/home/kol/Documents/ros_workstation/pub_sub_1/build/pub_sub_1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kol/Documents/ros_workstation/pub_sub_1/build/pub_sub_1
+[26.315s] -- Install configuration: ""
+[26.316s] -- Execute custom install script
+[26.317s] -- Symlinking: /home/kol/Documents/ros_workstation/pub_sub_1/install/pub_sub_1/lib//cust_pub
+[26.427s] -- Symlinking: /home/kol/Documents/ros_workstation/pub_sub_1/install/pub_sub_1/share/ament_index/resource_index/package_run_dependencies/pub_sub_1
+[26.482s] -- Symlinking: /home/kol/Documents/ros_workstation/pub_sub_1/install/pub_sub_1/share/ament_index/resource_index/parent_prefix_path/pub_sub_1
+[26.537s] -- Symlinking: /home/kol/Documents/ros_workstation/pub_sub_1/install/pub_sub_1/share/pub_sub_1/environment/ament_prefix_path.sh
+[26.592s] -- Symlinking: /home/kol/Documents/ros_workstation/pub_sub_1/install/pub_sub_1/share/pub_sub_1/environment/ament_prefix_path.dsv
+[26.649s] -- Symlinking: /home/kol/Documents/ros_workstation/pub_sub_1/install/pub_sub_1/share/pub_sub_1/environment/path.sh
+[26.705s] -- Symlinking: /home/kol/Documents/ros_workstation/pub_sub_1/install/pub_sub_1/share/pub_sub_1/environment/path.dsv
+[26.764s] -- Symlinking: /home/kol/Documents/ros_workstation/pub_sub_1/install/pub_sub_1/share/pub_sub_1/local_setup.bash
+[26.834s] -- Symlinking: /home/kol/Documents/ros_workstation/pub_sub_1/install/pub_sub_1/share/pub_sub_1/local_setup.sh
+[26.921s] -- Symlinking: /home/kol/Documents/ros_workstation/pub_sub_1/install/pub_sub_1/share/pub_sub_1/local_setup.zsh
+[27.001s] -- Symlinking: /home/kol/Documents/ros_workstation/pub_sub_1/install/pub_sub_1/share/pub_sub_1/local_setup.dsv
+[27.102s] -- Symlinking: /home/kol/Documents/ros_workstation/pub_sub_1/install/pub_sub_1/share/pub_sub_1/package.dsv
+[27.169s] -- Symlinking: /home/kol/Documents/ros_workstation/pub_sub_1/install/pub_sub_1/share/ament_index/resource_index/packages/pub_sub_1
+[27.259s] -- Symlinking: /home/kol/Documents/ros_workstation/pub_sub_1/install/pub_sub_1/share/pub_sub_1/cmake/pub_sub_1Config.cmake
+[27.319s] -- Symlinking: /home/kol/Documents/ros_workstation/pub_sub_1/install/pub_sub_1/share/pub_sub_1/cmake/pub_sub_1Config-version.cmake
+[27.396s] -- Symlinking: /home/kol/Documents/ros_workstation/pub_sub_1/install/pub_sub_1/share/pub_sub_1/package.xml
+[27.463s] Invoked command in '/home/kol/Documents/ros_workstation/pub_sub_1/build/pub_sub_1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kol/Documents/ros_workstation/pub_sub_1/build/pub_sub_1

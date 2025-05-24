@@ -1,0 +1,56 @@
+[0.021s] Invoking command in '/home/kol/Documents/ros_workstation/pub_sub_1/build/pub_sub_1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kol/Documents/ros_workstation/pub_sub_1/build/pub_sub_1 -- -j4 -l4
+[0.048s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.187s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.195s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.233s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.237s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.244s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.259s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.278s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.325s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.326s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.442s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.499s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.514s] -- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+[0.568s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.650s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.650s] -- Configured cppcheck include dirs: 
+[0.650s] -- Configured cppcheck exclude dirs and/or files: 
+[0.651s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.651s] -- Added test 'lint_cmake' to check CMake code style
+[0.652s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.653s] -- Added test 'uncrustify' to check C / C++ code style
+[0.653s] -- Configured uncrustify additional arguments: 
+[0.654s] -- Added test 'xmllint' to check XML markup files
+[0.655s] -- Configuring done
+[0.672s] -- Generating done
+[0.677s] -- Build files have been written to: /home/kol/Documents/ros_workstation/pub_sub_1/build/pub_sub_1
+[0.711s] [35m[1mConsolidate compiler generated dependencies of target cust_pub[0m
+[0.712s] [35m[1mConsolidate compiler generated dependencies of target cust_sub[0m
+[0.741s] [ 50%] Built target cust_sub
+[0.741s] [100%] Built target cust_pub
+[0.756s] Invoked command in '/home/kol/Documents/ros_workstation/pub_sub_1/build/pub_sub_1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kol/Documents/ros_workstation/pub_sub_1/build/pub_sub_1 -- -j4 -l4
+[0.768s] Invoking command in '/home/kol/Documents/ros_workstation/pub_sub_1/build/pub_sub_1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kol/Documents/ros_workstation/pub_sub_1/build/pub_sub_1
+[0.775s] -- Install configuration: ""
+[0.776s] -- Execute custom install script
+[0.776s] -- Up-to-date symlink: /home/kol/Documents/ros_workstation/pub_sub_1/install/pub_sub_1/lib/pub_sub_1/cust_pub
+[0.777s] -- Up-to-date symlink: /home/kol/Documents/ros_workstation/pub_sub_1/install/pub_sub_1/lib/pub_sub_1/cust_sub
+[0.777s] -- Symlinking: /home/kol/Documents/ros_workstation/pub_sub_1/install/pub_sub_1/share/pub_sub_1/launch/.vscode/c_cpp_properties.json
+[0.788s] -- Symlinking: /home/kol/Documents/ros_workstation/pub_sub_1/install/pub_sub_1/share/pub_sub_1/launch/.vscode/settings.json
+[0.796s] -- Symlinking: /home/kol/Documents/ros_workstation/pub_sub_1/install/pub_sub_1/share/pub_sub_1/launch/pub_sub_1_launch.py
+[0.805s] -- Up-to-date symlink: /home/kol/Documents/ros_workstation/pub_sub_1/install/pub_sub_1/share/ament_index/resource_index/package_run_dependencies/pub_sub_1
+[0.805s] -- Up-to-date symlink: /home/kol/Documents/ros_workstation/pub_sub_1/install/pub_sub_1/share/ament_index/resource_index/parent_prefix_path/pub_sub_1
+[0.805s] -- Up-to-date symlink: /home/kol/Documents/ros_workstation/pub_sub_1/install/pub_sub_1/share/pub_sub_1/environment/ament_prefix_path.sh
+[0.806s] -- Up-to-date symlink: /home/kol/Documents/ros_workstation/pub_sub_1/install/pub_sub_1/share/pub_sub_1/environment/ament_prefix_path.dsv
+[0.806s] -- Up-to-date symlink: /home/kol/Documents/ros_workstation/pub_sub_1/install/pub_sub_1/share/pub_sub_1/environment/path.sh
+[0.806s] -- Up-to-date symlink: /home/kol/Documents/ros_workstation/pub_sub_1/install/pub_sub_1/share/pub_sub_1/environment/path.dsv
+[0.807s] -- Up-to-date symlink: /home/kol/Documents/ros_workstation/pub_sub_1/install/pub_sub_1/share/pub_sub_1/local_setup.bash
+[0.807s] -- Up-to-date symlink: /home/kol/Documents/ros_workstation/pub_sub_1/install/pub_sub_1/share/pub_sub_1/local_setup.sh
+[0.807s] -- Up-to-date symlink: /home/kol/Documents/ros_workstation/pub_sub_1/install/pub_sub_1/share/pub_sub_1/local_setup.zsh
+[0.807s] -- Up-to-date symlink: /home/kol/Documents/ros_workstation/pub_sub_1/install/pub_sub_1/share/pub_sub_1/local_setup.dsv
+[0.807s] -- Symlinking: /home/kol/Documents/ros_workstation/pub_sub_1/install/pub_sub_1/share/pub_sub_1/package.dsv
+[0.818s] -- Up-to-date symlink: /home/kol/Documents/ros_workstation/pub_sub_1/install/pub_sub_1/share/ament_index/resource_index/packages/pub_sub_1
+[0.818s] -- Up-to-date symlink: /home/kol/Documents/ros_workstation/pub_sub_1/install/pub_sub_1/share/pub_sub_1/cmake/pub_sub_1Config.cmake
+[0.818s] -- Up-to-date symlink: /home/kol/Documents/ros_workstation/pub_sub_1/install/pub_sub_1/share/pub_sub_1/cmake/pub_sub_1Config-version.cmake
+[0.818s] -- Up-to-date symlink: /home/kol/Documents/ros_workstation/pub_sub_1/install/pub_sub_1/share/pub_sub_1/package.xml
+[0.821s] Invoked command in '/home/kol/Documents/ros_workstation/pub_sub_1/build/pub_sub_1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kol/Documents/ros_workstation/pub_sub_1/build/pub_sub_1

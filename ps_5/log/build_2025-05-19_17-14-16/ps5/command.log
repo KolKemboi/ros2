@@ -1,0 +1,2 @@
+Invoking command in '/home/kol/Documents/ros_workstation/ps_5/build/ps5': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kol/Documents/ros_workstation/ps_5/src/ps5 -DCMAKE_INSTALL_PREFIX=/home/kol/Documents/ros_workstation/ps_5/install/ps5
+Invoked command in '/home/kol/Documents/ros_workstation/ps_5/build/ps5' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kol/Documents/ros_workstation/ps_5/src/ps5 -DCMAKE_INSTALL_PREFIX=/home/kol/Documents/ros_workstation/ps_5/install/ps5

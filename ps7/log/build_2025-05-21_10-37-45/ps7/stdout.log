@@ -1,0 +1,24 @@
+[35m[1mConsolidate compiler generated dependencies of target cust_sub[0m
+[35m[1mConsolidate compiler generated dependencies of target cust_pub[0m
+[100%] Built target cust_pub
+[100%] Built target cust_sub
+-- Install configuration: ""
+-- Up-to-date: /home/kol/Documents/ros_workstation/ps7/install/ps7/lib/ps7/cust_sub
+-- Up-to-date: /home/kol/Documents/ros_workstation/ps7/install/ps7/lib/ps7/cust_pub
+-- Up-to-date: /home/kol/Documents/ros_workstation/ps7/install/ps7/share/ps7/launch
+-- Installing: /home/kol/Documents/ros_workstation/ps7/install/ps7/share/ps7/launch/pkg.launch.py
+-- Up-to-date: /home/kol/Documents/ros_workstation/ps7/install/ps7/share/ament_index/resource_index/package_run_dependencies/ps7
+-- Up-to-date: /home/kol/Documents/ros_workstation/ps7/install/ps7/share/ament_index/resource_index/parent_prefix_path/ps7
+-- Up-to-date: /home/kol/Documents/ros_workstation/ps7/install/ps7/share/ps7/environment/ament_prefix_path.sh
+-- Up-to-date: /home/kol/Documents/ros_workstation/ps7/install/ps7/share/ps7/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/kol/Documents/ros_workstation/ps7/install/ps7/share/ps7/environment/path.sh
+-- Up-to-date: /home/kol/Documents/ros_workstation/ps7/install/ps7/share/ps7/environment/path.dsv
+-- Up-to-date: /home/kol/Documents/ros_workstation/ps7/install/ps7/share/ps7/local_setup.bash
+-- Up-to-date: /home/kol/Documents/ros_workstation/ps7/install/ps7/share/ps7/local_setup.sh
+-- Up-to-date: /home/kol/Documents/ros_workstation/ps7/install/ps7/share/ps7/local_setup.zsh
+-- Up-to-date: /home/kol/Documents/ros_workstation/ps7/install/ps7/share/ps7/local_setup.dsv
+-- Installing: /home/kol/Documents/ros_workstation/ps7/install/ps7/share/ps7/package.dsv
+-- Up-to-date: /home/kol/Documents/ros_workstation/ps7/install/ps7/share/ament_index/resource_index/packages/ps7
+-- Up-to-date: /home/kol/Documents/ros_workstation/ps7/install/ps7/share/ps7/cmake/ps7Config.cmake
+-- Up-to-date: /home/kol/Documents/ros_workstation/ps7/install/ps7/share/ps7/cmake/ps7Config-version.cmake
+-- Up-to-date: /home/kol/Documents/ros_workstation/ps7/install/ps7/share/ps7/package.xml

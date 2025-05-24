@@ -1,0 +1,41 @@
+[0.011s] Invoking command in '/home/kol/Documents/ros_workstation/ps_5/build/ps5': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kol/Documents/ros_workstation/ps_5/build/ps5 -- -j4 -l4
+[0.049s] [35m[1mConsolidate compiler generated dependencies of target cust_pub[0m
+[0.050s] [35m[1mConsolidate compiler generated dependencies of target cust_sub[0m
+[0.061s] [ 50%] [32mBuilding CXX object CMakeFiles/cust_pub.dir/src/pub.cpp.o[0m
+[0.061s] [ 50%] [32mBuilding CXX object CMakeFiles/cust_sub.dir/src/sub.cpp.o[0m
+[2.789s] [01m[K/home/kol/Documents/ros_workstation/ps_5/src/ps5/src/sub.cpp:[m[K In member function ‘[01m[Kvoid Subscriber::topic_callback(const Pose&) const[m[K’:
+[2.789s] [01m[K/home/kol/Documents/ros_workstation/ps_5/src/ps5/src/sub.cpp:19:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpose[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.790s]    19 |   void topic_callback([01;35m[Kconst turtlesim::msg::Pose &pose[m[K) const {
+[2.790s]       |                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[5.010s] [ 75%] [32m[1mLinking CXX executable cust_pub[0m
+[5.286s] [ 75%] Built target cust_pub
+[8.722s] [100%] [32m[1mLinking CXX executable cust_sub[0m
+[9.134s] [100%] Built target cust_sub
+[9.145s] Invoked command in '/home/kol/Documents/ros_workstation/ps_5/build/ps5' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kol/Documents/ros_workstation/ps_5/build/ps5 -- -j4 -l4
+[9.155s] Invoking command in '/home/kol/Documents/ros_workstation/ps_5/build/ps5': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kol/Documents/ros_workstation/ps_5/build/ps5
+[9.163s] -- Install configuration: ""
+[9.164s] -- Installing: /home/kol/Documents/ros_workstation/ps_5/install/ps5/lib/ps5/cust_sub
+[9.168s] -- Set runtime path of "/home/kol/Documents/ros_workstation/ps_5/install/ps5/lib/ps5/cust_sub" to ""
+[9.168s] -- Installing: /home/kol/Documents/ros_workstation/ps_5/install/ps5/lib/ps5/cust_pub
+[9.169s] -- Set runtime path of "/home/kol/Documents/ros_workstation/ps_5/install/ps5/lib/ps5/cust_pub" to ""
+[9.170s] -- Up-to-date: /home/kol/Documents/ros_workstation/ps_5/install/ps5/share/ps5/launch
+[9.170s] -- Installing: /home/kol/Documents/ros_workstation/ps_5/install/ps5/share/ps5/launch/.vscode
+[9.170s] -- Installing: /home/kol/Documents/ros_workstation/ps_5/install/ps5/share/ps5/launch/.vscode/c_cpp_properties.json
+[9.170s] -- Installing: /home/kol/Documents/ros_workstation/ps_5/install/ps5/share/ps5/launch/.vscode/settings.json
+[9.170s] -- Installing: /home/kol/Documents/ros_workstation/ps_5/install/ps5/share/ps5/launch/pkg.launch.py
+[9.170s] -- Up-to-date: /home/kol/Documents/ros_workstation/ps_5/install/ps5/share/ament_index/resource_index/package_run_dependencies/ps5
+[9.171s] -- Up-to-date: /home/kol/Documents/ros_workstation/ps_5/install/ps5/share/ament_index/resource_index/parent_prefix_path/ps5
+[9.171s] -- Up-to-date: /home/kol/Documents/ros_workstation/ps_5/install/ps5/share/ps5/environment/ament_prefix_path.sh
+[9.171s] -- Up-to-date: /home/kol/Documents/ros_workstation/ps_5/install/ps5/share/ps5/environment/ament_prefix_path.dsv
+[9.171s] -- Up-to-date: /home/kol/Documents/ros_workstation/ps_5/install/ps5/share/ps5/environment/path.sh
+[9.171s] -- Up-to-date: /home/kol/Documents/ros_workstation/ps_5/install/ps5/share/ps5/environment/path.dsv
+[9.171s] -- Up-to-date: /home/kol/Documents/ros_workstation/ps_5/install/ps5/share/ps5/local_setup.bash
+[9.171s] -- Up-to-date: /home/kol/Documents/ros_workstation/ps_5/install/ps5/share/ps5/local_setup.sh
+[9.172s] -- Up-to-date: /home/kol/Documents/ros_workstation/ps_5/install/ps5/share/ps5/local_setup.zsh
+[9.172s] -- Up-to-date: /home/kol/Documents/ros_workstation/ps_5/install/ps5/share/ps5/local_setup.dsv
+[9.172s] -- Up-to-date: /home/kol/Documents/ros_workstation/ps_5/install/ps5/share/ps5/package.dsv
+[9.172s] -- Up-to-date: /home/kol/Documents/ros_workstation/ps_5/install/ps5/share/ament_index/resource_index/packages/ps5
+[9.172s] -- Up-to-date: /home/kol/Documents/ros_workstation/ps_5/install/ps5/share/ps5/cmake/ps5Config.cmake
+[9.172s] -- Up-to-date: /home/kol/Documents/ros_workstation/ps_5/install/ps5/share/ps5/cmake/ps5Config-version.cmake
+[9.172s] -- Up-to-date: /home/kol/Documents/ros_workstation/ps_5/install/ps5/share/ps5/package.xml
+[9.174s] Invoked command in '/home/kol/Documents/ros_workstation/ps_5/build/ps5' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kol/Documents/ros_workstation/ps_5/build/ps5

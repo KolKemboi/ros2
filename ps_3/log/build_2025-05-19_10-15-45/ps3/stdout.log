@@ -1,0 +1,25 @@
+[ 50%] Built target cust_pub
+[100%] Built target cust_sub
+-- Install configuration: ""
+-- Up-to-date: /home/kol/Documents/ros_workstation/ps_3/install/ps3/lib/ps3/cust_sub
+-- Up-to-date: /home/kol/Documents/ros_workstation/ps_3/install/ps3/lib/ps3/cust_pub
+-- Up-to-date: /home/kol/Documents/ros_workstation/ps_3/install/ps3/share/ps3/launch
+-- Up-to-date: /home/kol/Documents/ros_workstation/ps_3/install/ps3/share/ps3/launch/.vscode
+-- Up-to-date: /home/kol/Documents/ros_workstation/ps_3/install/ps3/share/ps3/launch/.vscode/c_cpp_properties.json
+-- Up-to-date: /home/kol/Documents/ros_workstation/ps_3/install/ps3/share/ps3/launch/.vscode/settings.json
+-- Installing: /home/kol/Documents/ros_workstation/ps_3/install/ps3/share/ps3/launch/pkg.launch.py
+-- Up-to-date: /home/kol/Documents/ros_workstation/ps_3/install/ps3/share/ament_index/resource_index/package_run_dependencies/ps3
+-- Up-to-date: /home/kol/Documents/ros_workstation/ps_3/install/ps3/share/ament_index/resource_index/parent_prefix_path/ps3
+-- Up-to-date: /home/kol/Documents/ros_workstation/ps_3/install/ps3/share/ps3/environment/ament_prefix_path.sh
+-- Up-to-date: /home/kol/Documents/ros_workstation/ps_3/install/ps3/share/ps3/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/kol/Documents/ros_workstation/ps_3/install/ps3/share/ps3/environment/path.sh
+-- Up-to-date: /home/kol/Documents/ros_workstation/ps_3/install/ps3/share/ps3/environment/path.dsv
+-- Up-to-date: /home/kol/Documents/ros_workstation/ps_3/install/ps3/share/ps3/local_setup.bash
+-- Up-to-date: /home/kol/Documents/ros_workstation/ps_3/install/ps3/share/ps3/local_setup.sh
+-- Up-to-date: /home/kol/Documents/ros_workstation/ps_3/install/ps3/share/ps3/local_setup.zsh
+-- Up-to-date: /home/kol/Documents/ros_workstation/ps_3/install/ps3/share/ps3/local_setup.dsv
+-- Installing: /home/kol/Documents/ros_workstation/ps_3/install/ps3/share/ps3/package.dsv
+-- Up-to-date: /home/kol/Documents/ros_workstation/ps_3/install/ps3/share/ament_index/resource_index/packages/ps3
+-- Up-to-date: /home/kol/Documents/ros_workstation/ps_3/install/ps3/share/ps3/cmake/ps3Config.cmake
+-- Up-to-date: /home/kol/Documents/ros_workstation/ps_3/install/ps3/share/ps3/cmake/ps3Config-version.cmake
+-- Up-to-date: /home/kol/Documents/ros_workstation/ps_3/install/ps3/share/ps3/package.xml

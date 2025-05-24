@@ -1,0 +1,8 @@
+##[pylyzer] failed /home/kol/Documents/ros_workstation/sixdof/src/sixdof_moveit_config/launch/move_group.launch.py 1747914539 321
+.___v_desugar_1 = pyimport "__init__"
+.__init__ = pyimport "__init__"
+.MoveItConfigsBuilder: {moveit_configs_builder.MoveItConfigsBuilder}
+.___v_desugar_2 = pyimport "launches"
+.launches = pyimport "launches"
+.generate_move_group_launch: |Type_23725: Type, Self <: global::Indexable(?K, ?V), K: Type, Type_23438 <: Structural({.move_group_capabilities = ?Self; .package_path = ?23725; .to_dict = (self: Obj) -> Never}), V: Type|(moveit_config: Type_23438) -> Never
+.generate_launch_description: () -> Never

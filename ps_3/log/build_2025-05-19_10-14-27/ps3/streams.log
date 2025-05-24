@@ -1,0 +1,37 @@
+[0.012s] Invoking command in '/home/kol/Documents/ros_workstation/ps_3/build/ps3': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kol/Documents/ros_workstation/ps_3/build/ps3 -- -j4 -l4
+[0.068s] [35m[1mConsolidate compiler generated dependencies of target cust_sub[0m
+[0.070s] [35m[1mConsolidate compiler generated dependencies of target cust_pub[0m
+[0.087s] [ 25%] [32mBuilding CXX object CMakeFiles/cust_pub.dir/src/pub.cpp.o[0m
+[0.102s] [ 50%] [32mBuilding CXX object CMakeFiles/cust_sub.dir/src/sub.cpp.o[0m
+[7.006s] [ 75%] [32m[1mLinking CXX executable cust_pub[0m
+[7.434s] [ 75%] Built target cust_pub
+[11.974s] [100%] [32m[1mLinking CXX executable cust_sub[0m
+[12.528s] [100%] Built target cust_sub
+[12.541s] Invoked command in '/home/kol/Documents/ros_workstation/ps_3/build/ps3' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kol/Documents/ros_workstation/ps_3/build/ps3 -- -j4 -l4
+[12.553s] Invoking command in '/home/kol/Documents/ros_workstation/ps_3/build/ps3': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kol/Documents/ros_workstation/ps_3/build/ps3
+[12.561s] -- Install configuration: ""
+[12.562s] -- Installing: /home/kol/Documents/ros_workstation/ps_3/install/ps3/lib/ps3/cust_sub
+[12.567s] -- Set runtime path of "/home/kol/Documents/ros_workstation/ps_3/install/ps3/lib/ps3/cust_sub" to ""
+[12.567s] -- Installing: /home/kol/Documents/ros_workstation/ps_3/install/ps3/lib/ps3/cust_pub
+[12.570s] -- Set runtime path of "/home/kol/Documents/ros_workstation/ps_3/install/ps3/lib/ps3/cust_pub" to ""
+[12.570s] -- Up-to-date: /home/kol/Documents/ros_workstation/ps_3/install/ps3/share/ps3/launch
+[12.571s] -- Installing: /home/kol/Documents/ros_workstation/ps_3/install/ps3/share/ps3/launch/.vscode
+[12.571s] -- Installing: /home/kol/Documents/ros_workstation/ps_3/install/ps3/share/ps3/launch/.vscode/c_cpp_properties.json
+[12.571s] -- Installing: /home/kol/Documents/ros_workstation/ps_3/install/ps3/share/ps3/launch/.vscode/settings.json
+[12.571s] -- Installing: /home/kol/Documents/ros_workstation/ps_3/install/ps3/share/ps3/launch/pkg.launch.py
+[12.572s] -- Up-to-date: /home/kol/Documents/ros_workstation/ps_3/install/ps3/share/ament_index/resource_index/package_run_dependencies/ps3
+[12.572s] -- Up-to-date: /home/kol/Documents/ros_workstation/ps_3/install/ps3/share/ament_index/resource_index/parent_prefix_path/ps3
+[12.572s] -- Up-to-date: /home/kol/Documents/ros_workstation/ps_3/install/ps3/share/ps3/environment/ament_prefix_path.sh
+[12.573s] -- Up-to-date: /home/kol/Documents/ros_workstation/ps_3/install/ps3/share/ps3/environment/ament_prefix_path.dsv
+[12.573s] -- Up-to-date: /home/kol/Documents/ros_workstation/ps_3/install/ps3/share/ps3/environment/path.sh
+[12.574s] -- Up-to-date: /home/kol/Documents/ros_workstation/ps_3/install/ps3/share/ps3/environment/path.dsv
+[12.574s] -- Up-to-date: /home/kol/Documents/ros_workstation/ps_3/install/ps3/share/ps3/local_setup.bash
+[12.575s] -- Up-to-date: /home/kol/Documents/ros_workstation/ps_3/install/ps3/share/ps3/local_setup.sh
+[12.576s] -- Up-to-date: /home/kol/Documents/ros_workstation/ps_3/install/ps3/share/ps3/local_setup.zsh
+[12.576s] -- Up-to-date: /home/kol/Documents/ros_workstation/ps_3/install/ps3/share/ps3/local_setup.dsv
+[12.576s] -- Up-to-date: /home/kol/Documents/ros_workstation/ps_3/install/ps3/share/ps3/package.dsv
+[12.576s] -- Up-to-date: /home/kol/Documents/ros_workstation/ps_3/install/ps3/share/ament_index/resource_index/packages/ps3
+[12.576s] -- Up-to-date: /home/kol/Documents/ros_workstation/ps_3/install/ps3/share/ps3/cmake/ps3Config.cmake
+[12.576s] -- Up-to-date: /home/kol/Documents/ros_workstation/ps_3/install/ps3/share/ps3/cmake/ps3Config-version.cmake
+[12.577s] -- Up-to-date: /home/kol/Documents/ros_workstation/ps_3/install/ps3/share/ps3/package.xml
+[12.577s] Invoked command in '/home/kol/Documents/ros_workstation/ps_3/build/ps3' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kol/Documents/ros_workstation/ps_3/build/ps3

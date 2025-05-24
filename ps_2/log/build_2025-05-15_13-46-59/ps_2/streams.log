@@ -1,0 +1,62 @@
+[0.048s] Invoking command in '/home/kol/Documents/ros_workstation/ps_2/build/ps_2': /usr/bin/cmake /home/kol/Documents/ros_workstation/ps_2/src/ps_2 -DCMAKE_INSTALL_PREFIX=/home/kol/Documents/ros_workstation/ps_2/install/ps_2
+[0.283s] -- The C compiler identification is GNU 11.4.0
+[0.464s] -- The CXX compiler identification is GNU 11.4.0
+[0.488s] -- Detecting C compiler ABI info
+[0.771s] -- Detecting C compiler ABI info - done
+[0.784s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.784s] -- Detecting C compile features
+[0.785s] -- Detecting C compile features - done
+[0.790s] -- Detecting CXX compiler ABI info
+[1.090s] -- Detecting CXX compiler ABI info - done
+[1.113s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.116s] -- Detecting CXX compile features
+[1.116s] -- Detecting CXX compile features - done
+[1.120s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.712s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.924s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[1.987s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.998s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.017s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.039s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.069s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.158s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.162s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.550s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.606s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.683s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.696s] -- Looking for pthread.h
+[2.918s] -- Looking for pthread.h - found
+[2.918s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.135s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.136s] -- Found Threads: TRUE  
+[3.207s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[3.231s] -- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+[3.290s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.356s] Error parsing '/home/kol/Documents/ros_workstation/ps_2/src/ps_2/package.xml':
+[3.408s] Traceback (most recent call last):
+[3.409s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[3.409s]     main()
+[3.409s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[3.409s]     raise e
+[3.409s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[3.409s]     package = parse_package_string(
+[3.409s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 786, in parse_package_string
+[3.409s]     raise InvalidPackage('Error(s):%s' % (''.join(['\n- %s' % e for e in errors])), filename)
+[3.409s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/kol/Documents/ros_workstation/ps_2/src/ps_2/package.xml':
+[3.410s] Error(s):
+[3.410s] - The generic dependency on 'turtlesim' is redundant with: exec_depend
+[3.427s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[3.427s]   execute_process(/usr/bin/python3
+[3.428s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[3.428s]   /home/kol/Documents/ros_workstation/ps_2/src/ps_2/package.xml
+[3.428s]   /home/kol/Documents/ros_workstation/ps_2/build/ps_2/ament_cmake_core/package.cmake)
+[3.428s]   returned error code 1
+[3.428s] Call Stack (most recent call first):
+[3.428s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[3.428s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[3.428s]   CMakeLists.txt:42 (ament_lint_auto_find_test_dependencies)
+[3.428s] 
+[3.429s] [0m
+[3.429s] -- Configuring incomplete, errors occurred!
+[3.429s] See also "/home/kol/Documents/ros_workstation/ps_2/build/ps_2/CMakeFiles/CMakeOutput.log".
+[3.441s] Invoked command in '/home/kol/Documents/ros_workstation/ps_2/build/ps_2' returned '1': /usr/bin/cmake /home/kol/Documents/ros_workstation/ps_2/src/ps_2 -DCMAKE_INSTALL_PREFIX=/home/kol/Documents/ros_workstation/ps_2/install/ps_2

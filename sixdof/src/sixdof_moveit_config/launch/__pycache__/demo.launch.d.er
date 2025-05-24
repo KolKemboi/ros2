@@ -1,0 +1,8 @@
+##[pylyzer] failed /home/kol/Documents/ros_workstation/sixdof/src/sixdof_moveit_config/launch/demo.launch.py 1747914539 309
+.___v_desugar_1 = pyimport "__init__"
+.__init__ = pyimport "__init__"
+.MoveItConfigsBuilder: {moveit_configs_builder.MoveItConfigsBuilder}
+.___v_desugar_2 = pyimport "launches"
+.launches = pyimport "launches"
+.generate_demo_launch: |Type_23783: Type, Type_23440 <: Structural({.robot_description = ?23782; .package_path = ?23755 and ?23783}), Type_23782: Type, Type_23755: Type|(moveit_config: Type_23440, launch_package_path: {None} := {None}) -> Never
+.generate_launch_description: () -> Never

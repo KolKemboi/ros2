@@ -1,0 +1,137 @@
+[0.000000] (-) TimerEvent: {}
+[0.000488] (ps8) JobQueued: {'identifier': 'ps8', 'dependencies': OrderedDict()}
+[0.000567] (ps8) JobStarted: {'identifier': 'ps8'}
+[0.007507] (ps8) JobProgress: {'identifier': 'ps8', 'progress': 'cmake'}
+[0.008093] (ps8) JobProgress: {'identifier': 'ps8', 'progress': 'build'}
+[0.008661] (ps8) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kol/Documents/ros_workstation/ps8/build/ps8', '--', '-j4', '-l4'], 'cwd': '/home/kol/Documents/ros_workstation/ps8/build/ps8', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kol'), ('LC_TIME', 'sw_KE'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kol'), ('OLDPWD', '/home/kol'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/kol/.nvm/versions/node/v18.20.8/bin'), ('NVM_INC', '/home/kol/.nvm/versions/node/v18.20.8/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'sw_KE'), ('SYSTEMD_EXEC_PID', '1981'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/kol/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kol'), ('ONSHAPE_SECRET_KEY', 'm2JTSfliTyMxQNmwFJjERckKjYJaD3LAdnt9J5vGRqNTbBpP'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kol'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/kol/.nvm/versions/node/v18.20.8/bin:/home/kol/.npm-global/bin:/opt/ros/humble/bin:/home/kol/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/elsa:@/tmp/.ICE-unix/1766,unix/elsa:/tmp/.ICE-unix/1766'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'sw_KE'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c704e23b_22ce_4e59_9006_4a8551cc2ade'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'sw_KE'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ZYVA72'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.144'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'sw_KE'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'sw_KE'), ('LC_IDENTIFICATION', 'sw_KE'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kol/Documents/ros_workstation/ps8/build/ps8'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('ONSHAPE_ACCESS_KEY', 'OqPiKzhJKTymMNL3Em5ZnVgO'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'sw_KE'), ('LC_PAPER', 'sw_KE'), ('ONSHAPE_API', 'https://cad.onshape.com'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.051739] (ps8) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cust_pub\x1b[0m\n'}
+[0.051954] (ps8) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cust_sub\x1b[0m\n'}
+[0.063111] (ps8) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/cust_sub.dir/src/sub.cpp.o\x1b[0m\n'}
+[0.063357] (ps8) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/cust_pub.dir/src/pub.cpp.o\x1b[0m\n'}
+[0.099632] (-) TimerEvent: {}
+[0.199942] (-) TimerEvent: {}
+[0.300270] (-) TimerEvent: {}
+[0.400606] (-) TimerEvent: {}
+[0.500920] (-) TimerEvent: {}
+[0.601240] (-) TimerEvent: {}
+[0.701567] (-) TimerEvent: {}
+[0.801901] (-) TimerEvent: {}
+[0.902249] (-) TimerEvent: {}
+[1.002627] (-) TimerEvent: {}
+[1.103127] (-) TimerEvent: {}
+[1.203467] (-) TimerEvent: {}
+[1.303776] (-) TimerEvent: {}
+[1.404193] (-) TimerEvent: {}
+[1.504504] (-) TimerEvent: {}
+[1.604830] (-) TimerEvent: {}
+[1.705153] (-) TimerEvent: {}
+[1.805480] (-) TimerEvent: {}
+[1.905773] (-) TimerEvent: {}
+[2.006093] (-) TimerEvent: {}
+[2.106776] (-) TimerEvent: {}
+[2.207083] (-) TimerEvent: {}
+[2.307426] (-) TimerEvent: {}
+[2.407741] (-) TimerEvent: {}
+[2.508089] (-) TimerEvent: {}
+[2.609188] (-) TimerEvent: {}
+[2.709668] (-) TimerEvent: {}
+[2.810084] (-) TimerEvent: {}
+[2.910401] (-) TimerEvent: {}
+[3.011150] (-) TimerEvent: {}
+[3.111467] (-) TimerEvent: {}
+[3.211992] (-) TimerEvent: {}
+[3.312292] (-) TimerEvent: {}
+[3.412763] (-) TimerEvent: {}
+[3.513086] (-) TimerEvent: {}
+[3.613403] (-) TimerEvent: {}
+[3.713736] (-) TimerEvent: {}
+[3.814068] (-) TimerEvent: {}
+[3.914397] (-) TimerEvent: {}
+[4.014715] (-) TimerEvent: {}
+[4.115038] (-) TimerEvent: {}
+[4.215305] (-) TimerEvent: {}
+[4.315659] (-) TimerEvent: {}
+[4.415955] (-) TimerEvent: {}
+[4.516268] (-) TimerEvent: {}
+[4.616631] (-) TimerEvent: {}
+[4.717054] (-) TimerEvent: {}
+[4.817357] (-) TimerEvent: {}
+[4.917677] (-) TimerEvent: {}
+[5.017993] (-) TimerEvent: {}
+[5.118294] (-) TimerEvent: {}
+[5.218592] (-) TimerEvent: {}
+[5.318910] (-) TimerEvent: {}
+[5.419200] (-) TimerEvent: {}
+[5.519546] (-) TimerEvent: {}
+[5.545613] (ps8) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable cust_pub\x1b[0m\n'}
+[5.619666] (-) TimerEvent: {}
+[5.720009] (-) TimerEvent: {}
+[5.798360] (ps8) StdoutLine: {'line': b'[ 75%] Built target cust_pub\n'}
+[5.820118] (-) TimerEvent: {}
+[5.920434] (-) TimerEvent: {}
+[6.020749] (-) TimerEvent: {}
+[6.121045] (-) TimerEvent: {}
+[6.221380] (-) TimerEvent: {}
+[6.321684] (-) TimerEvent: {}
+[6.421993] (-) TimerEvent: {}
+[6.522295] (-) TimerEvent: {}
+[6.622595] (-) TimerEvent: {}
+[6.722926] (-) TimerEvent: {}
+[6.823229] (-) TimerEvent: {}
+[6.923531] (-) TimerEvent: {}
+[7.023848] (-) TimerEvent: {}
+[7.124152] (-) TimerEvent: {}
+[7.224438] (-) TimerEvent: {}
+[7.324771] (-) TimerEvent: {}
+[7.425063] (-) TimerEvent: {}
+[7.525357] (-) TimerEvent: {}
+[7.625653] (-) TimerEvent: {}
+[7.725931] (-) TimerEvent: {}
+[7.826236] (-) TimerEvent: {}
+[7.926535] (-) TimerEvent: {}
+[8.026837] (-) TimerEvent: {}
+[8.127124] (-) TimerEvent: {}
+[8.227378] (-) TimerEvent: {}
+[8.327675] (-) TimerEvent: {}
+[8.427937] (-) TimerEvent: {}
+[8.528225] (-) TimerEvent: {}
+[8.628505] (-) TimerEvent: {}
+[8.728779] (-) TimerEvent: {}
+[8.829095] (-) TimerEvent: {}
+[8.929545] (-) TimerEvent: {}
+[9.029781] (-) TimerEvent: {}
+[9.130069] (-) TimerEvent: {}
+[9.155765] (ps8) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable cust_sub\x1b[0m\n'}
+[9.230212] (-) TimerEvent: {}
+[9.330493] (-) TimerEvent: {}
+[9.430819] (-) TimerEvent: {}
+[9.531141] (-) TimerEvent: {}
+[9.574490] (ps8) StdoutLine: {'line': b'[100%] Built target cust_sub\n'}
+[9.584825] (ps8) CommandEnded: {'returncode': 0}
+[9.585649] (ps8) JobProgress: {'identifier': 'ps8', 'progress': 'install'}
+[9.593577] (ps8) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kol/Documents/ros_workstation/ps8/build/ps8'], 'cwd': '/home/kol/Documents/ros_workstation/ps8/build/ps8', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kol'), ('LC_TIME', 'sw_KE'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kol'), ('OLDPWD', '/home/kol'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/kol/.nvm/versions/node/v18.20.8/bin'), ('NVM_INC', '/home/kol/.nvm/versions/node/v18.20.8/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'sw_KE'), ('SYSTEMD_EXEC_PID', '1981'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/kol/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kol'), ('ONSHAPE_SECRET_KEY', 'm2JTSfliTyMxQNmwFJjERckKjYJaD3LAdnt9J5vGRqNTbBpP'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kol'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/kol/.nvm/versions/node/v18.20.8/bin:/home/kol/.npm-global/bin:/opt/ros/humble/bin:/home/kol/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/elsa:@/tmp/.ICE-unix/1766,unix/elsa:/tmp/.ICE-unix/1766'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'sw_KE'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c704e23b_22ce_4e59_9006_4a8551cc2ade'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'sw_KE'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ZYVA72'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.144'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'sw_KE'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'sw_KE'), ('LC_IDENTIFICATION', 'sw_KE'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kol/Documents/ros_workstation/ps8/build/ps8'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('ONSHAPE_ACCESS_KEY', 'OqPiKzhJKTymMNL3Em5ZnVgO'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'sw_KE'), ('LC_PAPER', 'sw_KE'), ('ONSHAPE_API', 'https://cad.onshape.com'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[9.601065] (ps8) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.601391] (ps8) StdoutLine: {'line': b'-- Installing: /home/kol/Documents/ros_workstation/ps8/install/ps8/lib/ps8/cust_sub\n'}
+[9.605357] (ps8) StdoutLine: {'line': b'-- Set runtime path of "/home/kol/Documents/ros_workstation/ps8/install/ps8/lib/ps8/cust_sub" to ""\n'}
+[9.605578] (ps8) StdoutLine: {'line': b'-- Installing: /home/kol/Documents/ros_workstation/ps8/install/ps8/lib/ps8/cust_pub\n'}
+[9.607064] (ps8) StdoutLine: {'line': b'-- Set runtime path of "/home/kol/Documents/ros_workstation/ps8/install/ps8/lib/ps8/cust_pub" to ""\n'}
+[9.607231] (ps8) StdoutLine: {'line': b'-- Up-to-date: /home/kol/Documents/ros_workstation/ps8/install/ps8/share/ps8/launch\n'}
+[9.607462] (ps8) StdoutLine: {'line': b'-- Up-to-date: /home/kol/Documents/ros_workstation/ps8/install/ps8/share/ps8/launch/pkg.launch.py\n'}
+[9.607660] (ps8) StdoutLine: {'line': b'-- Up-to-date: /home/kol/Documents/ros_workstation/ps8/install/ps8/share/ament_index/resource_index/package_run_dependencies/ps8\n'}
+[9.607839] (ps8) StdoutLine: {'line': b'-- Up-to-date: /home/kol/Documents/ros_workstation/ps8/install/ps8/share/ament_index/resource_index/parent_prefix_path/ps8\n'}
+[9.608023] (ps8) StdoutLine: {'line': b'-- Up-to-date: /home/kol/Documents/ros_workstation/ps8/install/ps8/share/ps8/environment/ament_prefix_path.sh\n'}
+[9.608211] (ps8) StdoutLine: {'line': b'-- Up-to-date: /home/kol/Documents/ros_workstation/ps8/install/ps8/share/ps8/environment/ament_prefix_path.dsv\n'}
+[9.608361] (ps8) StdoutLine: {'line': b'-- Up-to-date: /home/kol/Documents/ros_workstation/ps8/install/ps8/share/ps8/environment/path.sh\n'}
+[9.608476] (ps8) StdoutLine: {'line': b'-- Up-to-date: /home/kol/Documents/ros_workstation/ps8/install/ps8/share/ps8/environment/path.dsv\n'}
+[9.608601] (ps8) StdoutLine: {'line': b'-- Up-to-date: /home/kol/Documents/ros_workstation/ps8/install/ps8/share/ps8/local_setup.bash\n'}
+[9.608731] (ps8) StdoutLine: {'line': b'-- Up-to-date: /home/kol/Documents/ros_workstation/ps8/install/ps8/share/ps8/local_setup.sh\n'}
+[9.608880] (ps8) StdoutLine: {'line': b'-- Up-to-date: /home/kol/Documents/ros_workstation/ps8/install/ps8/share/ps8/local_setup.zsh\n'}
+[9.609017] (ps8) StdoutLine: {'line': b'-- Up-to-date: /home/kol/Documents/ros_workstation/ps8/install/ps8/share/ps8/local_setup.dsv\n'}
+[9.609154] (ps8) StdoutLine: {'line': b'-- Up-to-date: /home/kol/Documents/ros_workstation/ps8/install/ps8/share/ps8/package.dsv\n'}
+[9.609290] (ps8) StdoutLine: {'line': b'-- Up-to-date: /home/kol/Documents/ros_workstation/ps8/install/ps8/share/ament_index/resource_index/packages/ps8\n'}
+[9.609428] (ps8) StdoutLine: {'line': b'-- Up-to-date: /home/kol/Documents/ros_workstation/ps8/install/ps8/share/ps8/cmake/ps8Config.cmake\n'}
+[9.609570] (ps8) StdoutLine: {'line': b'-- Up-to-date: /home/kol/Documents/ros_workstation/ps8/install/ps8/share/ps8/cmake/ps8Config-version.cmake\n'}
+[9.609722] (ps8) StdoutLine: {'line': b'-- Up-to-date: /home/kol/Documents/ros_workstation/ps8/install/ps8/share/ps8/package.xml\n'}
+[9.610429] (ps8) CommandEnded: {'returncode': 0}
+[9.626816] (ps8) JobEnded: {'identifier': 'ps8', 'rc': 0}
+[9.627484] (-) EventReactorShutdown: {}

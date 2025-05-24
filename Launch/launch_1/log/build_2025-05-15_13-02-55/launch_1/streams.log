@@ -1,0 +1,49 @@
+[0.008s] Invoking command in '/home/kol/Documents/ros_workstation/Launch/launch_1/build/launch_1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/kol/Documents/ros_workstation/Launch/launch_1/src/launch_1 -DCMAKE_INSTALL_PREFIX=/home/kol/Documents/ros_workstation/Launch/launch_1/install/launch_1
+[0.061s] -- The C compiler identification is GNU 11.4.0
+[0.122s] -- The CXX compiler identification is GNU 11.4.0
+[0.131s] -- Detecting C compiler ABI info
+[0.196s] -- Detecting C compiler ABI info - done
+[0.204s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.205s] -- Detecting C compile features
+[0.205s] -- Detecting C compile features - done
+[0.208s] -- Detecting CXX compiler ABI info
+[0.287s] -- Detecting CXX compiler ABI info - done
+[0.295s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.295s] -- Detecting CXX compile features
+[0.295s] -- Detecting CXX compile features - done
+[0.298s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.446s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.540s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.619s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.620s] -- Added test 'lint_cmake' to check CMake code style
+[0.620s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.622s] -- Added test 'xmllint' to check XML markup files
+[0.623s] -- Configuring done
+[0.627s] -- Generating done
+[0.630s] -- Build files have been written to: /home/kol/Documents/ros_workstation/Launch/launch_1/build/launch_1
+[0.634s] Invoked command in '/home/kol/Documents/ros_workstation/Launch/launch_1/build/launch_1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/kol/Documents/ros_workstation/Launch/launch_1/src/launch_1 -DCMAKE_INSTALL_PREFIX=/home/kol/Documents/ros_workstation/Launch/launch_1/install/launch_1
+[0.636s] Invoking command in '/home/kol/Documents/ros_workstation/Launch/launch_1/build/launch_1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kol/Documents/ros_workstation/Launch/launch_1/build/launch_1 -- -j4 -l4
+[0.680s] Invoked command in '/home/kol/Documents/ros_workstation/Launch/launch_1/build/launch_1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kol/Documents/ros_workstation/Launch/launch_1/build/launch_1 -- -j4 -l4
+[0.690s] Invoking command in '/home/kol/Documents/ros_workstation/Launch/launch_1/build/launch_1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kol/Documents/ros_workstation/Launch/launch_1/build/launch_1
+[0.696s] -- Install configuration: ""
+[0.697s] -- Installing: /home/kol/Documents/ros_workstation/Launch/launch_1/install/launch_1/share/launch_1//launch
+[0.697s] -- Installing: /home/kol/Documents/ros_workstation/Launch/launch_1/install/launch_1/share/launch_1//launch/.vscode
+[0.697s] -- Installing: /home/kol/Documents/ros_workstation/Launch/launch_1/install/launch_1/share/launch_1//launch/.vscode/c_cpp_properties.json
+[0.697s] -- Installing: /home/kol/Documents/ros_workstation/Launch/launch_1/install/launch_1/share/launch_1//launch/.vscode/settings.json
+[0.697s] -- Installing: /home/kol/Documents/ros_workstation/Launch/launch_1/install/launch_1/share/launch_1//launch/launch_file.py
+[0.697s] -- Installing: /home/kol/Documents/ros_workstation/Launch/launch_1/install/launch_1/share/ament_index/resource_index/package_run_dependencies/launch_1
+[0.698s] -- Installing: /home/kol/Documents/ros_workstation/Launch/launch_1/install/launch_1/share/ament_index/resource_index/parent_prefix_path/launch_1
+[0.698s] -- Installing: /home/kol/Documents/ros_workstation/Launch/launch_1/install/launch_1/share/launch_1/environment/ament_prefix_path.sh
+[0.698s] -- Installing: /home/kol/Documents/ros_workstation/Launch/launch_1/install/launch_1/share/launch_1/environment/ament_prefix_path.dsv
+[0.698s] -- Installing: /home/kol/Documents/ros_workstation/Launch/launch_1/install/launch_1/share/launch_1/environment/path.sh
+[0.699s] -- Installing: /home/kol/Documents/ros_workstation/Launch/launch_1/install/launch_1/share/launch_1/environment/path.dsv
+[0.699s] -- Installing: /home/kol/Documents/ros_workstation/Launch/launch_1/install/launch_1/share/launch_1/local_setup.bash
+[0.699s] -- Installing: /home/kol/Documents/ros_workstation/Launch/launch_1/install/launch_1/share/launch_1/local_setup.sh
+[0.699s] -- Installing: /home/kol/Documents/ros_workstation/Launch/launch_1/install/launch_1/share/launch_1/local_setup.zsh
+[0.699s] -- Installing: /home/kol/Documents/ros_workstation/Launch/launch_1/install/launch_1/share/launch_1/local_setup.dsv
+[0.700s] -- Installing: /home/kol/Documents/ros_workstation/Launch/launch_1/install/launch_1/share/launch_1/package.dsv
+[0.700s] -- Installing: /home/kol/Documents/ros_workstation/Launch/launch_1/install/launch_1/share/ament_index/resource_index/packages/launch_1
+[0.700s] -- Installing: /home/kol/Documents/ros_workstation/Launch/launch_1/install/launch_1/share/launch_1/cmake/launch_1Config.cmake
+[0.700s] -- Installing: /home/kol/Documents/ros_workstation/Launch/launch_1/install/launch_1/share/launch_1/cmake/launch_1Config-version.cmake
+[0.701s] -- Installing: /home/kol/Documents/ros_workstation/Launch/launch_1/install/launch_1/share/launch_1/package.xml
+[0.703s] Invoked command in '/home/kol/Documents/ros_workstation/Launch/launch_1/build/launch_1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kol/Documents/ros_workstation/Launch/launch_1/build/launch_1

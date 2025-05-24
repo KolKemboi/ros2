@@ -1,0 +1,34 @@
+[0.011s] Invoking command in '/home/kol/Documents/ros_workstation/ps8/build/ps8': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kol/Documents/ros_workstation/ps8/build/ps8 -- -j4 -l4
+[0.051s] [35m[1mConsolidate compiler generated dependencies of target cust_pub[0m
+[0.051s] [35m[1mConsolidate compiler generated dependencies of target cust_sub[0m
+[0.063s] [ 50%] [32mBuilding CXX object CMakeFiles/cust_sub.dir/src/sub.cpp.o[0m
+[0.063s] [ 50%] [32mBuilding CXX object CMakeFiles/cust_pub.dir/src/pub.cpp.o[0m
+[5.545s] [ 75%] [32m[1mLinking CXX executable cust_pub[0m
+[5.798s] [ 75%] Built target cust_pub
+[9.155s] [100%] [32m[1mLinking CXX executable cust_sub[0m
+[9.574s] [100%] Built target cust_sub
+[9.585s] Invoked command in '/home/kol/Documents/ros_workstation/ps8/build/ps8' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kol/Documents/ros_workstation/ps8/build/ps8 -- -j4 -l4
+[9.594s] Invoking command in '/home/kol/Documents/ros_workstation/ps8/build/ps8': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kol/Documents/ros_workstation/ps8/build/ps8
+[9.601s] -- Install configuration: ""
+[9.601s] -- Installing: /home/kol/Documents/ros_workstation/ps8/install/ps8/lib/ps8/cust_sub
+[9.605s] -- Set runtime path of "/home/kol/Documents/ros_workstation/ps8/install/ps8/lib/ps8/cust_sub" to ""
+[9.605s] -- Installing: /home/kol/Documents/ros_workstation/ps8/install/ps8/lib/ps8/cust_pub
+[9.607s] -- Set runtime path of "/home/kol/Documents/ros_workstation/ps8/install/ps8/lib/ps8/cust_pub" to ""
+[9.607s] -- Up-to-date: /home/kol/Documents/ros_workstation/ps8/install/ps8/share/ps8/launch
+[9.607s] -- Up-to-date: /home/kol/Documents/ros_workstation/ps8/install/ps8/share/ps8/launch/pkg.launch.py
+[9.607s] -- Up-to-date: /home/kol/Documents/ros_workstation/ps8/install/ps8/share/ament_index/resource_index/package_run_dependencies/ps8
+[9.607s] -- Up-to-date: /home/kol/Documents/ros_workstation/ps8/install/ps8/share/ament_index/resource_index/parent_prefix_path/ps8
+[9.608s] -- Up-to-date: /home/kol/Documents/ros_workstation/ps8/install/ps8/share/ps8/environment/ament_prefix_path.sh
+[9.608s] -- Up-to-date: /home/kol/Documents/ros_workstation/ps8/install/ps8/share/ps8/environment/ament_prefix_path.dsv
+[9.608s] -- Up-to-date: /home/kol/Documents/ros_workstation/ps8/install/ps8/share/ps8/environment/path.sh
+[9.608s] -- Up-to-date: /home/kol/Documents/ros_workstation/ps8/install/ps8/share/ps8/environment/path.dsv
+[9.608s] -- Up-to-date: /home/kol/Documents/ros_workstation/ps8/install/ps8/share/ps8/local_setup.bash
+[9.608s] -- Up-to-date: /home/kol/Documents/ros_workstation/ps8/install/ps8/share/ps8/local_setup.sh
+[9.608s] -- Up-to-date: /home/kol/Documents/ros_workstation/ps8/install/ps8/share/ps8/local_setup.zsh
+[9.609s] -- Up-to-date: /home/kol/Documents/ros_workstation/ps8/install/ps8/share/ps8/local_setup.dsv
+[9.609s] -- Up-to-date: /home/kol/Documents/ros_workstation/ps8/install/ps8/share/ps8/package.dsv
+[9.609s] -- Up-to-date: /home/kol/Documents/ros_workstation/ps8/install/ps8/share/ament_index/resource_index/packages/ps8
+[9.609s] -- Up-to-date: /home/kol/Documents/ros_workstation/ps8/install/ps8/share/ps8/cmake/ps8Config.cmake
+[9.609s] -- Up-to-date: /home/kol/Documents/ros_workstation/ps8/install/ps8/share/ps8/cmake/ps8Config-version.cmake
+[9.609s] -- Up-to-date: /home/kol/Documents/ros_workstation/ps8/install/ps8/share/ps8/package.xml
+[9.610s] Invoked command in '/home/kol/Documents/ros_workstation/ps8/build/ps8' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kol/Documents/ros_workstation/ps8/build/ps8

@@ -1,0 +1,14 @@
+[01m[K/home/kol/Documents/ros_workstation/ps7/src/ps7/src/sub.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/kol/Documents/ros_workstation/ps7/src/ps7/src/sub.cpp:2:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    2 | int main([01;35m[Kint argc[m[K, char *argv[]) { return 0; }
+      |          [01;35m[K~~~~^~~~[m[K
+[01m[K/home/kol/Documents/ros_workstation/ps7/src/ps7/src/pub.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/kol/Documents/ros_workstation/ps7/src/ps7/src/pub.cpp:1:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    1 | int main([01;35m[Kint argc[m[K, char *argv[]) { return 0; }
+      |          [01;35m[K~~~~^~~~[m[K
+[01m[K/home/kol/Documents/ros_workstation/ps7/src/ps7/src/sub.cpp:2:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    2 | int main(int argc, [01;35m[Kchar *argv[][m[K) { return 0; }
+      |                    [01;35m[K~~~~~~^~~~~~[m[K
+[01m[K/home/kol/Documents/ros_workstation/ps7/src/ps7/src/pub.cpp:1:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    1 | int main(int argc, [01;35m[Kchar *argv[][m[K) { return 0; }
+      |                    [01;35m[K~~~~~~^~~~~~[m[K

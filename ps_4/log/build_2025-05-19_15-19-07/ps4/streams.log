@@ -1,0 +1,93 @@
+[0.038s] Invoking command in '/home/kol/Documents/ros_workstation/ps_4/build/ps4': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kol/Documents/ros_workstation/ps_4/src/ps4 -DCMAKE_INSTALL_PREFIX=/home/kol/Documents/ros_workstation/ps_4/install/ps4
+[0.245s] -- The C compiler identification is GNU 11.4.0
+[0.389s] -- The CXX compiler identification is GNU 11.4.0
+[0.409s] -- Detecting C compiler ABI info
+[0.624s] -- Detecting C compiler ABI info - done
+[0.633s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.633s] -- Detecting C compile features
+[0.634s] -- Detecting C compile features - done
+[0.638s] -- Detecting CXX compiler ABI info
+[0.858s] -- Detecting CXX compiler ABI info - done
+[0.868s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.868s] -- Detecting CXX compile features
+[0.868s] -- Detecting CXX compile features - done
+[0.874s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.106s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.241s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[1.297s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.304s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.319s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.337s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.360s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.419s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.422s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.706s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.747s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.808s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.820s] -- Looking for pthread.h
+[2.028s] -- Looking for pthread.h - found
+[2.028s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.238s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.240s] -- Found Threads: TRUE  
+[2.311s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.331s] -- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+[2.396s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.508s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.508s] -- Configured cppcheck include dirs: 
+[2.508s] -- Configured cppcheck exclude dirs and/or files: 
+[2.509s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.510s] -- Added test 'lint_cmake' to check CMake code style
+[2.511s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.512s] -- Added test 'uncrustify' to check C / C++ code style
+[2.512s] -- Configured uncrustify additional arguments: 
+[2.513s] -- Added test 'xmllint' to check XML markup files
+[2.515s] -- Configuring done
+[2.531s] -- Generating done
+[2.537s] -- Build files have been written to: /home/kol/Documents/ros_workstation/ps_4/build/ps4
+[2.551s] Invoked command in '/home/kol/Documents/ros_workstation/ps_4/build/ps4' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kol/Documents/ros_workstation/ps_4/src/ps4 -DCMAKE_INSTALL_PREFIX=/home/kol/Documents/ros_workstation/ps_4/install/ps4
+[2.553s] Invoking command in '/home/kol/Documents/ros_workstation/ps_4/build/ps4': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kol/Documents/ros_workstation/ps_4/build/ps4 -- -j4 -l4
+[2.738s] [ 25%] [32mBuilding CXX object CMakeFiles/cust_pub.dir/src/pub.cpp.o[0m
+[2.750s] [ 50%] [32mBuilding CXX object CMakeFiles/cust_sub.dir/src/pub.cpp.o[0m
+[2.783s] [01m[K/home/kol/Documents/ros_workstation/ps_4/src/ps4/src/pub.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.783s] [01m[K/home/kol/Documents/ros_workstation/ps_4/src/ps4/src/pub.cpp:1:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.783s]     1 | int main([01;35m[Kint argc[m[K, char *argv[]) { return 0; }
+[2.783s]       |          [01;35m[K~~~~^~~~[m[K
+[2.783s] [01m[K/home/kol/Documents/ros_workstation/ps_4/src/ps4/src/pub.cpp:1:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.783s]     1 | int main(int argc, [01;35m[Kchar *argv[][m[K) { return 0; }
+[2.784s]       |                    [01;35m[K~~~~~~^~~~~~[m[K
+[2.790s] [01m[K/home/kol/Documents/ros_workstation/ps_4/src/ps4/src/pub.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.790s] [01m[K/home/kol/Documents/ros_workstation/ps_4/src/ps4/src/pub.cpp:1:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.790s]     1 | int main([01;35m[Kint argc[m[K, char *argv[]) { return 0; }
+[2.790s]       |          [01;35m[K~~~~^~~~[m[K
+[2.790s] [01m[K/home/kol/Documents/ros_workstation/ps_4/src/ps4/src/pub.cpp:1:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.790s]     1 | int main(int argc, [01;35m[Kchar *argv[][m[K) { return 0; }
+[2.791s]       |                    [01;35m[K~~~~~~^~~~~~[m[K
+[2.849s] [ 75%] [32m[1mLinking CXX executable cust_pub[0m
+[2.855s] [100%] [32m[1mLinking CXX executable cust_sub[0m
+[3.054s] [100%] Built target cust_pub
+[3.064s] [100%] Built target cust_sub
+[3.091s] Invoked command in '/home/kol/Documents/ros_workstation/ps_4/build/ps4' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kol/Documents/ros_workstation/ps_4/build/ps4 -- -j4 -l4
+[3.111s] Invoking command in '/home/kol/Documents/ros_workstation/ps_4/build/ps4': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kol/Documents/ros_workstation/ps_4/build/ps4
+[3.131s] -- Install configuration: ""
+[3.131s] -- Installing: /home/kol/Documents/ros_workstation/ps_4/install/ps4/lib/ps4/cust_pub
+[3.132s] -- Set runtime path of "/home/kol/Documents/ros_workstation/ps_4/install/ps4/lib/ps4/cust_pub" to ""
+[3.132s] -- Installing: /home/kol/Documents/ros_workstation/ps_4/install/ps4/lib/ps4/cust_sub
+[3.132s] -- Set runtime path of "/home/kol/Documents/ros_workstation/ps_4/install/ps4/lib/ps4/cust_sub" to ""
+[3.132s] -- Installing: /home/kol/Documents/ros_workstation/ps_4/install/ps4/share/ps4/launch
+[3.132s] -- Installing: /home/kol/Documents/ros_workstation/ps_4/install/ps4/share/ps4/launch/pkg.launch.py
+[3.133s] -- Installing: /home/kol/Documents/ros_workstation/ps_4/install/ps4/share/ament_index/resource_index/package_run_dependencies/ps4
+[3.133s] -- Installing: /home/kol/Documents/ros_workstation/ps_4/install/ps4/share/ament_index/resource_index/parent_prefix_path/ps4
+[3.133s] -- Installing: /home/kol/Documents/ros_workstation/ps_4/install/ps4/share/ps4/environment/ament_prefix_path.sh
+[3.134s] -- Installing: /home/kol/Documents/ros_workstation/ps_4/install/ps4/share/ps4/environment/ament_prefix_path.dsv
+[3.134s] -- Installing: /home/kol/Documents/ros_workstation/ps_4/install/ps4/share/ps4/environment/path.sh
+[3.134s] -- Installing: /home/kol/Documents/ros_workstation/ps_4/install/ps4/share/ps4/environment/path.dsv
+[3.134s] -- Installing: /home/kol/Documents/ros_workstation/ps_4/install/ps4/share/ps4/local_setup.bash
+[3.135s] -- Installing: /home/kol/Documents/ros_workstation/ps_4/install/ps4/share/ps4/local_setup.sh
+[3.135s] -- Installing: /home/kol/Documents/ros_workstation/ps_4/install/ps4/share/ps4/local_setup.zsh
+[3.137s] -- Installing: /home/kol/Documents/ros_workstation/ps_4/install/ps4/share/ps4/local_setup.dsv
+[3.137s] -- Installing: /home/kol/Documents/ros_workstation/ps_4/install/ps4/share/ps4/package.dsv
+[3.137s] -- Installing: /home/kol/Documents/ros_workstation/ps_4/install/ps4/share/ament_index/resource_index/packages/ps4
+[3.138s] -- Installing: /home/kol/Documents/ros_workstation/ps_4/install/ps4/share/ps4/cmake/ps4Config.cmake
+[3.138s] -- Installing: /home/kol/Documents/ros_workstation/ps_4/install/ps4/share/ps4/cmake/ps4Config-version.cmake
+[3.138s] -- Installing: /home/kol/Documents/ros_workstation/ps_4/install/ps4/share/ps4/package.xml
+[3.142s] Invoked command in '/home/kol/Documents/ros_workstation/ps_4/build/ps4' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kol/Documents/ros_workstation/ps_4/build/ps4

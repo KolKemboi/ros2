@@ -1,0 +1,37 @@
+[0.015s] Invoking command in '/home/kol/Documents/ros_workstation/ps_4/build/ps4': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kol/Documents/ros_workstation/ps_4/build/ps4 -- -j4 -l4
+[0.078s] [35m[1mConsolidate compiler generated dependencies of target cust_sub[0m
+[0.078s] [35m[1mConsolidate compiler generated dependencies of target cust_pub[0m
+[0.099s] [ 25%] [32mBuilding CXX object CMakeFiles/cust_sub.dir/src/pub.cpp.o[0m
+[0.107s] [ 50%] [32mBuilding CXX object CMakeFiles/cust_pub.dir/src/pub.cpp.o[0m
+[8.437s] [ 75%] [32m[1mLinking CXX executable cust_pub[0m
+[8.446s] [100%] [32m[1mLinking CXX executable cust_sub[0m
+[8.930s] [100%] Built target cust_pub
+[8.940s] [100%] Built target cust_sub
+[8.956s] Invoked command in '/home/kol/Documents/ros_workstation/ps_4/build/ps4' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kol/Documents/ros_workstation/ps_4/build/ps4 -- -j4 -l4
+[8.972s] Invoking command in '/home/kol/Documents/ros_workstation/ps_4/build/ps4': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kol/Documents/ros_workstation/ps_4/build/ps4
+[8.986s] -- Install configuration: ""
+[8.986s] -- Installing: /home/kol/Documents/ros_workstation/ps_4/install/ps4/lib/ps4/cust_pub
+[8.990s] -- Set runtime path of "/home/kol/Documents/ros_workstation/ps_4/install/ps4/lib/ps4/cust_pub" to ""
+[8.990s] -- Installing: /home/kol/Documents/ros_workstation/ps_4/install/ps4/lib/ps4/cust_sub
+[8.992s] -- Set runtime path of "/home/kol/Documents/ros_workstation/ps_4/install/ps4/lib/ps4/cust_sub" to ""
+[8.992s] -- Up-to-date: /home/kol/Documents/ros_workstation/ps_4/install/ps4/share/ps4/launch
+[8.992s] -- Installing: /home/kol/Documents/ros_workstation/ps_4/install/ps4/share/ps4/launch/.vscode
+[8.994s] -- Installing: /home/kol/Documents/ros_workstation/ps_4/install/ps4/share/ps4/launch/.vscode/c_cpp_properties.json
+[8.994s] -- Installing: /home/kol/Documents/ros_workstation/ps_4/install/ps4/share/ps4/launch/.vscode/settings.json
+[8.994s] -- Installing: /home/kol/Documents/ros_workstation/ps_4/install/ps4/share/ps4/launch/pkg.launch.py
+[8.994s] -- Up-to-date: /home/kol/Documents/ros_workstation/ps_4/install/ps4/share/ament_index/resource_index/package_run_dependencies/ps4
+[8.995s] -- Up-to-date: /home/kol/Documents/ros_workstation/ps_4/install/ps4/share/ament_index/resource_index/parent_prefix_path/ps4
+[8.995s] -- Up-to-date: /home/kol/Documents/ros_workstation/ps_4/install/ps4/share/ps4/environment/ament_prefix_path.sh
+[8.995s] -- Up-to-date: /home/kol/Documents/ros_workstation/ps_4/install/ps4/share/ps4/environment/ament_prefix_path.dsv
+[8.995s] -- Up-to-date: /home/kol/Documents/ros_workstation/ps_4/install/ps4/share/ps4/environment/path.sh
+[8.995s] -- Up-to-date: /home/kol/Documents/ros_workstation/ps_4/install/ps4/share/ps4/environment/path.dsv
+[8.995s] -- Up-to-date: /home/kol/Documents/ros_workstation/ps_4/install/ps4/share/ps4/local_setup.bash
+[8.995s] -- Up-to-date: /home/kol/Documents/ros_workstation/ps_4/install/ps4/share/ps4/local_setup.sh
+[8.996s] -- Up-to-date: /home/kol/Documents/ros_workstation/ps_4/install/ps4/share/ps4/local_setup.zsh
+[8.996s] -- Up-to-date: /home/kol/Documents/ros_workstation/ps_4/install/ps4/share/ps4/local_setup.dsv
+[8.996s] -- Up-to-date: /home/kol/Documents/ros_workstation/ps_4/install/ps4/share/ps4/package.dsv
+[8.996s] -- Up-to-date: /home/kol/Documents/ros_workstation/ps_4/install/ps4/share/ament_index/resource_index/packages/ps4
+[8.996s] -- Up-to-date: /home/kol/Documents/ros_workstation/ps_4/install/ps4/share/ps4/cmake/ps4Config.cmake
+[8.996s] -- Up-to-date: /home/kol/Documents/ros_workstation/ps_4/install/ps4/share/ps4/cmake/ps4Config-version.cmake
+[8.996s] -- Up-to-date: /home/kol/Documents/ros_workstation/ps_4/install/ps4/share/ps4/package.xml
+[8.999s] Invoked command in '/home/kol/Documents/ros_workstation/ps_4/build/ps4' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kol/Documents/ros_workstation/ps_4/build/ps4
