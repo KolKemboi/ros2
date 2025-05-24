@@ -1,0 +1,2 @@
+Invoking command in '/home/kol/Documents/ros_workstation/pipebot/build/pipebot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kol/Documents/ros_workstation/pipebot/src/pipebot -DCMAKE_INSTALL_PREFIX=/home/kol/Documents/ros_workstation/pipebot/install/pipebot
+Invoked command in '/home/kol/Documents/ros_workstation/pipebot/build/pipebot' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kol/Documents/ros_workstation/pipebot/src/pipebot -DCMAKE_INSTALL_PREFIX=/home/kol/Documents/ros_workstation/pipebot/install/pipebot

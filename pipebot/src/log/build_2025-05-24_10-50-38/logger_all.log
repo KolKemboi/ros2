@@ -1,0 +1,191 @@
+[0.178s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.179s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7abbf3e994e0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7abbf3e98ee0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7abbf3e98ee0>>, mixin_verb=('build',))
+[0.487s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.488s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.488s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.488s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.488s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.488s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.488s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/kol/Documents/ros_workstation/pipebot/src'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(pipebot) by extensions ['ignore', 'ignore_ament_install']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(pipebot) by extension 'ignore'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(pipebot) by extension 'ignore_ament_install'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(pipebot) by extensions ['colcon_pkg']
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(pipebot) by extension 'colcon_pkg'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(pipebot) by extensions ['colcon_meta']
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(pipebot) by extension 'colcon_meta'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(pipebot) by extensions ['ros']
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(pipebot) by extension 'ros'
+[0.521s] DEBUG:colcon.colcon_core.package_identification:Package 'pipebot' with type 'ros.ament_cmake' and name 'pipebot'
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(pipebot_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(pipebot_moveit_config) by extension 'ignore'
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(pipebot_moveit_config) by extension 'ignore_ament_install'
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(pipebot_moveit_config) by extensions ['colcon_pkg']
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(pipebot_moveit_config) by extension 'colcon_pkg'
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(pipebot_moveit_config) by extensions ['colcon_meta']
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(pipebot_moveit_config) by extension 'colcon_meta'
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(pipebot_moveit_config) by extensions ['ros']
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(pipebot_moveit_config) by extension 'ros'
+[0.522s] DEBUG:colcon.colcon_core.package_identification:Package 'pipebot_moveit_config' with type 'ros.ament_cmake' and name 'pipebot_moveit_config'
+[0.522s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.522s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.522s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.522s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.522s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.547s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.547s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.549s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/kol/Documents/ros_workstation/pipebot/install
+[0.553s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 382 installed packages in /opt/ros/humble
+[0.555s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.625s] Level 5:colcon.colcon_core.verb:set package 'pipebot' build argument 'cmake_args' from command line to 'None'
+[0.625s] Level 5:colcon.colcon_core.verb:set package 'pipebot' build argument 'cmake_target' from command line to 'None'
+[0.625s] Level 5:colcon.colcon_core.verb:set package 'pipebot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.625s] Level 5:colcon.colcon_core.verb:set package 'pipebot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.625s] Level 5:colcon.colcon_core.verb:set package 'pipebot' build argument 'cmake_clean_first' from command line to 'False'
+[0.625s] Level 5:colcon.colcon_core.verb:set package 'pipebot' build argument 'cmake_force_configure' from command line to 'False'
+[0.625s] Level 5:colcon.colcon_core.verb:set package 'pipebot' build argument 'ament_cmake_args' from command line to 'None'
+[0.625s] Level 5:colcon.colcon_core.verb:set package 'pipebot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.625s] Level 5:colcon.colcon_core.verb:set package 'pipebot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.625s] DEBUG:colcon.colcon_core.verb:Building package 'pipebot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kol/Documents/ros_workstation/pipebot/src/build/pipebot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kol/Documents/ros_workstation/pipebot/src/install/pipebot', 'merge_install': False, 'path': '/home/kol/Documents/ros_workstation/pipebot/src/pipebot', 'symlink_install': False, 'test_result_base': None}
+[0.625s] Level 5:colcon.colcon_core.verb:set package 'pipebot_moveit_config' build argument 'cmake_args' from command line to 'None'
+[0.625s] Level 5:colcon.colcon_core.verb:set package 'pipebot_moveit_config' build argument 'cmake_target' from command line to 'None'
+[0.626s] Level 5:colcon.colcon_core.verb:set package 'pipebot_moveit_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.626s] Level 5:colcon.colcon_core.verb:set package 'pipebot_moveit_config' build argument 'cmake_clean_cache' from command line to 'False'
+[0.626s] Level 5:colcon.colcon_core.verb:set package 'pipebot_moveit_config' build argument 'cmake_clean_first' from command line to 'False'
+[0.626s] Level 5:colcon.colcon_core.verb:set package 'pipebot_moveit_config' build argument 'cmake_force_configure' from command line to 'False'
+[0.626s] Level 5:colcon.colcon_core.verb:set package 'pipebot_moveit_config' build argument 'ament_cmake_args' from command line to 'None'
+[0.626s] Level 5:colcon.colcon_core.verb:set package 'pipebot_moveit_config' build argument 'catkin_cmake_args' from command line to 'None'
+[0.626s] Level 5:colcon.colcon_core.verb:set package 'pipebot_moveit_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.626s] DEBUG:colcon.colcon_core.verb:Building package 'pipebot_moveit_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kol/Documents/ros_workstation/pipebot/src/build/pipebot_moveit_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kol/Documents/ros_workstation/pipebot/src/install/pipebot_moveit_config', 'merge_install': False, 'path': '/home/kol/Documents/ros_workstation/pipebot/src/pipebot_moveit_config', 'symlink_install': False, 'test_result_base': None}
+[0.626s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.627s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.627s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kol/Documents/ros_workstation/pipebot/src/pipebot' with build type 'ament_cmake'
+[0.627s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kol/Documents/ros_workstation/pipebot/src/pipebot'
+[0.629s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.629s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.629s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.640s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kol/Documents/ros_workstation/pipebot/src/build/pipebot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/kol/Documents/ros_workstation/pipebot/src/pipebot -DCMAKE_INSTALL_PREFIX=/home/kol/Documents/ros_workstation/pipebot/src/install/pipebot
+[1.524s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kol/Documents/ros_workstation/pipebot/src/build/pipebot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/kol/Documents/ros_workstation/pipebot/src/pipebot -DCMAKE_INSTALL_PREFIX=/home/kol/Documents/ros_workstation/pipebot/src/install/pipebot
+[1.527s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kol/Documents/ros_workstation/pipebot/src/build/pipebot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kol/Documents/ros_workstation/pipebot/src/build/pipebot -- -j4 -l4
+[1.579s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kol/Documents/ros_workstation/pipebot/src/build/pipebot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kol/Documents/ros_workstation/pipebot/src/build/pipebot -- -j4 -l4
+[1.593s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kol/Documents/ros_workstation/pipebot/src/build/pipebot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kol/Documents/ros_workstation/pipebot/src/build/pipebot
+[1.611s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pipebot)
+[1.612s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kol/Documents/ros_workstation/pipebot/src/build/pipebot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kol/Documents/ros_workstation/pipebot/src/build/pipebot
+[1.616s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/pipebot/src/install/pipebot' for CMake module files
+[1.617s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/pipebot/src/install/pipebot' for CMake config files
+[1.618s] Level 1:colcon.colcon_core.shell:create_environment_hook('pipebot', 'cmake_prefix_path')
+[1.618s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kol/Documents/ros_workstation/pipebot/src/install/pipebot/share/pipebot/hook/cmake_prefix_path.ps1'
+[1.619s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kol/Documents/ros_workstation/pipebot/src/install/pipebot/share/pipebot/hook/cmake_prefix_path.dsv'
+[1.620s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kol/Documents/ros_workstation/pipebot/src/install/pipebot/share/pipebot/hook/cmake_prefix_path.sh'
+[1.622s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/pipebot/src/install/pipebot/bin'
+[1.622s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/pipebot/src/install/pipebot/lib/pkgconfig/pipebot.pc'
+[1.622s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/pipebot/src/install/pipebot/lib/python3.10/site-packages'
+[1.622s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/pipebot/src/install/pipebot/bin'
+[1.623s] INFO:colcon.colcon_core.shell:Creating package script '/home/kol/Documents/ros_workstation/pipebot/src/install/pipebot/share/pipebot/package.ps1'
+[1.624s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kol/Documents/ros_workstation/pipebot/src/install/pipebot/share/pipebot/package.dsv'
+[1.625s] INFO:colcon.colcon_core.shell:Creating package script '/home/kol/Documents/ros_workstation/pipebot/src/install/pipebot/share/pipebot/package.sh'
+[1.626s] INFO:colcon.colcon_core.shell:Creating package script '/home/kol/Documents/ros_workstation/pipebot/src/install/pipebot/share/pipebot/package.bash'
+[1.626s] INFO:colcon.colcon_core.shell:Creating package script '/home/kol/Documents/ros_workstation/pipebot/src/install/pipebot/share/pipebot/package.zsh'
+[1.627s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kol/Documents/ros_workstation/pipebot/src/install/pipebot/share/colcon-core/packages/pipebot)
+[1.628s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pipebot)
+[1.628s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/pipebot/src/install/pipebot' for CMake module files
+[1.628s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/pipebot/src/install/pipebot' for CMake config files
+[1.629s] Level 1:colcon.colcon_core.shell:create_environment_hook('pipebot', 'cmake_prefix_path')
+[1.629s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kol/Documents/ros_workstation/pipebot/src/install/pipebot/share/pipebot/hook/cmake_prefix_path.ps1'
+[1.630s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kol/Documents/ros_workstation/pipebot/src/install/pipebot/share/pipebot/hook/cmake_prefix_path.dsv'
+[1.630s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kol/Documents/ros_workstation/pipebot/src/install/pipebot/share/pipebot/hook/cmake_prefix_path.sh'
+[1.631s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/pipebot/src/install/pipebot/bin'
+[1.631s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/pipebot/src/install/pipebot/lib/pkgconfig/pipebot.pc'
+[1.631s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/pipebot/src/install/pipebot/lib/python3.10/site-packages'
+[1.631s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/pipebot/src/install/pipebot/bin'
+[1.632s] INFO:colcon.colcon_core.shell:Creating package script '/home/kol/Documents/ros_workstation/pipebot/src/install/pipebot/share/pipebot/package.ps1'
+[1.633s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kol/Documents/ros_workstation/pipebot/src/install/pipebot/share/pipebot/package.dsv'
+[1.634s] INFO:colcon.colcon_core.shell:Creating package script '/home/kol/Documents/ros_workstation/pipebot/src/install/pipebot/share/pipebot/package.sh'
+[1.635s] INFO:colcon.colcon_core.shell:Creating package script '/home/kol/Documents/ros_workstation/pipebot/src/install/pipebot/share/pipebot/package.bash'
+[1.635s] INFO:colcon.colcon_core.shell:Creating package script '/home/kol/Documents/ros_workstation/pipebot/src/install/pipebot/share/pipebot/package.zsh'
+[1.637s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kol/Documents/ros_workstation/pipebot/src/install/pipebot/share/colcon-core/packages/pipebot)
+[1.637s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kol/Documents/ros_workstation/pipebot/src/pipebot_moveit_config' with build type 'ament_cmake'
+[1.637s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kol/Documents/ros_workstation/pipebot/src/pipebot_moveit_config'
+[1.638s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.638s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.655s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kol/Documents/ros_workstation/pipebot/src/build/pipebot_moveit_config': AMENT_PREFIX_PATH=/home/kol/Documents/ros_workstation/pipebot/src/install/pipebot:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kol/Documents/ros_workstation/pipebot/src/install/pipebot:/home/kol/Documents/ros_workstation/pipebot/install/pipebot:/opt/ros/humble /usr/bin/cmake /home/kol/Documents/ros_workstation/pipebot/src/pipebot_moveit_config -DCMAKE_INSTALL_PREFIX=/home/kol/Documents/ros_workstation/pipebot/src/install/pipebot_moveit_config
+[2.580s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kol/Documents/ros_workstation/pipebot/src/build/pipebot_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/kol/Documents/ros_workstation/pipebot/src/install/pipebot:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kol/Documents/ros_workstation/pipebot/src/install/pipebot:/home/kol/Documents/ros_workstation/pipebot/install/pipebot:/opt/ros/humble /usr/bin/cmake /home/kol/Documents/ros_workstation/pipebot/src/pipebot_moveit_config -DCMAKE_INSTALL_PREFIX=/home/kol/Documents/ros_workstation/pipebot/src/install/pipebot_moveit_config
+[2.580s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kol/Documents/ros_workstation/pipebot/src/build/pipebot_moveit_config': AMENT_PREFIX_PATH=/home/kol/Documents/ros_workstation/pipebot/src/install/pipebot:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kol/Documents/ros_workstation/pipebot/src/install/pipebot:/home/kol/Documents/ros_workstation/pipebot/install/pipebot:/opt/ros/humble /usr/bin/cmake --build /home/kol/Documents/ros_workstation/pipebot/src/build/pipebot_moveit_config -- -j4 -l4
+[2.628s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kol/Documents/ros_workstation/pipebot/src/build/pipebot_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/kol/Documents/ros_workstation/pipebot/src/install/pipebot:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kol/Documents/ros_workstation/pipebot/src/install/pipebot:/home/kol/Documents/ros_workstation/pipebot/install/pipebot:/opt/ros/humble /usr/bin/cmake --build /home/kol/Documents/ros_workstation/pipebot/src/build/pipebot_moveit_config -- -j4 -l4
+[2.634s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kol/Documents/ros_workstation/pipebot/src/build/pipebot_moveit_config': AMENT_PREFIX_PATH=/home/kol/Documents/ros_workstation/pipebot/src/install/pipebot:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kol/Documents/ros_workstation/pipebot/src/install/pipebot:/home/kol/Documents/ros_workstation/pipebot/install/pipebot:/opt/ros/humble /usr/bin/cmake --install /home/kol/Documents/ros_workstation/pipebot/src/build/pipebot_moveit_config
+[2.651s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pipebot_moveit_config)
+[2.651s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/pipebot/src/install/pipebot_moveit_config' for CMake module files
+[2.653s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kol/Documents/ros_workstation/pipebot/src/build/pipebot_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/kol/Documents/ros_workstation/pipebot/src/install/pipebot:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kol/Documents/ros_workstation/pipebot/src/install/pipebot:/home/kol/Documents/ros_workstation/pipebot/install/pipebot:/opt/ros/humble /usr/bin/cmake --install /home/kol/Documents/ros_workstation/pipebot/src/build/pipebot_moveit_config
+[2.653s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/pipebot/src/install/pipebot_moveit_config' for CMake config files
+[2.653s] Level 1:colcon.colcon_core.shell:create_environment_hook('pipebot_moveit_config', 'cmake_prefix_path')
+[2.653s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kol/Documents/ros_workstation/pipebot/src/install/pipebot_moveit_config/share/pipebot_moveit_config/hook/cmake_prefix_path.ps1'
+[2.654s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kol/Documents/ros_workstation/pipebot/src/install/pipebot_moveit_config/share/pipebot_moveit_config/hook/cmake_prefix_path.dsv'
+[2.655s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kol/Documents/ros_workstation/pipebot/src/install/pipebot_moveit_config/share/pipebot_moveit_config/hook/cmake_prefix_path.sh'
+[2.655s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/pipebot/src/install/pipebot_moveit_config/bin'
+[2.655s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/pipebot/src/install/pipebot_moveit_config/lib/pkgconfig/pipebot_moveit_config.pc'
+[2.656s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/pipebot/src/install/pipebot_moveit_config/lib/python3.10/site-packages'
+[2.656s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/pipebot/src/install/pipebot_moveit_config/bin'
+[2.657s] INFO:colcon.colcon_core.shell:Creating package script '/home/kol/Documents/ros_workstation/pipebot/src/install/pipebot_moveit_config/share/pipebot_moveit_config/package.ps1'
+[2.657s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kol/Documents/ros_workstation/pipebot/src/install/pipebot_moveit_config/share/pipebot_moveit_config/package.dsv'
+[2.658s] INFO:colcon.colcon_core.shell:Creating package script '/home/kol/Documents/ros_workstation/pipebot/src/install/pipebot_moveit_config/share/pipebot_moveit_config/package.sh'
+[2.663s] INFO:colcon.colcon_core.shell:Creating package script '/home/kol/Documents/ros_workstation/pipebot/src/install/pipebot_moveit_config/share/pipebot_moveit_config/package.bash'
+[2.664s] INFO:colcon.colcon_core.shell:Creating package script '/home/kol/Documents/ros_workstation/pipebot/src/install/pipebot_moveit_config/share/pipebot_moveit_config/package.zsh'
+[2.665s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kol/Documents/ros_workstation/pipebot/src/install/pipebot_moveit_config/share/colcon-core/packages/pipebot_moveit_config)
+[2.666s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pipebot_moveit_config)
+[2.666s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/pipebot/src/install/pipebot_moveit_config' for CMake module files
+[2.667s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/pipebot/src/install/pipebot_moveit_config' for CMake config files
+[2.667s] Level 1:colcon.colcon_core.shell:create_environment_hook('pipebot_moveit_config', 'cmake_prefix_path')
+[2.668s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kol/Documents/ros_workstation/pipebot/src/install/pipebot_moveit_config/share/pipebot_moveit_config/hook/cmake_prefix_path.ps1'
+[2.668s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kol/Documents/ros_workstation/pipebot/src/install/pipebot_moveit_config/share/pipebot_moveit_config/hook/cmake_prefix_path.dsv'
+[2.669s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kol/Documents/ros_workstation/pipebot/src/install/pipebot_moveit_config/share/pipebot_moveit_config/hook/cmake_prefix_path.sh'
+[2.670s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/pipebot/src/install/pipebot_moveit_config/bin'
+[2.670s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/pipebot/src/install/pipebot_moveit_config/lib/pkgconfig/pipebot_moveit_config.pc'
+[2.670s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/pipebot/src/install/pipebot_moveit_config/lib/python3.10/site-packages'
+[2.671s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/pipebot/src/install/pipebot_moveit_config/bin'
+[2.671s] INFO:colcon.colcon_core.shell:Creating package script '/home/kol/Documents/ros_workstation/pipebot/src/install/pipebot_moveit_config/share/pipebot_moveit_config/package.ps1'
+[2.672s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kol/Documents/ros_workstation/pipebot/src/install/pipebot_moveit_config/share/pipebot_moveit_config/package.dsv'
+[2.673s] INFO:colcon.colcon_core.shell:Creating package script '/home/kol/Documents/ros_workstation/pipebot/src/install/pipebot_moveit_config/share/pipebot_moveit_config/package.sh'
+[2.674s] INFO:colcon.colcon_core.shell:Creating package script '/home/kol/Documents/ros_workstation/pipebot/src/install/pipebot_moveit_config/share/pipebot_moveit_config/package.bash'
+[2.675s] INFO:colcon.colcon_core.shell:Creating package script '/home/kol/Documents/ros_workstation/pipebot/src/install/pipebot_moveit_config/share/pipebot_moveit_config/package.zsh'
+[2.676s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kol/Documents/ros_workstation/pipebot/src/install/pipebot_moveit_config/share/colcon-core/packages/pipebot_moveit_config)
+[2.677s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.677s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.678s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.678s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.685s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.685s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.685s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.708s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.708s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kol/Documents/ros_workstation/pipebot/src/install/local_setup.ps1'
+[2.710s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kol/Documents/ros_workstation/pipebot/src/install/_local_setup_util_ps1.py'
+[2.713s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kol/Documents/ros_workstation/pipebot/src/install/setup.ps1'
+[2.715s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kol/Documents/ros_workstation/pipebot/src/install/local_setup.sh'
+[2.716s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kol/Documents/ros_workstation/pipebot/src/install/_local_setup_util_sh.py'
+[2.717s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kol/Documents/ros_workstation/pipebot/src/install/setup.sh'
+[2.719s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kol/Documents/ros_workstation/pipebot/src/install/local_setup.bash'
+[2.719s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kol/Documents/ros_workstation/pipebot/src/install/setup.bash'
+[2.720s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kol/Documents/ros_workstation/pipebot/src/install/local_setup.zsh'
+[2.721s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kol/Documents/ros_workstation/pipebot/src/install/setup.zsh'
