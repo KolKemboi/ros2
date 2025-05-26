@@ -1,0 +1,2 @@
+Invoking command in '/home/kol/Documents/ros_workstation/basics/ps9/build/ps9': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kol/Documents/ros_workstation/basics/ps9/build/ps9 -- -j4 -l4
+Invoked command in '/home/kol/Documents/ros_workstation/basics/ps9/build/ps9' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kol/Documents/ros_workstation/basics/ps9/build/ps9 -- -j4 -l4

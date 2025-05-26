@@ -1,0 +1,6 @@
+Invoking command in '/home/kol/Documents/ros_workstation/basics/ps9/build/ps9': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kol/Documents/ros_workstation/basics/ps9/src/ps9 -DCMAKE_INSTALL_PREFIX=/home/kol/Documents/ros_workstation/basics/ps9/install/ps9
+Invoked command in '/home/kol/Documents/ros_workstation/basics/ps9/build/ps9' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kol/Documents/ros_workstation/basics/ps9/src/ps9 -DCMAKE_INSTALL_PREFIX=/home/kol/Documents/ros_workstation/basics/ps9/install/ps9
+Invoking command in '/home/kol/Documents/ros_workstation/basics/ps9/build/ps9': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kol/Documents/ros_workstation/basics/ps9/build/ps9 -- -j4 -l4
+Invoked command in '/home/kol/Documents/ros_workstation/basics/ps9/build/ps9' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kol/Documents/ros_workstation/basics/ps9/build/ps9 -- -j4 -l4
+Invoking command in '/home/kol/Documents/ros_workstation/basics/ps9/build/ps9': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kol/Documents/ros_workstation/basics/ps9/build/ps9
+Invoked command in '/home/kol/Documents/ros_workstation/basics/ps9/build/ps9' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kol/Documents/ros_workstation/basics/ps9/build/ps9

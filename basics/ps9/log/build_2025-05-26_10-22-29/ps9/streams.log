@@ -1,0 +1,31 @@
+[0.016s] Invoking command in '/home/kol/Documents/ros_workstation/basics/ps9/build/ps9': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kol/Documents/ros_workstation/basics/ps9/build/ps9 -- -j4 -l4
+[0.070s] [35m[1mConsolidate compiler generated dependencies of target cust_sub[0m
+[0.086s] [ 50%] Built target cust_sub
+[0.108s] [35m[1mConsolidate compiler generated dependencies of target cust_pub[0m
+[0.119s] [ 75%] [32mBuilding CXX object CMakeFiles/cust_pub.dir/src/pub.cpp.o[0m
+[5.916s] [100%] [32m[1mLinking CXX executable cust_pub[0m
+[6.204s] [100%] Built target cust_pub
+[6.220s] Invoked command in '/home/kol/Documents/ros_workstation/basics/ps9/build/ps9' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kol/Documents/ros_workstation/basics/ps9/build/ps9 -- -j4 -l4
+[6.238s] Invoking command in '/home/kol/Documents/ros_workstation/basics/ps9/build/ps9': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kol/Documents/ros_workstation/basics/ps9/build/ps9
+[6.250s] -- Install configuration: ""
+[6.250s] -- Up-to-date: /home/kol/Documents/ros_workstation/basics/ps9/install/ps9/lib/ps9/cust_sub
+[6.252s] -- Installing: /home/kol/Documents/ros_workstation/basics/ps9/install/ps9/lib/ps9/cust_pub
+[6.253s] -- Set runtime path of "/home/kol/Documents/ros_workstation/basics/ps9/install/ps9/lib/ps9/cust_pub" to ""
+[6.253s] -- Up-to-date: /home/kol/Documents/ros_workstation/basics/ps9/install/ps9/share/ps9/launch
+[6.254s] -- Up-to-date: /home/kol/Documents/ros_workstation/basics/ps9/install/ps9/share/ps9/launch/pkg.launch.py
+[6.254s] -- Up-to-date: /home/kol/Documents/ros_workstation/basics/ps9/install/ps9/share/ament_index/resource_index/package_run_dependencies/ps9
+[6.254s] -- Up-to-date: /home/kol/Documents/ros_workstation/basics/ps9/install/ps9/share/ament_index/resource_index/parent_prefix_path/ps9
+[6.255s] -- Up-to-date: /home/kol/Documents/ros_workstation/basics/ps9/install/ps9/share/ps9/environment/ament_prefix_path.sh
+[6.255s] -- Up-to-date: /home/kol/Documents/ros_workstation/basics/ps9/install/ps9/share/ps9/environment/ament_prefix_path.dsv
+[6.255s] -- Up-to-date: /home/kol/Documents/ros_workstation/basics/ps9/install/ps9/share/ps9/environment/path.sh
+[6.255s] -- Up-to-date: /home/kol/Documents/ros_workstation/basics/ps9/install/ps9/share/ps9/environment/path.dsv
+[6.255s] -- Up-to-date: /home/kol/Documents/ros_workstation/basics/ps9/install/ps9/share/ps9/local_setup.bash
+[6.255s] -- Up-to-date: /home/kol/Documents/ros_workstation/basics/ps9/install/ps9/share/ps9/local_setup.sh
+[6.255s] -- Up-to-date: /home/kol/Documents/ros_workstation/basics/ps9/install/ps9/share/ps9/local_setup.zsh
+[6.256s] -- Up-to-date: /home/kol/Documents/ros_workstation/basics/ps9/install/ps9/share/ps9/local_setup.dsv
+[6.256s] -- Installing: /home/kol/Documents/ros_workstation/basics/ps9/install/ps9/share/ps9/package.dsv
+[6.256s] -- Up-to-date: /home/kol/Documents/ros_workstation/basics/ps9/install/ps9/share/ament_index/resource_index/packages/ps9
+[6.256s] -- Up-to-date: /home/kol/Documents/ros_workstation/basics/ps9/install/ps9/share/ps9/cmake/ps9Config.cmake
+[6.256s] -- Up-to-date: /home/kol/Documents/ros_workstation/basics/ps9/install/ps9/share/ps9/cmake/ps9Config-version.cmake
+[6.256s] -- Up-to-date: /home/kol/Documents/ros_workstation/basics/ps9/install/ps9/share/ps9/package.xml
+[6.258s] Invoked command in '/home/kol/Documents/ros_workstation/basics/ps9/build/ps9' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kol/Documents/ros_workstation/basics/ps9/build/ps9
