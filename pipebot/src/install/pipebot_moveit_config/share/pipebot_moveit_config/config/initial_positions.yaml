@@ -1,5 +1,0 @@
-# Default initial positions for pipebot's ros2_control fake system
-
-initial_positions:
-  rot_1: 0
-  rot_2: 0
