@@ -1,0 +1,8 @@
+source;share/boilerplate/hook/cmake_prefix_path.ps1
+source;share/boilerplate/hook/cmake_prefix_path.dsv
+source;share/boilerplate/hook/cmake_prefix_path.sh
+source;share/boilerplate/local_setup.bash
+source;share/boilerplate/local_setup.dsv
+source;share/boilerplate/local_setup.ps1
+source;share/boilerplate/local_setup.sh
+source;share/boilerplate/local_setup.zsh

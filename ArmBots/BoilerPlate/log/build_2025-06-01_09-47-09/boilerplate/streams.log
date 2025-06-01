@@ -1,0 +1,56 @@
+[0.029s] Invoking command in '/home/kol/Documents/ros_workstation/ArmBots/BoilerPlate/build/boilerplate': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kol/Documents/ros_workstation/ArmBots/BoilerPlate/src/boilerplate -DCMAKE_INSTALL_PREFIX=/home/kol/Documents/ros_workstation/ArmBots/BoilerPlate/install/boilerplate
+[0.181s] -- The C compiler identification is GNU 11.4.0
+[0.323s] -- The CXX compiler identification is GNU 11.4.0
+[0.343s] -- Detecting C compiler ABI info
+[0.579s] -- Detecting C compiler ABI info - done
+[0.609s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.610s] -- Detecting C compile features
+[0.612s] -- Detecting C compile features - done
+[0.623s] -- Detecting CXX compiler ABI info
+[0.858s] -- Detecting CXX compiler ABI info - done
+[0.885s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.886s] -- Detecting CXX compile features
+[0.887s] -- Detecting CXX compile features - done
+[0.893s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.284s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.505s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.726s] -- Added test 'lint_cmake' to check CMake code style
+[1.731s] -- Added test 'xmllint' to check XML markup files
+[1.734s] -- Configuring done
+[1.741s] -- Generating done
+[1.746s] -- Build files have been written to: /home/kol/Documents/ros_workstation/ArmBots/BoilerPlate/build/boilerplate
+[1.753s] Invoked command in '/home/kol/Documents/ros_workstation/ArmBots/BoilerPlate/build/boilerplate' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kol/Documents/ros_workstation/ArmBots/BoilerPlate/src/boilerplate -DCMAKE_INSTALL_PREFIX=/home/kol/Documents/ros_workstation/ArmBots/BoilerPlate/install/boilerplate
+[1.757s] Invoking command in '/home/kol/Documents/ros_workstation/ArmBots/BoilerPlate/build/boilerplate': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kol/Documents/ros_workstation/ArmBots/BoilerPlate/build/boilerplate -- -j4 -l4
+[1.850s] Invoked command in '/home/kol/Documents/ros_workstation/ArmBots/BoilerPlate/build/boilerplate' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kol/Documents/ros_workstation/ArmBots/BoilerPlate/build/boilerplate -- -j4 -l4
+[1.867s] Invoking command in '/home/kol/Documents/ros_workstation/ArmBots/BoilerPlate/build/boilerplate': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kol/Documents/ros_workstation/ArmBots/BoilerPlate/build/boilerplate
+[1.881s] -- Install configuration: ""
+[1.881s] -- Installing: /home/kol/Documents/ros_workstation/ArmBots/BoilerPlate/install/boilerplate/shaer/boilerplate/config
+[1.882s] -- Installing: /home/kol/Documents/ros_workstation/ArmBots/BoilerPlate/install/boilerplate/shaer/boilerplate/launch
+[1.882s] -- Installing: /home/kol/Documents/ros_workstation/ArmBots/BoilerPlate/install/boilerplate/shaer/boilerplate/meshes
+[1.883s] -- Installing: /home/kol/Documents/ros_workstation/ArmBots/BoilerPlate/install/boilerplate/shaer/boilerplate/meshes/link_3_1.stl
+[1.883s] -- Installing: /home/kol/Documents/ros_workstation/ArmBots/BoilerPlate/install/boilerplate/shaer/boilerplate/meshes/link_1_1.stl
+[1.883s] -- Installing: /home/kol/Documents/ros_workstation/ArmBots/BoilerPlate/install/boilerplate/shaer/boilerplate/meshes/base_link.stl
+[1.884s] -- Installing: /home/kol/Documents/ros_workstation/ArmBots/BoilerPlate/install/boilerplate/shaer/boilerplate/meshes/link_5_1.stl
+[1.884s] -- Installing: /home/kol/Documents/ros_workstation/ArmBots/BoilerPlate/install/boilerplate/shaer/boilerplate/meshes/link_4_1.stl
+[1.884s] -- Installing: /home/kol/Documents/ros_workstation/ArmBots/BoilerPlate/install/boilerplate/shaer/boilerplate/meshes/link_2_1.stl
+[1.885s] -- Installing: /home/kol/Documents/ros_workstation/ArmBots/BoilerPlate/install/boilerplate/shaer/boilerplate/urdf
+[1.885s] -- Installing: /home/kol/Documents/ros_workstation/ArmBots/BoilerPlate/install/boilerplate/shaer/boilerplate/urdf/arm.gazebo
+[1.886s] -- Installing: /home/kol/Documents/ros_workstation/ArmBots/BoilerPlate/install/boilerplate/shaer/boilerplate/urdf/arm.urdf.xacro
+[1.887s] -- Installing: /home/kol/Documents/ros_workstation/ArmBots/BoilerPlate/install/boilerplate/shaer/boilerplate/urdf/ros2_control.xacro
+[1.887s] -- Installing: /home/kol/Documents/ros_workstation/ArmBots/BoilerPlate/install/boilerplate/shaer/boilerplate/urdf/materials.xacro
+[1.887s] -- Installing: /home/kol/Documents/ros_workstation/ArmBots/BoilerPlate/install/boilerplate/share/ament_index/resource_index/package_run_dependencies/boilerplate
+[1.887s] -- Installing: /home/kol/Documents/ros_workstation/ArmBots/BoilerPlate/install/boilerplate/share/ament_index/resource_index/parent_prefix_path/boilerplate
+[1.888s] -- Installing: /home/kol/Documents/ros_workstation/ArmBots/BoilerPlate/install/boilerplate/share/boilerplate/environment/ament_prefix_path.sh
+[1.888s] -- Installing: /home/kol/Documents/ros_workstation/ArmBots/BoilerPlate/install/boilerplate/share/boilerplate/environment/ament_prefix_path.dsv
+[1.889s] -- Installing: /home/kol/Documents/ros_workstation/ArmBots/BoilerPlate/install/boilerplate/share/boilerplate/environment/path.sh
+[1.889s] -- Installing: /home/kol/Documents/ros_workstation/ArmBots/BoilerPlate/install/boilerplate/share/boilerplate/environment/path.dsv
+[1.889s] -- Installing: /home/kol/Documents/ros_workstation/ArmBots/BoilerPlate/install/boilerplate/share/boilerplate/local_setup.bash
+[1.890s] -- Installing: /home/kol/Documents/ros_workstation/ArmBots/BoilerPlate/install/boilerplate/share/boilerplate/local_setup.sh
+[1.890s] -- Installing: /home/kol/Documents/ros_workstation/ArmBots/BoilerPlate/install/boilerplate/share/boilerplate/local_setup.zsh
+[1.890s] -- Installing: /home/kol/Documents/ros_workstation/ArmBots/BoilerPlate/install/boilerplate/share/boilerplate/local_setup.dsv
+[1.891s] -- Installing: /home/kol/Documents/ros_workstation/ArmBots/BoilerPlate/install/boilerplate/share/boilerplate/package.dsv
+[1.892s] -- Installing: /home/kol/Documents/ros_workstation/ArmBots/BoilerPlate/install/boilerplate/share/ament_index/resource_index/packages/boilerplate
+[1.893s] -- Installing: /home/kol/Documents/ros_workstation/ArmBots/BoilerPlate/install/boilerplate/share/boilerplate/cmake/boilerplateConfig.cmake
+[1.893s] -- Installing: /home/kol/Documents/ros_workstation/ArmBots/BoilerPlate/install/boilerplate/share/boilerplate/cmake/boilerplateConfig-version.cmake
+[1.893s] -- Installing: /home/kol/Documents/ros_workstation/ArmBots/BoilerPlate/install/boilerplate/share/boilerplate/package.xml
+[1.899s] Invoked command in '/home/kol/Documents/ros_workstation/ArmBots/BoilerPlate/build/boilerplate' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kol/Documents/ros_workstation/ArmBots/BoilerPlate/build/boilerplate
