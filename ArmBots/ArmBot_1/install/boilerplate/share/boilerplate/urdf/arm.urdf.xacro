@@ -1,0 +1,179 @@
+<?xml version="1.0" ?>
+<robot name="FiveDoFBot" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+
+<link name="world">
+  
+</link>
+
+<joint name="world_joint" type="fixed">
+  <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  <parent link="world"/>
+  <child link="base_link"/>
+</joint>
+
+<link name="base_link">
+  <inertial>
+    <origin xyz="8.896038694165951e-15 5.4079262578516416e-17 0.06318747531006766" rpy="0 0 0"/>
+    <mass value="337.97068701320615"/>
+    <inertia ixx="9.720532" iyy="9.720532" izz="18.322647" ixy="0.0" iyz="0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find boilerplate)/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find boilerplate)/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="link_1_1">
+  <inertial>
+    <origin xyz="-0.1417405539410012 0.0 0.17249256575594651" rpy="0 0 0"/>
+    <mass value="189.6592990132626"/>
+    <inertia ixx="2.061043" iyy="5.415233" izz="4.980538" ixy="-0.0" iyz="-0.0" ixz="0.833113"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.0 -0.0 -0.125" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find boilerplate)/meshes/link_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.0 -0.0 -0.125" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find boilerplate)/meshes/link_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="link_2_1">
+  <inertial>
+    <origin xyz="-0.04609333052405859 -0.10879465920316081 0.05396631184064804" rpy="0 0 0"/>
+    <mass value="33.61327810481112"/>
+    <inertia ixx="0.411858" iyy="0.46635" izz="0.351159" ixy="-0.003982" iyz="0.004663" ixz="0.191664"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.0 -0.111365 -0.42" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find boilerplate)/meshes/link_2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.0 -0.111365 -0.42" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find boilerplate)/meshes/link_2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="link_3_1">
+  <inertial>
+    <origin xyz="0.1510904289831177 0.06851603448921259 0.09332221380418726" rpy="0 0 0"/>
+    <mass value="38.07573822019958"/>
+    <inertia ixx="0.2897" iyy="0.831809" izz="0.636154" ixy="-0.008537" iyz="-0.005273" ixz="-0.345983"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.211249 0.07 -0.667331" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find boilerplate)/meshes/link_3_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.211249 0.07 -0.667331" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find boilerplate)/meshes/link_3_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="link_4_1">
+  <inertial>
+    <origin xyz="0.03682095202626473 -0.045024259363412686 -0.044794372452696685" rpy="0 0 0"/>
+    <mass value="9.264442315245539"/>
+    <inertia ixx="0.040272" iyy="0.027358" izz="0.037444" ixy="9e-06" iyz="-1.2e-05" ixz="0.007168"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.129069 -0.045 -0.877531" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find boilerplate)/meshes/link_4_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.129069 -0.045 -0.877531" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find boilerplate)/meshes/link_4_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="link_5_1">
+  <inertial>
+    <origin xyz="0.03485872272858703 3.453548422916288e-08 -0.04240701140130454" rpy="0 0 0"/>
+    <mass value="4.849971708064146"/>
+    <inertia ixx="0.008247" iyy="0.007259" izz="0.008721" ixy="0.0" iyz="0.0" ixz="-0.001201"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.202034 0.000476 -0.788766" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find boilerplate)/meshes/link_5_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.202034 0.000476 -0.788766" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find boilerplate)/meshes/link_5_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<joint name="joint_1" type="continuous">
+  <origin xyz="0.0 0.0 0.125" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="link_1_1"/>
+  <axis xyz="0.0 0.0 1.0"/>
+</joint>
+
+<joint name="joint_2" type="revolute">
+  <origin xyz="-0.0 0.111365 0.295" rpy="0 0 0"/>
+  <parent link="link_1_1"/>
+  <child link="link_2_1"/>
+  <axis xyz="-0.0 1.0 0.0"/>
+  <limit upper="2.094395" lower="-0.174533" effort="100" velocity="100"/>
+</joint>
+
+<joint name="joint_3" type="revolute">
+  <origin xyz="-0.211249 -0.181365 0.247331" rpy="0 0 0"/>
+  <parent link="link_2_1"/>
+  <child link="link_3_1"/>
+  <axis xyz="0.0 -1.0 0.0"/>
+  <limit upper="4.363323" lower="-0.872665" effort="100" velocity="100"/>
+</joint>
+
+<joint name="joint_4" type="revolute">
+  <origin xyz="0.340318 0.115 0.2102" rpy="0 0 0"/>
+  <parent link="link_3_1"/>
+  <child link="link_4_1"/>
+  <axis xyz="0.0 1.0 0.0"/>
+  <limit upper="0.610865" lower="-3.403392" effort="100" velocity="100"/>
+</joint>
+
+<joint name="joint_5" type="continuous">
+  <origin xyz="0.072965 -0.045476 -0.088765" rpy="0 0 0"/>
+  <parent link="link_4_1"/>
+  <child link="link_5_1"/>
+  <axis xyz="0.635005 0.0 -0.772508"/>
+</joint>
+
+</robot>
