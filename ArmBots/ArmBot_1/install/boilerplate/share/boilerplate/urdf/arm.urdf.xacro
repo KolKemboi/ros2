@@ -1,10 +1,15 @@
 <?xml version="1.0" ?>
 <robot name="FiveDoFBot" xmlns:xacro="http://www.ros.org/wiki/xacro">
 
+<xacro:include filename="$(find boilerplate)/urdf/ros2_control.xacro" />
 
 <link name="world">
   
 </link>
+
+<material name="silver">
+  <color rgba="0.75 0.75 0.75 1.0"/>
+</material>
 
 <joint name="world_joint" type="fixed">
   <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>

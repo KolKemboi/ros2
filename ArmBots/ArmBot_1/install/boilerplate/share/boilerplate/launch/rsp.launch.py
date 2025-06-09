@@ -1,38 +1,40 @@
-
-import os
-
-from ament_index_python.packages import get_package_share_directory
-from launch import LaunchDescription
-from launch.substitutions import LaunchConfiguration, Command
-from launch.actions import DeclareLaunchArgument
+from launch.actions import ExecuteProcess
 from launch_ros.actions import Node
-
+from launch import LaunchDescription
 import xacro
+import os
+from ament_index_python.packages import get_package_share_directory
 
 def generate_launch_description():
-    use_sim_time = LaunchConfiguration("use_sim_time")
-    use_ros2_cont = LaunchConfiguration("use_ros2_control")
-    pkg_path = os.path.join(get_package_share_directory("boilerplate"))
-    xacro_file = os.path.join(pkg_path, "urdf", "arm.urdf.xacro")
-
-    robot_descr_conf = Command(['xacro ', xacro_file, " use_ros2_control:=", use_ros2_cont, " sim_mode:=", use_sim_time])
-
-    params = {'robot_description': robot_descr_conf, "use_sim_time": use_sim_time}
+    share_dir = get_package_share_directory("boilerplate")
+    
+    xacro_file = os.path.join(share_dir, "urdf", "arm.urdf.xacro")
+    robot_urf = xacro.process_file(xacro_file).toxml()
 
     rsp_node = Node(
         package="robot_state_publisher",
         executable="robot_state_publisher",
-        output= "screen",
-        parameters=[params]
+        name="robot_state",
+        parameters= [
+            {"robot_description": robot_urf},
+            {"use_sim_time": True}
+        ],
+        output="screen"
     )
 
+    jsp_node = Node(
+        package="joint_state_publisher",
+        executable="joint_state_publisher",
+        name="joint_state_pub",
+        parameters=[
+            {"use_sim_time": True},
+        ],
+
+        output="screen"
+    )
+
+
     return LaunchDescription([
-       DeclareLaunchArgument(
-            'use_sim_time',
-            default_value='false',
-            description='Use sim time if true'),
-        DeclareLaunchArgument(
-            'use_ros2_control',
-            default_value='true',
-            description='Use ros2_control if true'), rsp_node
+        rsp_node,
+        jsp_node,
     ])

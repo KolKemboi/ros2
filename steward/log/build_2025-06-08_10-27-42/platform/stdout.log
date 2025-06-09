@@ -1,0 +1,92 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/kol/Documents/ros_workstation/steward/build/platform
+-- Install configuration: ""
+-- Installing: /home/kol/Documents/ros_workstation/steward/install/platform/share/platform/config
+-- Installing: /home/kol/Documents/ros_workstation/steward/install/platform/share/platform/launch
+-- Installing: /home/kol/Documents/ros_workstation/steward/install/platform/share/platform/meshes
+-- Installing: /home/kol/Documents/ros_workstation/steward/install/platform/share/platform/meshes/rod31.stl
+-- Installing: /home/kol/Documents/ros_workstation/steward/install/platform/share/platform/meshes/rod21.stl
+-- Installing: /home/kol/Documents/ros_workstation/steward/install/platform/share/platform/meshes/rod11.stl
+-- Installing: /home/kol/Documents/ros_workstation/steward/install/platform/share/platform/meshes/J1T1.stl
+-- Installing: /home/kol/Documents/ros_workstation/steward/install/platform/share/platform/meshes/J3T_1.stl
+-- Installing: /home/kol/Documents/ros_workstation/steward/install/platform/share/platform/meshes/cylinder61.stl
+-- Installing: /home/kol/Documents/ros_workstation/steward/install/platform/share/platform/meshes/X4bottom1.stl
+-- Installing: /home/kol/Documents/ros_workstation/steward/install/platform/share/platform/meshes/rod61.stl
+-- Installing: /home/kol/Documents/ros_workstation/steward/install/platform/share/platform/meshes/UJ51.stl
+-- Installing: /home/kol/Documents/ros_workstation/steward/install/platform/share/platform/meshes/base_link.stl
+-- Installing: /home/kol/Documents/ros_workstation/steward/install/platform/share/platform/meshes/J4B1.stl
+-- Installing: /home/kol/Documents/ros_workstation/steward/install/platform/share/platform/meshes/J5B1.stl
+-- Installing: /home/kol/Documents/ros_workstation/steward/install/platform/share/platform/meshes/X1bottom1.stl
+-- Installing: /home/kol/Documents/ros_workstation/steward/install/platform/share/platform/meshes/X4top1.stl
+-- Installing: /home/kol/Documents/ros_workstation/steward/install/platform/share/platform/meshes/cylinder11.stl
+-- Installing: /home/kol/Documents/ros_workstation/steward/install/platform/share/platform/meshes/X3bottom1.stl
+-- Installing: /home/kol/Documents/ros_workstation/steward/install/platform/share/platform/meshes/X3top1.stl
+-- Installing: /home/kol/Documents/ros_workstation/steward/install/platform/share/platform/meshes/UJ21.stl
+-- Installing: /home/kol/Documents/ros_workstation/steward/install/platform/share/platform/meshes/J6T1.stl
+-- Installing: /home/kol/Documents/ros_workstation/steward/install/platform/share/platform/meshes/J5T_1.stl
+-- Installing: /home/kol/Documents/ros_workstation/steward/install/platform/share/platform/meshes/rod41.stl
+-- Installing: /home/kol/Documents/ros_workstation/steward/install/platform/share/platform/meshes/indicator1.stl
+-- Installing: /home/kol/Documents/ros_workstation/steward/install/platform/share/platform/meshes/piston51.stl
+-- Installing: /home/kol/Documents/ros_workstation/steward/install/platform/share/platform/meshes/J4T1.stl
+-- Installing: /home/kol/Documents/ros_workstation/steward/install/platform/share/platform/meshes/piston41.stl
+-- Installing: /home/kol/Documents/ros_workstation/steward/install/platform/share/platform/meshes/J1B_1.stl
+-- Installing: /home/kol/Documents/ros_workstation/steward/install/platform/share/platform/meshes/TOP1.stl
+-- Installing: /home/kol/Documents/ros_workstation/steward/install/platform/share/platform/meshes/J2B1.stl
+-- Installing: /home/kol/Documents/ros_workstation/steward/install/platform/share/platform/meshes/UJ61.stl
+-- Installing: /home/kol/Documents/ros_workstation/steward/install/platform/share/platform/meshes/UJ31.stl
+-- Installing: /home/kol/Documents/ros_workstation/steward/install/platform/share/platform/meshes/J6B1.stl
+-- Installing: /home/kol/Documents/ros_workstation/steward/install/platform/share/platform/meshes/X6bottom1.stl
+-- Installing: /home/kol/Documents/ros_workstation/steward/install/platform/share/platform/meshes/J3B1.stl
+-- Installing: /home/kol/Documents/ros_workstation/steward/install/platform/share/platform/meshes/X6top1.stl
+-- Installing: /home/kol/Documents/ros_workstation/steward/install/platform/share/platform/meshes/UJ11.stl
+-- Installing: /home/kol/Documents/ros_workstation/steward/install/platform/share/platform/meshes/piston61.stl
+-- Installing: /home/kol/Documents/ros_workstation/steward/install/platform/share/platform/meshes/cylinder31.stl
+-- Installing: /home/kol/Documents/ros_workstation/steward/install/platform/share/platform/meshes/cylinder21.stl
+-- Installing: /home/kol/Documents/ros_workstation/steward/install/platform/share/platform/meshes/J2T1.stl
+-- Installing: /home/kol/Documents/ros_workstation/steward/install/platform/share/platform/meshes/X1top1.stl
+-- Installing: /home/kol/Documents/ros_workstation/steward/install/platform/share/platform/meshes/X2bottom1.stl
+-- Installing: /home/kol/Documents/ros_workstation/steward/install/platform/share/platform/meshes/rod51.stl
+-- Installing: /home/kol/Documents/ros_workstation/steward/install/platform/share/platform/meshes/piston21.stl
+-- Installing: /home/kol/Documents/ros_workstation/steward/install/platform/share/platform/meshes/UJ41.stl
+-- Installing: /home/kol/Documents/ros_workstation/steward/install/platform/share/platform/meshes/cylinder51.stl
+-- Installing: /home/kol/Documents/ros_workstation/steward/install/platform/share/platform/meshes/piston31.stl
+-- Installing: /home/kol/Documents/ros_workstation/steward/install/platform/share/platform/meshes/X5top1.stl
+-- Installing: /home/kol/Documents/ros_workstation/steward/install/platform/share/platform/meshes/X2top1.stl
+-- Installing: /home/kol/Documents/ros_workstation/steward/install/platform/share/platform/meshes/cylinder41.stl
+-- Installing: /home/kol/Documents/ros_workstation/steward/install/platform/share/platform/meshes/piston11.stl
+-- Installing: /home/kol/Documents/ros_workstation/steward/install/platform/share/platform/meshes/X5bottom1.stl
+-- Installing: /home/kol/Documents/ros_workstation/steward/install/platform/share/platform/urdf
+-- Installing: /home/kol/Documents/ros_workstation/steward/install/platform/share/platform/urdf/stewart.urdf.xacro
+-- Installing: /home/kol/Documents/ros_workstation/steward/install/platform/share/ament_index/resource_index/package_run_dependencies/platform
+-- Installing: /home/kol/Documents/ros_workstation/steward/install/platform/share/ament_index/resource_index/parent_prefix_path/platform
+-- Installing: /home/kol/Documents/ros_workstation/steward/install/platform/share/platform/environment/ament_prefix_path.sh
+-- Installing: /home/kol/Documents/ros_workstation/steward/install/platform/share/platform/environment/ament_prefix_path.dsv
+-- Installing: /home/kol/Documents/ros_workstation/steward/install/platform/share/platform/environment/path.sh
+-- Installing: /home/kol/Documents/ros_workstation/steward/install/platform/share/platform/environment/path.dsv
+-- Installing: /home/kol/Documents/ros_workstation/steward/install/platform/share/platform/local_setup.bash
+-- Installing: /home/kol/Documents/ros_workstation/steward/install/platform/share/platform/local_setup.sh
+-- Installing: /home/kol/Documents/ros_workstation/steward/install/platform/share/platform/local_setup.zsh
+-- Installing: /home/kol/Documents/ros_workstation/steward/install/platform/share/platform/local_setup.dsv
+-- Installing: /home/kol/Documents/ros_workstation/steward/install/platform/share/platform/package.dsv
+-- Installing: /home/kol/Documents/ros_workstation/steward/install/platform/share/ament_index/resource_index/packages/platform
+-- Installing: /home/kol/Documents/ros_workstation/steward/install/platform/share/platform/cmake/platformConfig.cmake
+-- Installing: /home/kol/Documents/ros_workstation/steward/install/platform/share/platform/cmake/platformConfig-version.cmake
+-- Installing: /home/kol/Documents/ros_workstation/steward/install/platform/share/platform/package.xml
