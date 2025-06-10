@@ -1,4 +1,4 @@
-controller_mananger:
+controller_manager:
   ros__parameters:
     update_rate: 1000
 
@@ -22,6 +22,6 @@ Arm_Controller:
       - joint_2
       - joint_3
       - joint_4
-      - joint_4
+      - joint_5
 
     allow_partial_joints_goal: true
