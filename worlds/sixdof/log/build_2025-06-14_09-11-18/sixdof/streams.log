@@ -1,0 +1,47 @@
+[0.010s] Invoking command in '/home/kol/Documents/ros_workstation/worlds/sixdof/build/sixdof': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/kol/Documents/ros_workstation/worlds/sixdof/src/sixdof -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kol/Documents/ros_workstation/worlds/sixdof/install/sixdof
+[0.021s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.136s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.144s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.211s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.212s] -- Added test 'lint_cmake' to check CMake code style
+[0.213s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.215s] -- Added test 'xmllint' to check XML markup files
+[0.216s] -- Configuring done
+[0.219s] -- Generating done
+[0.220s] -- Build files have been written to: /home/kol/Documents/ros_workstation/worlds/sixdof/build/sixdof
+[0.223s] Invoked command in '/home/kol/Documents/ros_workstation/worlds/sixdof/build/sixdof' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/kol/Documents/ros_workstation/worlds/sixdof/src/sixdof -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kol/Documents/ros_workstation/worlds/sixdof/install/sixdof
+[0.225s] Invoking command in '/home/kol/Documents/ros_workstation/worlds/sixdof/build/sixdof': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kol/Documents/ros_workstation/worlds/sixdof/build/sixdof -- -j4 -l4
+[0.262s] Invoked command in '/home/kol/Documents/ros_workstation/worlds/sixdof/build/sixdof' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kol/Documents/ros_workstation/worlds/sixdof/build/sixdof -- -j4 -l4
+[0.272s] Invoking command in '/home/kol/Documents/ros_workstation/worlds/sixdof/build/sixdof': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kol/Documents/ros_workstation/worlds/sixdof/build/sixdof
+[0.278s] -- Install configuration: ""
+[0.279s] -- Execute custom install script
+[0.279s] -- Symlinking: /home/kol/Documents/ros_workstation/worlds/sixdof/install/sixdof/share/sixdof/launch/__pycache__/display.launch.d.er
+[0.287s] -- Symlinking: /home/kol/Documents/ros_workstation/worlds/sixdof/install/sixdof/share/sixdof/launch/display.launch.py
+[0.296s] -- Symlinking: /home/kol/Documents/ros_workstation/worlds/sixdof/install/sixdof/share/sixdof/launch/gazebo.launch.py
+[0.304s] -- Symlinking: /home/kol/Documents/ros_workstation/worlds/sixdof/install/sixdof/share/sixdof/meshes/base_link.stl
+[0.312s] -- Symlinking: /home/kol/Documents/ros_workstation/worlds/sixdof/install/sixdof/share/sixdof/meshes/cube.dae
+[0.321s] -- Symlinking: /home/kol/Documents/ros_workstation/worlds/sixdof/install/sixdof/share/sixdof/meshes/link_1_1.stl
+[0.329s] -- Symlinking: /home/kol/Documents/ros_workstation/worlds/sixdof/install/sixdof/share/sixdof/meshes/link_2_1.stl
+[0.338s] -- Symlinking: /home/kol/Documents/ros_workstation/worlds/sixdof/install/sixdof/share/sixdof/meshes/link_3_1.stl
+[0.346s] -- Symlinking: /home/kol/Documents/ros_workstation/worlds/sixdof/install/sixdof/share/sixdof/meshes/link_4_1.stl
+[0.355s] -- Symlinking: /home/kol/Documents/ros_workstation/worlds/sixdof/install/sixdof/share/sixdof/meshes/link_5_1.stl
+[0.364s] -- Symlinking: /home/kol/Documents/ros_workstation/worlds/sixdof/install/sixdof/share/sixdof/meshes/link_6_1.stl
+[0.372s] -- Symlinking: /home/kol/Documents/ros_workstation/worlds/sixdof/install/sixdof/share/sixdof/urdf/cube.urdf.xacro
+[0.380s] -- Symlinking: /home/kol/Documents/ros_workstation/worlds/sixdof/install/sixdof/share/sixdof/urdf/welder.xacro
+[0.388s] -- Symlinking: /home/kol/Documents/ros_workstation/worlds/sixdof/install/sixdof/share/sixdof/urdf/weldercopy.urdf
+[0.397s] -- Symlinking: /home/kol/Documents/ros_workstation/worlds/sixdof/install/sixdof/share/ament_index/resource_index/package_run_dependencies/sixdof
+[0.405s] -- Symlinking: /home/kol/Documents/ros_workstation/worlds/sixdof/install/sixdof/share/ament_index/resource_index/parent_prefix_path/sixdof
+[0.413s] -- Symlinking: /home/kol/Documents/ros_workstation/worlds/sixdof/install/sixdof/share/sixdof/environment/ament_prefix_path.sh
+[0.422s] -- Symlinking: /home/kol/Documents/ros_workstation/worlds/sixdof/install/sixdof/share/sixdof/environment/ament_prefix_path.dsv
+[0.430s] -- Symlinking: /home/kol/Documents/ros_workstation/worlds/sixdof/install/sixdof/share/sixdof/environment/path.sh
+[0.439s] -- Symlinking: /home/kol/Documents/ros_workstation/worlds/sixdof/install/sixdof/share/sixdof/environment/path.dsv
+[0.447s] -- Symlinking: /home/kol/Documents/ros_workstation/worlds/sixdof/install/sixdof/share/sixdof/local_setup.bash
+[0.457s] -- Symlinking: /home/kol/Documents/ros_workstation/worlds/sixdof/install/sixdof/share/sixdof/local_setup.sh
+[0.465s] -- Symlinking: /home/kol/Documents/ros_workstation/worlds/sixdof/install/sixdof/share/sixdof/local_setup.zsh
+[0.474s] -- Symlinking: /home/kol/Documents/ros_workstation/worlds/sixdof/install/sixdof/share/sixdof/local_setup.dsv
+[0.482s] -- Symlinking: /home/kol/Documents/ros_workstation/worlds/sixdof/install/sixdof/share/sixdof/package.dsv
+[0.490s] -- Symlinking: /home/kol/Documents/ros_workstation/worlds/sixdof/install/sixdof/share/ament_index/resource_index/packages/sixdof
+[0.499s] -- Symlinking: /home/kol/Documents/ros_workstation/worlds/sixdof/install/sixdof/share/sixdof/cmake/sixdofConfig.cmake
+[0.507s] -- Symlinking: /home/kol/Documents/ros_workstation/worlds/sixdof/install/sixdof/share/sixdof/cmake/sixdofConfig-version.cmake
+[0.515s] -- Symlinking: /home/kol/Documents/ros_workstation/worlds/sixdof/install/sixdof/share/sixdof/package.xml
+[0.525s] Invoked command in '/home/kol/Documents/ros_workstation/worlds/sixdof/build/sixdof' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kol/Documents/ros_workstation/worlds/sixdof/build/sixdof

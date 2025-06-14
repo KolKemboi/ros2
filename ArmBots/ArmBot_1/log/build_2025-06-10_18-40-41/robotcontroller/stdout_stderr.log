@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target robot_cont[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/robot_cont.dir/src/robotcont.cpp.o[0m
+[100%] [32m[1mLinking CXX executable robot_cont[0m
+[100%] Built target robot_cont
+-- Install configuration: ""
+-- Installing: /home/kol/Documents/ros_workstation/ArmBots/ArmBot_1/install/robotcontroller/lib/robotcontroller/robot_cont
+-- Set runtime path of "/home/kol/Documents/ros_workstation/ArmBots/ArmBot_1/install/robotcontroller/lib/robotcontroller/robot_cont" to ""
+-- Up-to-date: /home/kol/Documents/ros_workstation/ArmBots/ArmBot_1/install/robotcontroller/share/ament_index/resource_index/package_run_dependencies/robotcontroller
+-- Up-to-date: /home/kol/Documents/ros_workstation/ArmBots/ArmBot_1/install/robotcontroller/share/ament_index/resource_index/parent_prefix_path/robotcontroller
+-- Up-to-date: /home/kol/Documents/ros_workstation/ArmBots/ArmBot_1/install/robotcontroller/share/robotcontroller/environment/ament_prefix_path.sh
+-- Up-to-date: /home/kol/Documents/ros_workstation/ArmBots/ArmBot_1/install/robotcontroller/share/robotcontroller/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/kol/Documents/ros_workstation/ArmBots/ArmBot_1/install/robotcontroller/share/robotcontroller/environment/path.sh
+-- Up-to-date: /home/kol/Documents/ros_workstation/ArmBots/ArmBot_1/install/robotcontroller/share/robotcontroller/environment/path.dsv
+-- Up-to-date: /home/kol/Documents/ros_workstation/ArmBots/ArmBot_1/install/robotcontroller/share/robotcontroller/local_setup.bash
+-- Up-to-date: /home/kol/Documents/ros_workstation/ArmBots/ArmBot_1/install/robotcontroller/share/robotcontroller/local_setup.sh
+-- Up-to-date: /home/kol/Documents/ros_workstation/ArmBots/ArmBot_1/install/robotcontroller/share/robotcontroller/local_setup.zsh
+-- Up-to-date: /home/kol/Documents/ros_workstation/ArmBots/ArmBot_1/install/robotcontroller/share/robotcontroller/local_setup.dsv
+-- Installing: /home/kol/Documents/ros_workstation/ArmBots/ArmBot_1/install/robotcontroller/share/robotcontroller/package.dsv
+-- Up-to-date: /home/kol/Documents/ros_workstation/ArmBots/ArmBot_1/install/robotcontroller/share/ament_index/resource_index/packages/robotcontroller
+-- Up-to-date: /home/kol/Documents/ros_workstation/ArmBots/ArmBot_1/install/robotcontroller/share/robotcontroller/cmake/robotcontrollerConfig.cmake
+-- Up-to-date: /home/kol/Documents/ros_workstation/ArmBots/ArmBot_1/install/robotcontroller/share/robotcontroller/cmake/robotcontrollerConfig-version.cmake
+-- Up-to-date: /home/kol/Documents/ros_workstation/ArmBots/ArmBot_1/install/robotcontroller/share/robotcontroller/package.xml

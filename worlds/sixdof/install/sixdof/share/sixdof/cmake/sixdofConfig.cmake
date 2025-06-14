@@ -1,0 +1,1 @@
+/home/kol/Documents/ros_workstation/worlds/sixdof/build/sixdof/ament_cmake_core/sixdofConfig.cmake

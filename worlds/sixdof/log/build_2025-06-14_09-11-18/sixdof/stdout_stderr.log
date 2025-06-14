@@ -1,0 +1,41 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/kol/Documents/ros_workstation/worlds/sixdof/build/sixdof
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/kol/Documents/ros_workstation/worlds/sixdof/install/sixdof/share/sixdof/launch/__pycache__/display.launch.d.er
+-- Symlinking: /home/kol/Documents/ros_workstation/worlds/sixdof/install/sixdof/share/sixdof/launch/display.launch.py
+-- Symlinking: /home/kol/Documents/ros_workstation/worlds/sixdof/install/sixdof/share/sixdof/launch/gazebo.launch.py
+-- Symlinking: /home/kol/Documents/ros_workstation/worlds/sixdof/install/sixdof/share/sixdof/meshes/base_link.stl
+-- Symlinking: /home/kol/Documents/ros_workstation/worlds/sixdof/install/sixdof/share/sixdof/meshes/cube.dae
+-- Symlinking: /home/kol/Documents/ros_workstation/worlds/sixdof/install/sixdof/share/sixdof/meshes/link_1_1.stl
+-- Symlinking: /home/kol/Documents/ros_workstation/worlds/sixdof/install/sixdof/share/sixdof/meshes/link_2_1.stl
+-- Symlinking: /home/kol/Documents/ros_workstation/worlds/sixdof/install/sixdof/share/sixdof/meshes/link_3_1.stl
+-- Symlinking: /home/kol/Documents/ros_workstation/worlds/sixdof/install/sixdof/share/sixdof/meshes/link_4_1.stl
+-- Symlinking: /home/kol/Documents/ros_workstation/worlds/sixdof/install/sixdof/share/sixdof/meshes/link_5_1.stl
+-- Symlinking: /home/kol/Documents/ros_workstation/worlds/sixdof/install/sixdof/share/sixdof/meshes/link_6_1.stl
+-- Symlinking: /home/kol/Documents/ros_workstation/worlds/sixdof/install/sixdof/share/sixdof/urdf/cube.urdf.xacro
+-- Symlinking: /home/kol/Documents/ros_workstation/worlds/sixdof/install/sixdof/share/sixdof/urdf/welder.xacro
+-- Symlinking: /home/kol/Documents/ros_workstation/worlds/sixdof/install/sixdof/share/sixdof/urdf/weldercopy.urdf
+-- Symlinking: /home/kol/Documents/ros_workstation/worlds/sixdof/install/sixdof/share/ament_index/resource_index/package_run_dependencies/sixdof
+-- Symlinking: /home/kol/Documents/ros_workstation/worlds/sixdof/install/sixdof/share/ament_index/resource_index/parent_prefix_path/sixdof
+-- Symlinking: /home/kol/Documents/ros_workstation/worlds/sixdof/install/sixdof/share/sixdof/environment/ament_prefix_path.sh
+-- Symlinking: /home/kol/Documents/ros_workstation/worlds/sixdof/install/sixdof/share/sixdof/environment/ament_prefix_path.dsv
+-- Symlinking: /home/kol/Documents/ros_workstation/worlds/sixdof/install/sixdof/share/sixdof/environment/path.sh
+-- Symlinking: /home/kol/Documents/ros_workstation/worlds/sixdof/install/sixdof/share/sixdof/environment/path.dsv
+-- Symlinking: /home/kol/Documents/ros_workstation/worlds/sixdof/install/sixdof/share/sixdof/local_setup.bash
+-- Symlinking: /home/kol/Documents/ros_workstation/worlds/sixdof/install/sixdof/share/sixdof/local_setup.sh
+-- Symlinking: /home/kol/Documents/ros_workstation/worlds/sixdof/install/sixdof/share/sixdof/local_setup.zsh
+-- Symlinking: /home/kol/Documents/ros_workstation/worlds/sixdof/install/sixdof/share/sixdof/local_setup.dsv
+-- Symlinking: /home/kol/Documents/ros_workstation/worlds/sixdof/install/sixdof/share/sixdof/package.dsv
+-- Symlinking: /home/kol/Documents/ros_workstation/worlds/sixdof/install/sixdof/share/ament_index/resource_index/packages/sixdof
+-- Symlinking: /home/kol/Documents/ros_workstation/worlds/sixdof/install/sixdof/share/sixdof/cmake/sixdofConfig.cmake
+-- Symlinking: /home/kol/Documents/ros_workstation/worlds/sixdof/install/sixdof/share/sixdof/cmake/sixdofConfig-version.cmake
+-- Symlinking: /home/kol/Documents/ros_workstation/worlds/sixdof/install/sixdof/share/sixdof/package.xml

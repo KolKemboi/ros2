@@ -1,0 +1,8 @@
+source;share/robotcontroller/hook/cmake_prefix_path.ps1
+source;share/robotcontroller/hook/cmake_prefix_path.dsv
+source;share/robotcontroller/hook/cmake_prefix_path.sh
+source;share/robotcontroller/local_setup.bash
+source;share/robotcontroller/local_setup.dsv
+source;share/robotcontroller/local_setup.ps1
+source;share/robotcontroller/local_setup.sh
+source;share/robotcontroller/local_setup.zsh

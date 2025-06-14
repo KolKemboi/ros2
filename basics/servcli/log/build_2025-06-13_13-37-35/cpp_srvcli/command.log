@@ -1,0 +1,4 @@
+Invoking command in '/home/kol/Documents/ros_workstation/basics/servcli/build/cpp_srvcli': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kol/Documents/ros_workstation/basics/servcli/build/cpp_srvcli -- -j4 -l4
+Invoked command in '/home/kol/Documents/ros_workstation/basics/servcli/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kol/Documents/ros_workstation/basics/servcli/build/cpp_srvcli -- -j4 -l4
+Invoking command in '/home/kol/Documents/ros_workstation/basics/servcli/build/cpp_srvcli': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kol/Documents/ros_workstation/basics/servcli/build/cpp_srvcli
+Invoked command in '/home/kol/Documents/ros_workstation/basics/servcli/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kol/Documents/ros_workstation/basics/servcli/build/cpp_srvcli

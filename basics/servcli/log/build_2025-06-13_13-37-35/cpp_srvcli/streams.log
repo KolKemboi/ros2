@@ -1,0 +1,26 @@
+[0.013s] Invoking command in '/home/kol/Documents/ros_workstation/basics/servcli/build/cpp_srvcli': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kol/Documents/ros_workstation/basics/servcli/build/cpp_srvcli -- -j4 -l4
+[0.069s] [35m[1mConsolidate compiler generated dependencies of target server[0m
+[0.083s] [ 50%] [32mBuilding CXX object CMakeFiles/server.dir/src/server.cpp.o[0m
+[4.549s] [100%] [32m[1mLinking CXX executable server[0m
+[4.768s] [100%] Built target server
+[4.783s] Invoked command in '/home/kol/Documents/ros_workstation/basics/servcli/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kol/Documents/ros_workstation/basics/servcli/build/cpp_srvcli -- -j4 -l4
+[4.797s] Invoking command in '/home/kol/Documents/ros_workstation/basics/servcli/build/cpp_srvcli': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kol/Documents/ros_workstation/basics/servcli/build/cpp_srvcli
+[4.806s] -- Install configuration: ""
+[4.806s] -- Installing: /home/kol/Documents/ros_workstation/basics/servcli/install/cpp_srvcli/lib/cpp_srvcli/server
+[4.808s] -- Set runtime path of "/home/kol/Documents/ros_workstation/basics/servcli/install/cpp_srvcli/lib/cpp_srvcli/server" to ""
+[4.808s] -- Up-to-date: /home/kol/Documents/ros_workstation/basics/servcli/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+[4.808s] -- Up-to-date: /home/kol/Documents/ros_workstation/basics/servcli/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+[4.808s] -- Up-to-date: /home/kol/Documents/ros_workstation/basics/servcli/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+[4.808s] -- Up-to-date: /home/kol/Documents/ros_workstation/basics/servcli/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+[4.809s] -- Up-to-date: /home/kol/Documents/ros_workstation/basics/servcli/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+[4.809s] -- Up-to-date: /home/kol/Documents/ros_workstation/basics/servcli/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+[4.809s] -- Up-to-date: /home/kol/Documents/ros_workstation/basics/servcli/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+[4.809s] -- Up-to-date: /home/kol/Documents/ros_workstation/basics/servcli/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+[4.809s] -- Up-to-date: /home/kol/Documents/ros_workstation/basics/servcli/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+[4.810s] -- Up-to-date: /home/kol/Documents/ros_workstation/basics/servcli/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+[4.810s] -- Up-to-date: /home/kol/Documents/ros_workstation/basics/servcli/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+[4.810s] -- Up-to-date: /home/kol/Documents/ros_workstation/basics/servcli/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+[4.810s] -- Up-to-date: /home/kol/Documents/ros_workstation/basics/servcli/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+[4.810s] -- Up-to-date: /home/kol/Documents/ros_workstation/basics/servcli/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+[4.810s] -- Up-to-date: /home/kol/Documents/ros_workstation/basics/servcli/install/cpp_srvcli/share/cpp_srvcli/package.xml
+[4.812s] Invoked command in '/home/kol/Documents/ros_workstation/basics/servcli/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kol/Documents/ros_workstation/basics/servcli/build/cpp_srvcli
