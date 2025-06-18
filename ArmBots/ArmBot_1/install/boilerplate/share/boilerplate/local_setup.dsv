@@ -1,2 +1,1 @@
-source;share/boilerplate/environment/ament_prefix_path.sh
-source;share/boilerplate/environment/path.sh
+/home/kol/Documents/ros_workstation/ArmBots/ArmBot_1/build/boilerplate/ament_cmake_environment_hooks/local_setup.dsv

@@ -1,0 +1,1 @@
+/home/kol/Documents/ros_workstation/Control/Emika/build/panda/ament_cmake_environment_hooks/local_setup.sh

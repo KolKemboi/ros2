@@ -1,0 +1,72 @@
+[0.011s] Invoking command in '/home/kol/Documents/ros_workstation/Control/Emika/build/panda': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/kol/Documents/ros_workstation/Control/Emika/src/panda -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kol/Documents/ros_workstation/Control/Emika/install/panda
+[0.081s] -- The C compiler identification is GNU 11.4.0
+[0.152s] -- The CXX compiler identification is GNU 11.4.0
+[0.161s] -- Detecting C compiler ABI info
+[0.248s] -- Detecting C compiler ABI info - done
+[0.258s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.258s] -- Detecting C compile features
+[0.259s] -- Detecting C compile features - done
+[0.263s] -- Detecting CXX compiler ABI info
+[0.365s] -- Detecting CXX compiler ABI info - done
+[0.376s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.376s] -- Detecting CXX compile features
+[0.377s] -- Detecting CXX compile features - done
+[0.380s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.575s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.654s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.691s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.800s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.801s] -- Added test 'lint_cmake' to check CMake code style
+[0.802s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.807s] -- Added test 'xmllint' to check XML markup files
+[0.809s] -- Configuring done
+[0.813s] -- Generating done
+[0.815s] -- Build files have been written to: /home/kol/Documents/ros_workstation/Control/Emika/build/panda
+[0.821s] Invoked command in '/home/kol/Documents/ros_workstation/Control/Emika/build/panda' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/kol/Documents/ros_workstation/Control/Emika/src/panda -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kol/Documents/ros_workstation/Control/Emika/install/panda
+[0.824s] Invoking command in '/home/kol/Documents/ros_workstation/Control/Emika/build/panda': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kol/Documents/ros_workstation/Control/Emika/build/panda -- -j4 -l4
+[0.874s] Invoked command in '/home/kol/Documents/ros_workstation/Control/Emika/build/panda' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kol/Documents/ros_workstation/Control/Emika/build/panda -- -j4 -l4
+[0.886s] Invoking command in '/home/kol/Documents/ros_workstation/Control/Emika/build/panda': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kol/Documents/ros_workstation/Control/Emika/build/panda
+[0.896s] -- Install configuration: ""
+[0.897s] -- Execute custom install script
+[0.897s] -- Symlinking: /home/kol/Documents/ros_workstation/Control/Emika/install/panda/share/panda/config/panda_controller.yaml
+[0.909s] -- Symlinking: /home/kol/Documents/ros_workstation/Control/Emika/install/panda/share/panda/meshes/collision/finger.stl
+[0.921s] -- Symlinking: /home/kol/Documents/ros_workstation/Control/Emika/install/panda/share/panda/meshes/collision/hand.stl
+[0.935s] -- Symlinking: /home/kol/Documents/ros_workstation/Control/Emika/install/panda/share/panda/meshes/collision/link0.stl
+[0.949s] -- Symlinking: /home/kol/Documents/ros_workstation/Control/Emika/install/panda/share/panda/meshes/collision/link1.stl
+[0.960s] -- Symlinking: /home/kol/Documents/ros_workstation/Control/Emika/install/panda/share/panda/meshes/collision/link2.stl
+[0.972s] -- Symlinking: /home/kol/Documents/ros_workstation/Control/Emika/install/panda/share/panda/meshes/collision/link3.stl
+[0.983s] -- Symlinking: /home/kol/Documents/ros_workstation/Control/Emika/install/panda/share/panda/meshes/collision/link4.stl
+[0.994s] -- Symlinking: /home/kol/Documents/ros_workstation/Control/Emika/install/panda/share/panda/meshes/collision/link5.stl
+[1.005s] -- Symlinking: /home/kol/Documents/ros_workstation/Control/Emika/install/panda/share/panda/meshes/collision/link6.stl
+[1.017s] -- Symlinking: /home/kol/Documents/ros_workstation/Control/Emika/install/panda/share/panda/meshes/collision/link7.stl
+[1.028s] -- Symlinking: /home/kol/Documents/ros_workstation/Control/Emika/install/panda/share/panda/meshes/visual/finger.dae
+[1.039s] -- Symlinking: /home/kol/Documents/ros_workstation/Control/Emika/install/panda/share/panda/meshes/visual/hand.dae
+[1.051s] -- Symlinking: /home/kol/Documents/ros_workstation/Control/Emika/install/panda/share/panda/meshes/visual/link0.dae
+[1.063s] -- Symlinking: /home/kol/Documents/ros_workstation/Control/Emika/install/panda/share/panda/meshes/visual/link1.dae
+[1.074s] -- Symlinking: /home/kol/Documents/ros_workstation/Control/Emika/install/panda/share/panda/meshes/visual/link2.dae
+[1.086s] -- Symlinking: /home/kol/Documents/ros_workstation/Control/Emika/install/panda/share/panda/meshes/visual/link3.dae
+[1.097s] -- Symlinking: /home/kol/Documents/ros_workstation/Control/Emika/install/panda/share/panda/meshes/visual/link4.dae
+[1.108s] -- Symlinking: /home/kol/Documents/ros_workstation/Control/Emika/install/panda/share/panda/meshes/visual/link5.dae
+[1.119s] -- Symlinking: /home/kol/Documents/ros_workstation/Control/Emika/install/panda/share/panda/meshes/visual/link6.dae
+[1.130s] -- Symlinking: /home/kol/Documents/ros_workstation/Control/Emika/install/panda/share/panda/meshes/visual/link7.dae
+[1.142s] -- Symlinking: /home/kol/Documents/ros_workstation/Control/Emika/install/panda/share/panda/urdf/panda.urdf.xacro
+[1.153s] -- Symlinking: /home/kol/Documents/ros_workstation/Control/Emika/install/panda/share/panda/urdf/panda_ros2control.xacro
+[1.165s] -- Symlinking: /home/kol/Documents/ros_workstation/Control/Emika/install/panda/share/panda/launch/__pycache__/rsp.launch.d.er
+[1.176s] -- Symlinking: /home/kol/Documents/ros_workstation/Control/Emika/install/panda/share/panda/launch/rsp.launch.py
+[1.187s] -- Symlinking: /home/kol/Documents/ros_workstation/Control/Emika/install/panda/share/panda/launch/sim.launch.py
+[1.198s] -- Symlinking: /home/kol/Documents/ros_workstation/Control/Emika/install/panda/share/ament_index/resource_index/package_run_dependencies/panda
+[1.210s] -- Symlinking: /home/kol/Documents/ros_workstation/Control/Emika/install/panda/share/ament_index/resource_index/parent_prefix_path/panda
+[1.221s] -- Symlinking: /home/kol/Documents/ros_workstation/Control/Emika/install/panda/share/panda/environment/ament_prefix_path.sh
+[1.233s] -- Symlinking: /home/kol/Documents/ros_workstation/Control/Emika/install/panda/share/panda/environment/ament_prefix_path.dsv
+[1.246s] -- Symlinking: /home/kol/Documents/ros_workstation/Control/Emika/install/panda/share/panda/environment/path.sh
+[1.257s] -- Symlinking: /home/kol/Documents/ros_workstation/Control/Emika/install/panda/share/panda/environment/path.dsv
+[1.269s] -- Symlinking: /home/kol/Documents/ros_workstation/Control/Emika/install/panda/share/panda/local_setup.bash
+[1.280s] -- Symlinking: /home/kol/Documents/ros_workstation/Control/Emika/install/panda/share/panda/local_setup.sh
+[1.291s] -- Symlinking: /home/kol/Documents/ros_workstation/Control/Emika/install/panda/share/panda/local_setup.zsh
+[1.303s] -- Symlinking: /home/kol/Documents/ros_workstation/Control/Emika/install/panda/share/panda/local_setup.dsv
+[1.314s] -- Symlinking: /home/kol/Documents/ros_workstation/Control/Emika/install/panda/share/panda/package.dsv
+[1.326s] -- Symlinking: /home/kol/Documents/ros_workstation/Control/Emika/install/panda/share/ament_index/resource_index/packages/panda
+[1.337s] -- Symlinking: /home/kol/Documents/ros_workstation/Control/Emika/install/panda/share/panda/cmake/pandaConfig.cmake
+[1.351s] -- Symlinking: /home/kol/Documents/ros_workstation/Control/Emika/install/panda/share/panda/cmake/pandaConfig-version.cmake
+[1.363s] -- Symlinking: /home/kol/Documents/ros_workstation/Control/Emika/install/panda/share/panda/package.xml
+[1.377s] Invoked command in '/home/kol/Documents/ros_workstation/Control/Emika/build/panda' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kol/Documents/ros_workstation/Control/Emika/build/panda

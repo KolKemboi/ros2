@@ -1,0 +1,1 @@
+/home/kol/Documents/ros_workstation/boilerplate/build/boilerplate/ament_cmake_core/boilerplateConfig.cmake
