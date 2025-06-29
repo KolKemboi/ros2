@@ -1,0 +1,60 @@
+[0.011s] Invoking command in '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/build/welder_moveit_config': AMENT_PREFIX_PATH=/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PYTHONPATH=/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/src/welder_moveit_config -DCMAKE_INSTALL_PREFIX=/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_moveit_config
+[0.082s] -- The C compiler identification is GNU 11.4.0
+[0.318s] -- The CXX compiler identification is GNU 11.4.0
+[0.332s] -- Detecting C compiler ABI info
+[0.418s] -- Detecting C compiler ABI info - done
+[0.430s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.430s] -- Detecting C compile features
+[0.431s] -- Detecting C compile features - done
+[0.435s] -- Detecting CXX compiler ABI info
+[0.540s] -- Detecting CXX compiler ABI info - done
+[0.553s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.553s] -- Detecting CXX compile features
+[0.554s] -- Detecting CXX compile features - done
+[0.557s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.761s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.975s] -- Configuring done
+[0.978s] -- Generating done
+[0.980s] -- Build files have been written to: /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/build/welder_moveit_config
+[0.985s] Invoked command in '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/build/welder_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PYTHONPATH=/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/src/welder_moveit_config -DCMAKE_INSTALL_PREFIX=/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_moveit_config
+[0.988s] Invoking command in '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/build/welder_moveit_config': AMENT_PREFIX_PATH=/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PYTHONPATH=/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/build/welder_moveit_config -- -j4 -l4
+[1.036s] Invoked command in '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/build/welder_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PYTHONPATH=/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/build/welder_moveit_config -- -j4 -l4
+[1.049s] Invoking command in '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/build/welder_moveit_config': AMENT_PREFIX_PATH=/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PYTHONPATH=/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/build/welder_moveit_config
+[1.058s] -- Install configuration: ""
+[1.058s] -- Installing: /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_moveit_config/share/ament_index/resource_index/package_run_dependencies/welder_moveit_config
+[1.059s] -- Installing: /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_moveit_config/share/ament_index/resource_index/parent_prefix_path/welder_moveit_config
+[1.059s] -- Installing: /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_moveit_config/share/welder_moveit_config/environment/ament_prefix_path.sh
+[1.059s] -- Installing: /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_moveit_config/share/welder_moveit_config/environment/ament_prefix_path.dsv
+[1.059s] -- Installing: /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_moveit_config/share/welder_moveit_config/environment/path.sh
+[1.059s] -- Installing: /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_moveit_config/share/welder_moveit_config/environment/path.dsv
+[1.060s] -- Installing: /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_moveit_config/share/welder_moveit_config/local_setup.bash
+[1.060s] -- Installing: /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_moveit_config/share/welder_moveit_config/local_setup.sh
+[1.060s] -- Installing: /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_moveit_config/share/welder_moveit_config/local_setup.zsh
+[1.060s] -- Installing: /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_moveit_config/share/welder_moveit_config/local_setup.dsv
+[1.061s] -- Installing: /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_moveit_config/share/welder_moveit_config/package.dsv
+[1.061s] -- Installing: /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_moveit_config/share/ament_index/resource_index/packages/welder_moveit_config
+[1.061s] -- Installing: /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_moveit_config/share/welder_moveit_config/cmake/welder_moveit_configConfig.cmake
+[1.061s] -- Installing: /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_moveit_config/share/welder_moveit_config/cmake/welder_moveit_configConfig-version.cmake
+[1.061s] -- Installing: /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_moveit_config/share/welder_moveit_config/package.xml
+[1.062s] -- Installing: /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_moveit_config/share/welder_moveit_config/launch
+[1.062s] -- Installing: /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_moveit_config/share/welder_moveit_config/launch/rsp.launch.py
+[1.062s] -- Installing: /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_moveit_config/share/welder_moveit_config/launch/move_group.launch.py
+[1.062s] -- Installing: /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_moveit_config/share/welder_moveit_config/launch/spawn_controllers.launch.py
+[1.062s] -- Installing: /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_moveit_config/share/welder_moveit_config/launch/demo.launch.py
+[1.063s] -- Installing: /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_moveit_config/share/welder_moveit_config/launch/setup_assistant.launch.py
+[1.063s] -- Installing: /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_moveit_config/share/welder_moveit_config/launch/moveit_rviz.launch.py
+[1.063s] -- Installing: /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_moveit_config/share/welder_moveit_config/launch/static_virtual_joint_tfs.launch.py
+[1.063s] -- Installing: /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_moveit_config/share/welder_moveit_config/launch/warehouse_db.launch.py
+[1.063s] -- Installing: /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_moveit_config/share/welder_moveit_config/config
+[1.063s] -- Installing: /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_moveit_config/share/welder_moveit_config/config/moveit.rviz
+[1.063s] -- Installing: /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_moveit_config/share/welder_moveit_config/config/moveit_controllers.yaml
+[1.064s] -- Installing: /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_moveit_config/share/welder_moveit_config/config/ros2_controllers.yaml
+[1.064s] -- Installing: /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_moveit_config/share/welder_moveit_config/config/joint_limits.yaml
+[1.064s] -- Installing: /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_moveit_config/share/welder_moveit_config/config/welder.ros2_control.xacro
+[1.064s] -- Installing: /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_moveit_config/share/welder_moveit_config/config/kinematics.yaml
+[1.064s] -- Installing: /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_moveit_config/share/welder_moveit_config/config/initial_positions.yaml
+[1.064s] -- Installing: /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_moveit_config/share/welder_moveit_config/config/welder.srdf
+[1.065s] -- Installing: /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_moveit_config/share/welder_moveit_config/config/pilz_cartesian_limits.yaml
+[1.065s] -- Installing: /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_moveit_config/share/welder_moveit_config/config/welder.urdf.xacro
+[1.065s] -- Installing: /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_moveit_config/share/welder_moveit_config/.setup_assistant
+[1.067s] Invoked command in '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/build/welder_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PYTHONPATH=/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/build/welder_moveit_config

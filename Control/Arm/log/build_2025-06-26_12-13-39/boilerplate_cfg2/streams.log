@@ -1,0 +1,60 @@
+[0.014s] Invoking command in '/home/kol/Documents/ros_workstation/Control/Arm/build/boilerplate_cfg2': CMAKE_PREFIX_PATH=/home/kol/Documents/ros_workstation/Control/Arm/install/boilerplate:/home/kol/Documents/ros_workstation/Control/Arm/install/boilerplate_mvt_cfg:/opt/ros/humble /usr/bin/cmake /home/kol/Documents/ros_workstation/Control/Arm/src/boilerplate_cfg2 -DCMAKE_INSTALL_PREFIX=/home/kol/Documents/ros_workstation/Control/Arm/install/boilerplate_cfg2
+[0.092s] -- The C compiler identification is GNU 11.4.0
+[0.173s] -- The CXX compiler identification is GNU 11.4.0
+[0.182s] -- Detecting C compiler ABI info
+[0.267s] -- Detecting C compiler ABI info - done
+[0.277s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.277s] -- Detecting C compile features
+[0.278s] -- Detecting C compile features - done
+[0.282s] -- Detecting CXX compiler ABI info
+[0.400s] -- Detecting CXX compiler ABI info - done
+[0.411s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.411s] -- Detecting CXX compile features
+[0.412s] -- Detecting CXX compile features - done
+[0.415s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.613s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.819s] -- Configuring done
+[0.824s] -- Generating done
+[0.826s] -- Build files have been written to: /home/kol/Documents/ros_workstation/Control/Arm/build/boilerplate_cfg2
+[0.832s] Invoked command in '/home/kol/Documents/ros_workstation/Control/Arm/build/boilerplate_cfg2' returned '0': CMAKE_PREFIX_PATH=/home/kol/Documents/ros_workstation/Control/Arm/install/boilerplate:/home/kol/Documents/ros_workstation/Control/Arm/install/boilerplate_mvt_cfg:/opt/ros/humble /usr/bin/cmake /home/kol/Documents/ros_workstation/Control/Arm/src/boilerplate_cfg2 -DCMAKE_INSTALL_PREFIX=/home/kol/Documents/ros_workstation/Control/Arm/install/boilerplate_cfg2
+[0.835s] Invoking command in '/home/kol/Documents/ros_workstation/Control/Arm/build/boilerplate_cfg2': CMAKE_PREFIX_PATH=/home/kol/Documents/ros_workstation/Control/Arm/install/boilerplate:/home/kol/Documents/ros_workstation/Control/Arm/install/boilerplate_mvt_cfg:/opt/ros/humble /usr/bin/cmake --build /home/kol/Documents/ros_workstation/Control/Arm/build/boilerplate_cfg2 -- -j4 -l4
+[0.888s] Invoked command in '/home/kol/Documents/ros_workstation/Control/Arm/build/boilerplate_cfg2' returned '0': CMAKE_PREFIX_PATH=/home/kol/Documents/ros_workstation/Control/Arm/install/boilerplate:/home/kol/Documents/ros_workstation/Control/Arm/install/boilerplate_mvt_cfg:/opt/ros/humble /usr/bin/cmake --build /home/kol/Documents/ros_workstation/Control/Arm/build/boilerplate_cfg2 -- -j4 -l4
+[0.889s] Invoking command in '/home/kol/Documents/ros_workstation/Control/Arm/build/boilerplate_cfg2': CMAKE_PREFIX_PATH=/home/kol/Documents/ros_workstation/Control/Arm/install/boilerplate:/home/kol/Documents/ros_workstation/Control/Arm/install/boilerplate_mvt_cfg:/opt/ros/humble /usr/bin/cmake --install /home/kol/Documents/ros_workstation/Control/Arm/build/boilerplate_cfg2
+[0.897s] -- Install configuration: ""
+[0.898s] -- Installing: /home/kol/Documents/ros_workstation/Control/Arm/install/boilerplate_cfg2/share/ament_index/resource_index/package_run_dependencies/boilerplate_cfg2
+[0.898s] -- Installing: /home/kol/Documents/ros_workstation/Control/Arm/install/boilerplate_cfg2/share/ament_index/resource_index/parent_prefix_path/boilerplate_cfg2
+[0.898s] -- Installing: /home/kol/Documents/ros_workstation/Control/Arm/install/boilerplate_cfg2/share/boilerplate_cfg2/environment/ament_prefix_path.sh
+[0.898s] -- Installing: /home/kol/Documents/ros_workstation/Control/Arm/install/boilerplate_cfg2/share/boilerplate_cfg2/environment/ament_prefix_path.dsv
+[0.899s] -- Installing: /home/kol/Documents/ros_workstation/Control/Arm/install/boilerplate_cfg2/share/boilerplate_cfg2/environment/path.sh
+[0.899s] -- Installing: /home/kol/Documents/ros_workstation/Control/Arm/install/boilerplate_cfg2/share/boilerplate_cfg2/environment/path.dsv
+[0.899s] -- Installing: /home/kol/Documents/ros_workstation/Control/Arm/install/boilerplate_cfg2/share/boilerplate_cfg2/local_setup.bash
+[0.899s] -- Installing: /home/kol/Documents/ros_workstation/Control/Arm/install/boilerplate_cfg2/share/boilerplate_cfg2/local_setup.sh
+[0.899s] -- Installing: /home/kol/Documents/ros_workstation/Control/Arm/install/boilerplate_cfg2/share/boilerplate_cfg2/local_setup.zsh
+[0.900s] -- Installing: /home/kol/Documents/ros_workstation/Control/Arm/install/boilerplate_cfg2/share/boilerplate_cfg2/local_setup.dsv
+[0.900s] -- Installing: /home/kol/Documents/ros_workstation/Control/Arm/install/boilerplate_cfg2/share/boilerplate_cfg2/package.dsv
+[0.900s] -- Installing: /home/kol/Documents/ros_workstation/Control/Arm/install/boilerplate_cfg2/share/ament_index/resource_index/packages/boilerplate_cfg2
+[0.900s] -- Installing: /home/kol/Documents/ros_workstation/Control/Arm/install/boilerplate_cfg2/share/boilerplate_cfg2/cmake/boilerplate_cfg2Config.cmake
+[0.900s] -- Installing: /home/kol/Documents/ros_workstation/Control/Arm/install/boilerplate_cfg2/share/boilerplate_cfg2/cmake/boilerplate_cfg2Config-version.cmake
+[0.901s] -- Installing: /home/kol/Documents/ros_workstation/Control/Arm/install/boilerplate_cfg2/share/boilerplate_cfg2/package.xml
+[0.901s] -- Installing: /home/kol/Documents/ros_workstation/Control/Arm/install/boilerplate_cfg2/share/boilerplate_cfg2/launch
+[0.901s] -- Installing: /home/kol/Documents/ros_workstation/Control/Arm/install/boilerplate_cfg2/share/boilerplate_cfg2/launch/rsp.launch.py
+[0.901s] -- Installing: /home/kol/Documents/ros_workstation/Control/Arm/install/boilerplate_cfg2/share/boilerplate_cfg2/launch/move_group.launch.py
+[0.901s] -- Installing: /home/kol/Documents/ros_workstation/Control/Arm/install/boilerplate_cfg2/share/boilerplate_cfg2/launch/spawn_controllers.launch.py
+[0.901s] -- Installing: /home/kol/Documents/ros_workstation/Control/Arm/install/boilerplate_cfg2/share/boilerplate_cfg2/launch/demo.launch.py
+[0.902s] -- Installing: /home/kol/Documents/ros_workstation/Control/Arm/install/boilerplate_cfg2/share/boilerplate_cfg2/launch/setup_assistant.launch.py
+[0.902s] -- Installing: /home/kol/Documents/ros_workstation/Control/Arm/install/boilerplate_cfg2/share/boilerplate_cfg2/launch/moveit_rviz.launch.py
+[0.902s] -- Installing: /home/kol/Documents/ros_workstation/Control/Arm/install/boilerplate_cfg2/share/boilerplate_cfg2/launch/static_virtual_joint_tfs.launch.py
+[0.902s] -- Installing: /home/kol/Documents/ros_workstation/Control/Arm/install/boilerplate_cfg2/share/boilerplate_cfg2/launch/warehouse_db.launch.py
+[0.902s] -- Installing: /home/kol/Documents/ros_workstation/Control/Arm/install/boilerplate_cfg2/share/boilerplate_cfg2/config
+[0.902s] -- Installing: /home/kol/Documents/ros_workstation/Control/Arm/install/boilerplate_cfg2/share/boilerplate_cfg2/config/moveit.rviz
+[0.903s] -- Installing: /home/kol/Documents/ros_workstation/Control/Arm/install/boilerplate_cfg2/share/boilerplate_cfg2/config/moveit_controllers.yaml
+[0.903s] -- Installing: /home/kol/Documents/ros_workstation/Control/Arm/install/boilerplate_cfg2/share/boilerplate_cfg2/config/ros2_controllers.yaml
+[0.903s] -- Installing: /home/kol/Documents/ros_workstation/Control/Arm/install/boilerplate_cfg2/share/boilerplate_cfg2/config/joint_limits.yaml
+[0.903s] -- Installing: /home/kol/Documents/ros_workstation/Control/Arm/install/boilerplate_cfg2/share/boilerplate_cfg2/config/kinematics.yaml
+[0.903s] -- Installing: /home/kol/Documents/ros_workstation/Control/Arm/install/boilerplate_cfg2/share/boilerplate_cfg2/config/initial_positions.yaml
+[0.903s] -- Installing: /home/kol/Documents/ros_workstation/Control/Arm/install/boilerplate_cfg2/share/boilerplate_cfg2/config/FiveDoFBot.srdf
+[0.904s] -- Installing: /home/kol/Documents/ros_workstation/Control/Arm/install/boilerplate_cfg2/share/boilerplate_cfg2/config/pilz_cartesian_limits.yaml
+[0.904s] -- Installing: /home/kol/Documents/ros_workstation/Control/Arm/install/boilerplate_cfg2/share/boilerplate_cfg2/config/FiveDoFBot.ros2_control.xacro
+[0.904s] -- Installing: /home/kol/Documents/ros_workstation/Control/Arm/install/boilerplate_cfg2/share/boilerplate_cfg2/config/FiveDoFBot.urdf.xacro
+[0.904s] -- Installing: /home/kol/Documents/ros_workstation/Control/Arm/install/boilerplate_cfg2/share/boilerplate_cfg2/.setup_assistant
+[0.907s] Invoked command in '/home/kol/Documents/ros_workstation/Control/Arm/build/boilerplate_cfg2' returned '0': CMAKE_PREFIX_PATH=/home/kol/Documents/ros_workstation/Control/Arm/install/boilerplate:/home/kol/Documents/ros_workstation/Control/Arm/install/boilerplate_mvt_cfg:/opt/ros/humble /usr/bin/cmake --install /home/kol/Documents/ros_workstation/Control/Arm/build/boilerplate_cfg2

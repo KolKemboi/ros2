@@ -1,0 +1,30 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/kol/Documents/Robots/ros_ws/six_dof_robot_ws/build/welder_description",
+        "/home/kol/Documents/Robots/ros_ws/six_dof_robot_ws/install/welder_description/lib/python3.10/site-packages",
+        "/home/kol/Documents/Robots/ros_ws/six_dof_robot_ws/build/welder_control",
+        "/home/kol/Documents/Robots/ros_ws/six_dof_robot_ws/install/welder_control/lib/python3.10/site-packages",
+        "/home/kol/Documents/Robots/ros_ws/FiveDoFRobot/build/robotController",
+        "/home/kol/Documents/Robots/ros_ws/FiveDoFRobot/install/robotController/lib/python3.10/site-packages",
+        "/home/kol/Documents/Robots/ros_ws/FiveDoFRobot/build/FiveDoFBot_description",
+        "/home/kol/Documents/Robots/ros_ws/FiveDoFRobot/install/FiveDoFBot_description/lib/python3.10/site-packages",
+        "/home/kol/Documents/cameron_ws/build/cameron_description",
+        "/home/kol/Documents/cameron_ws/install/cameron_description/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/kol/Documents/Robots/ros_ws/six_dof_robot_ws/build/welder_description",
+        "/home/kol/Documents/Robots/ros_ws/six_dof_robot_ws/install/welder_description/lib/python3.10/site-packages",
+        "/home/kol/Documents/Robots/ros_ws/six_dof_robot_ws/build/welder_control",
+        "/home/kol/Documents/Robots/ros_ws/six_dof_robot_ws/install/welder_control/lib/python3.10/site-packages",
+        "/home/kol/Documents/Robots/ros_ws/FiveDoFRobot/build/robotController",
+        "/home/kol/Documents/Robots/ros_ws/FiveDoFRobot/install/robotController/lib/python3.10/site-packages",
+        "/home/kol/Documents/Robots/ros_ws/FiveDoFRobot/build/FiveDoFBot_description",
+        "/home/kol/Documents/Robots/ros_ws/FiveDoFRobot/install/FiveDoFBot_description/lib/python3.10/site-packages",
+        "/home/kol/Documents/cameron_ws/build/cameron_description",
+        "/home/kol/Documents/cameron_ws/install/cameron_description/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}
