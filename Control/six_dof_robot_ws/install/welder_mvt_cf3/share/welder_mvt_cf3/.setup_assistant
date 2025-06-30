@@ -1,0 +1,25 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: welder_description
+    relative_path: urdf/welder.xacro
+  srdf:
+    relative_path: config/welder.srdf
+  package_settings:
+    author_name: kol
+    author_email: kolkemboi@gmail.com
+    generated_timestamp: 1751290001
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity

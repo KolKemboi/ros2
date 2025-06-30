@@ -1,0 +1,429 @@
+[0.128s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.128s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x77cba31923e0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x77cba3191de0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x77cba3191de0>>, mixin_verb=('build',))
+[0.356s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.357s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.357s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.357s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.357s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.357s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.357s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_control) by extensions ['ignore', 'ignore_ament_install']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_control) by extension 'ignore'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_control) by extension 'ignore_ament_install'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_control) by extensions ['colcon_pkg']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_control) by extension 'colcon_pkg'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_control) by extensions ['colcon_meta']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_control) by extension 'colcon_meta'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_control) by extensions ['ros']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_control) by extension 'ros'
+[0.371s] DEBUG:colcon.colcon_core.package_identification:Package 'src/moveit_control' with type 'ros.ament_cmake' and name 'moveit_control'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/welder_control) by extensions ['ignore', 'ignore_ament_install']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/welder_control) by extension 'ignore'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/welder_control) by extension 'ignore_ament_install'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/welder_control) by extensions ['colcon_pkg']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/welder_control) by extension 'colcon_pkg'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/welder_control) by extensions ['colcon_meta']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/welder_control) by extension 'colcon_meta'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/welder_control) by extensions ['ros']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/welder_control) by extension 'ros'
+[0.372s] DEBUG:colcon.colcon_core.package_identification:Package 'src/welder_control' with type 'ros.ament_python' and name 'welder_control'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/welder_description) by extensions ['ignore', 'ignore_ament_install']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/welder_description) by extension 'ignore'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/welder_description) by extension 'ignore_ament_install'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/welder_description) by extensions ['colcon_pkg']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/welder_description) by extension 'colcon_pkg'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/welder_description) by extensions ['colcon_meta']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/welder_description) by extension 'colcon_meta'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/welder_description) by extensions ['ros']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/welder_description) by extension 'ros'
+[0.374s] DEBUG:colcon.colcon_core.package_identification:Package 'src/welder_description' with type 'ros.ament_python' and name 'welder_description'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/welder_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/welder_moveit_config) by extension 'ignore'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/welder_moveit_config) by extension 'ignore_ament_install'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/welder_moveit_config) by extensions ['colcon_pkg']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/welder_moveit_config) by extension 'colcon_pkg'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/welder_moveit_config) by extensions ['colcon_meta']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/welder_moveit_config) by extension 'colcon_meta'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/welder_moveit_config) by extensions ['ros']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/welder_moveit_config) by extension 'ros'
+[0.375s] DEBUG:colcon.colcon_core.package_identification:Package 'src/welder_moveit_config' with type 'ros.ament_cmake' and name 'welder_moveit_config'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/welder_mvt_cf3) by extensions ['ignore', 'ignore_ament_install']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/welder_mvt_cf3) by extension 'ignore'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/welder_mvt_cf3) by extension 'ignore_ament_install'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/welder_mvt_cf3) by extensions ['colcon_pkg']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/welder_mvt_cf3) by extension 'colcon_pkg'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/welder_mvt_cf3) by extensions ['colcon_meta']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/welder_mvt_cf3) by extension 'colcon_meta'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/welder_mvt_cf3) by extensions ['ros']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/welder_mvt_cf3) by extension 'ros'
+[0.377s] DEBUG:colcon.colcon_core.package_identification:Package 'src/welder_mvt_cf3' with type 'ros.ament_cmake' and name 'welder_mvt_cf3'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/welder_mvt_cfg_2) by extensions ['ignore', 'ignore_ament_install']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/welder_mvt_cfg_2) by extension 'ignore'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/welder_mvt_cfg_2) by extension 'ignore_ament_install'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/welder_mvt_cfg_2) by extensions ['colcon_pkg']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/welder_mvt_cfg_2) by extension 'colcon_pkg'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/welder_mvt_cfg_2) by extensions ['colcon_meta']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/welder_mvt_cfg_2) by extension 'colcon_meta'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/welder_mvt_cfg_2) by extensions ['ros']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/welder_mvt_cfg_2) by extension 'ros'
+[0.379s] DEBUG:colcon.colcon_core.package_identification:Package 'src/welder_mvt_cfg_2' with type 'ros.ament_cmake' and name 'welder_mvt_cfg_2'
+[0.379s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.379s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.379s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.379s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.379s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.399s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.399s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.401s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install
+[0.402s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 383 installed packages in /opt/ros/humble
+[0.404s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'moveit_control' build argument 'cmake_args' from command line to 'None'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'moveit_control' build argument 'cmake_target' from command line to 'None'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'moveit_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'moveit_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'moveit_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'moveit_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'moveit_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'moveit_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'moveit_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.455s] DEBUG:colcon.colcon_core.verb:Building package 'moveit_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/build/moveit_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/moveit_control', 'merge_install': False, 'path': '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/src/moveit_control', 'symlink_install': False, 'test_result_base': None}
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'welder_control' build argument 'cmake_args' from command line to 'None'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'welder_control' build argument 'cmake_target' from command line to 'None'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'welder_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'welder_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'welder_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'welder_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'welder_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'welder_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'welder_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.455s] DEBUG:colcon.colcon_core.verb:Building package 'welder_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/build/welder_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_control', 'merge_install': False, 'path': '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/src/welder_control', 'symlink_install': False, 'test_result_base': None}
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'welder_description' build argument 'cmake_args' from command line to 'None'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'welder_description' build argument 'cmake_target' from command line to 'None'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'welder_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'welder_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'welder_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'welder_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'welder_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'welder_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'welder_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.456s] DEBUG:colcon.colcon_core.verb:Building package 'welder_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/build/welder_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_description', 'merge_install': False, 'path': '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/src/welder_description', 'symlink_install': False, 'test_result_base': None}
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'welder_moveit_config' build argument 'cmake_args' from command line to 'None'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'welder_moveit_config' build argument 'cmake_target' from command line to 'None'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'welder_moveit_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'welder_moveit_config' build argument 'cmake_clean_cache' from command line to 'False'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'welder_moveit_config' build argument 'cmake_clean_first' from command line to 'False'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'welder_moveit_config' build argument 'cmake_force_configure' from command line to 'False'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'welder_moveit_config' build argument 'ament_cmake_args' from command line to 'None'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'welder_moveit_config' build argument 'catkin_cmake_args' from command line to 'None'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'welder_moveit_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.457s] DEBUG:colcon.colcon_core.verb:Building package 'welder_moveit_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/build/welder_moveit_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_moveit_config', 'merge_install': False, 'path': '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/src/welder_moveit_config', 'symlink_install': False, 'test_result_base': None}
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'welder_mvt_cf3' build argument 'cmake_args' from command line to 'None'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'welder_mvt_cf3' build argument 'cmake_target' from command line to 'None'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'welder_mvt_cf3' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'welder_mvt_cf3' build argument 'cmake_clean_cache' from command line to 'False'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'welder_mvt_cf3' build argument 'cmake_clean_first' from command line to 'False'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'welder_mvt_cf3' build argument 'cmake_force_configure' from command line to 'False'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'welder_mvt_cf3' build argument 'ament_cmake_args' from command line to 'None'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'welder_mvt_cf3' build argument 'catkin_cmake_args' from command line to 'None'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'welder_mvt_cf3' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.457s] DEBUG:colcon.colcon_core.verb:Building package 'welder_mvt_cf3' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/build/welder_mvt_cf3', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_mvt_cf3', 'merge_install': False, 'path': '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/src/welder_mvt_cf3', 'symlink_install': False, 'test_result_base': None}
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'welder_mvt_cfg_2' build argument 'cmake_args' from command line to 'None'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'welder_mvt_cfg_2' build argument 'cmake_target' from command line to 'None'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'welder_mvt_cfg_2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'welder_mvt_cfg_2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'welder_mvt_cfg_2' build argument 'cmake_clean_first' from command line to 'False'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'welder_mvt_cfg_2' build argument 'cmake_force_configure' from command line to 'False'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'welder_mvt_cfg_2' build argument 'ament_cmake_args' from command line to 'None'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'welder_mvt_cfg_2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'welder_mvt_cfg_2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.458s] DEBUG:colcon.colcon_core.verb:Building package 'welder_mvt_cfg_2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/build/welder_mvt_cfg_2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_mvt_cfg_2', 'merge_install': False, 'path': '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/src/welder_mvt_cfg_2', 'symlink_install': False, 'test_result_base': None}
+[0.458s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.459s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.459s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/src/welder_description' with build type 'ament_python'
+[0.459s] Level 1:colcon.colcon_core.shell:create_environment_hook('welder_description', 'ament_prefix_path')
+[0.461s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.461s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_description/share/welder_description/hook/ament_prefix_path.ps1'
+[0.462s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_description/share/welder_description/hook/ament_prefix_path.dsv'
+[0.462s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_description/share/welder_description/hook/ament_prefix_path.sh'
+[0.463s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.463s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.467s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/src/moveit_control' with build type 'ament_cmake'
+[0.467s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/src/moveit_control'
+[0.467s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.467s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.473s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/src/welder_control' with build type 'ament_python'
+[0.473s] Level 1:colcon.colcon_core.shell:create_environment_hook('welder_control', 'ament_prefix_path')
+[0.474s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_control/share/welder_control/hook/ament_prefix_path.ps1'
+[0.474s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_control/share/welder_control/hook/ament_prefix_path.dsv'
+[0.475s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_control/share/welder_control/hook/ament_prefix_path.sh'
+[0.476s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.476s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.805s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/src/welder_description'
+[0.805s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.805s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.812s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/build/moveit_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_description:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_control:/opt/ros/humble /usr/bin/cmake --build /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/build/moveit_control -- -j4 -l4
+[1.157s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/src/welder_control'
+[1.158s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.158s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.165s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/build/moveit_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_description:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_control:/opt/ros/humble /usr/bin/cmake --build /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/build/moveit_control -- -j4 -l4
+[1.175s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/build/moveit_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_description:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_control:/opt/ros/humble /usr/bin/cmake --install /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/build/moveit_control
+[1.189s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moveit_control)
+[1.190s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/build/moveit_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_description:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_control:/opt/ros/humble /usr/bin/cmake --install /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/build/moveit_control
+[1.193s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/moveit_control' for CMake module files
+[1.194s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/moveit_control' for CMake config files
+[1.194s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveit_control', 'cmake_prefix_path')
+[1.195s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/moveit_control/share/moveit_control/hook/cmake_prefix_path.ps1'
+[1.196s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/moveit_control/share/moveit_control/hook/cmake_prefix_path.dsv'
+[1.196s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/moveit_control/share/moveit_control/hook/cmake_prefix_path.sh'
+[1.197s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/moveit_control/lib'
+[1.197s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/moveit_control/bin'
+[1.197s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/moveit_control/lib/pkgconfig/moveit_control.pc'
+[1.198s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/moveit_control/lib/python3.10/site-packages'
+[1.198s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/moveit_control/bin'
+[1.199s] INFO:colcon.colcon_core.shell:Creating package script '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/moveit_control/share/moveit_control/package.ps1'
+[1.200s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/moveit_control/share/moveit_control/package.dsv'
+[1.201s] INFO:colcon.colcon_core.shell:Creating package script '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/moveit_control/share/moveit_control/package.sh'
+[1.202s] INFO:colcon.colcon_core.shell:Creating package script '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/moveit_control/share/moveit_control/package.bash'
+[1.204s] INFO:colcon.colcon_core.shell:Creating package script '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/moveit_control/share/moveit_control/package.zsh'
+[1.205s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/moveit_control/share/colcon-core/packages/moveit_control)
+[1.206s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moveit_control)
+[1.206s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/moveit_control' for CMake module files
+[1.207s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/moveit_control' for CMake config files
+[1.207s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveit_control', 'cmake_prefix_path')
+[1.208s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/moveit_control/share/moveit_control/hook/cmake_prefix_path.ps1'
+[1.208s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/moveit_control/share/moveit_control/hook/cmake_prefix_path.dsv'
+[1.209s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/moveit_control/share/moveit_control/hook/cmake_prefix_path.sh'
+[1.210s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/moveit_control/lib'
+[1.210s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/moveit_control/bin'
+[1.210s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/moveit_control/lib/pkgconfig/moveit_control.pc'
+[1.210s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/moveit_control/lib/python3.10/site-packages'
+[1.211s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/moveit_control/bin'
+[1.211s] INFO:colcon.colcon_core.shell:Creating package script '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/moveit_control/share/moveit_control/package.ps1'
+[1.212s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/moveit_control/share/moveit_control/package.dsv'
+[1.213s] INFO:colcon.colcon_core.shell:Creating package script '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/moveit_control/share/moveit_control/package.sh'
+[1.214s] INFO:colcon.colcon_core.shell:Creating package script '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/moveit_control/share/moveit_control/package.bash'
+[1.215s] INFO:colcon.colcon_core.shell:Creating package script '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/moveit_control/share/moveit_control/package.zsh'
+[1.216s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/moveit_control/share/colcon-core/packages/moveit_control)
+[1.716s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/src/welder_description': PYTHONPATH=/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/build/welder_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/welder_description build --build-base /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/build/welder_description/build install --record /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/build/welder_description/install.log --single-version-externally-managed install_data
+[1.731s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/src/welder_control': PYTHONPATH=/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/build/welder_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/welder_control build --build-base /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/build/welder_control/build install --record /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/build/welder_control/install.log --single-version-externally-managed install_data
+[2.113s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_description' for CMake module files
+[2.114s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/src/welder_description' returned '0': PYTHONPATH=/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/build/welder_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/welder_description build --build-base /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/build/welder_description/build install --record /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/build/welder_description/install.log --single-version-externally-managed install_data
+[2.115s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_description' for CMake config files
+[2.116s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_description/lib'
+[2.116s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_description/bin'
+[2.116s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_description/lib/pkgconfig/welder_description.pc'
+[2.116s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_description/lib/python3.10/site-packages'
+[2.116s] Level 1:colcon.colcon_core.shell:create_environment_hook('welder_description', 'pythonpath')
+[2.116s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_description/share/welder_description/hook/pythonpath.ps1'
+[2.117s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_description/share/welder_description/hook/pythonpath.dsv'
+[2.117s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_description/share/welder_description/hook/pythonpath.sh'
+[2.118s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_description/bin'
+[2.118s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(welder_description)
+[2.119s] INFO:colcon.colcon_core.shell:Creating package script '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_description/share/welder_description/package.ps1'
+[2.119s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_description/share/welder_description/package.dsv'
+[2.120s] INFO:colcon.colcon_core.shell:Creating package script '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_description/share/welder_description/package.sh'
+[2.120s] INFO:colcon.colcon_core.shell:Creating package script '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_description/share/welder_description/package.bash'
+[2.120s] INFO:colcon.colcon_core.shell:Creating package script '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_description/share/welder_description/package.zsh'
+[2.121s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_description/share/colcon-core/packages/welder_description)
+[2.121s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/src/welder_moveit_config' with build type 'ament_cmake'
+[2.121s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/src/welder_moveit_config'
+[2.121s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.121s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.127s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/src/welder_mvt_cf3' with build type 'ament_cmake'
+[2.127s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/src/welder_mvt_cf3'
+[2.128s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.128s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.133s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/src/welder_mvt_cfg_2' with build type 'ament_cmake'
+[2.133s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/src/welder_mvt_cfg_2'
+[2.133s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.133s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.139s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_control' for CMake module files
+[2.140s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/src/welder_control' returned '0': PYTHONPATH=/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/build/welder_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/welder_control build --build-base /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/build/welder_control/build install --record /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/build/welder_control/install.log --single-version-externally-managed install_data
+[2.140s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_control' for CMake config files
+[2.141s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_control/lib'
+[2.141s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_control/bin'
+[2.141s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_control/lib/pkgconfig/welder_control.pc'
+[2.141s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_control/lib/python3.10/site-packages'
+[2.141s] Level 1:colcon.colcon_core.shell:create_environment_hook('welder_control', 'pythonpath')
+[2.142s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_control/share/welder_control/hook/pythonpath.ps1'
+[2.142s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_control/share/welder_control/hook/pythonpath.dsv'
+[2.143s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_control/share/welder_control/hook/pythonpath.sh'
+[2.143s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_control/bin'
+[2.143s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(welder_control)
+[2.144s] INFO:colcon.colcon_core.shell:Creating package script '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_control/share/welder_control/package.ps1'
+[2.144s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_control/share/welder_control/package.dsv'
+[2.145s] INFO:colcon.colcon_core.shell:Creating package script '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_control/share/welder_control/package.sh'
+[2.145s] INFO:colcon.colcon_core.shell:Creating package script '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_control/share/welder_control/package.bash'
+[2.145s] INFO:colcon.colcon_core.shell:Creating package script '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_control/share/welder_control/package.zsh'
+[2.146s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_control/share/colcon-core/packages/welder_control)
+[2.151s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/build/welder_moveit_config': AMENT_PREFIX_PATH=/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_description:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_mvt_cfg_2:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_moveit_config:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_control:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/moveit_control:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_description:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_control:/opt/ros/humble /usr/bin/cmake --build /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/build/welder_moveit_config -- -j4 -l4
+[2.154s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/build/welder_mvt_cf3': AMENT_PREFIX_PATH=/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_description:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_mvt_cfg_2:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_moveit_config:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_control:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/moveit_control:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_description:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_control:/opt/ros/humble /usr/bin/cmake /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/src/welder_mvt_cf3 -DCMAKE_INSTALL_PREFIX=/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_mvt_cf3
+[2.163s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/build/welder_mvt_cfg_2': AMENT_PREFIX_PATH=/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_description:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_mvt_cfg_2:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_moveit_config:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_control:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/moveit_control:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_description:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_control:/opt/ros/humble /usr/bin/cmake --build /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/build/welder_mvt_cfg_2 -- -j4 -l4
+[2.202s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/build/welder_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_description:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_mvt_cfg_2:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_moveit_config:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_control:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/moveit_control:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_description:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_control:/opt/ros/humble /usr/bin/cmake --build /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/build/welder_moveit_config -- -j4 -l4
+[2.204s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/build/welder_moveit_config': AMENT_PREFIX_PATH=/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_description:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_mvt_cfg_2:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_moveit_config:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_control:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/moveit_control:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_description:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_control:/opt/ros/humble /usr/bin/cmake --install /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/build/welder_moveit_config
+[2.213s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/build/welder_mvt_cfg_2' returned '0': AMENT_PREFIX_PATH=/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_description:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_mvt_cfg_2:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_moveit_config:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_control:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/moveit_control:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_description:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_control:/opt/ros/humble /usr/bin/cmake --build /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/build/welder_mvt_cfg_2 -- -j4 -l4
+[2.214s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/build/welder_mvt_cfg_2': AMENT_PREFIX_PATH=/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_description:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_mvt_cfg_2:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_moveit_config:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_control:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/moveit_control:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_description:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_control:/opt/ros/humble /usr/bin/cmake --install /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/build/welder_mvt_cfg_2
+[2.221s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(welder_moveit_config)
+[2.222s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_moveit_config' for CMake module files
+[2.223s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/build/welder_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_description:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_mvt_cfg_2:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_moveit_config:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_control:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/moveit_control:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_description:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_control:/opt/ros/humble /usr/bin/cmake --install /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/build/welder_moveit_config
+[2.224s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_moveit_config' for CMake config files
+[2.226s] Level 1:colcon.colcon_core.shell:create_environment_hook('welder_moveit_config', 'cmake_prefix_path')
+[2.226s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_moveit_config/share/welder_moveit_config/hook/cmake_prefix_path.ps1'
+[2.229s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_moveit_config/share/welder_moveit_config/hook/cmake_prefix_path.dsv'
+[2.230s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_moveit_config/share/welder_moveit_config/hook/cmake_prefix_path.sh'
+[2.231s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_moveit_config/bin'
+[2.231s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_moveit_config/lib/pkgconfig/welder_moveit_config.pc'
+[2.231s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_moveit_config/lib/python3.10/site-packages'
+[2.232s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_moveit_config/bin'
+[2.232s] INFO:colcon.colcon_core.shell:Creating package script '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_moveit_config/share/welder_moveit_config/package.ps1'
+[2.233s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_moveit_config/share/welder_moveit_config/package.dsv'
+[2.233s] INFO:colcon.colcon_core.shell:Creating package script '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_moveit_config/share/welder_moveit_config/package.sh'
+[2.234s] INFO:colcon.colcon_core.shell:Creating package script '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_moveit_config/share/welder_moveit_config/package.bash'
+[2.234s] INFO:colcon.colcon_core.shell:Creating package script '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_moveit_config/share/welder_moveit_config/package.zsh'
+[2.235s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_moveit_config/share/colcon-core/packages/welder_moveit_config)
+[2.235s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(welder_moveit_config)
+[2.236s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_moveit_config' for CMake module files
+[2.236s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_moveit_config' for CMake config files
+[2.236s] Level 1:colcon.colcon_core.shell:create_environment_hook('welder_moveit_config', 'cmake_prefix_path')
+[2.237s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_moveit_config/share/welder_moveit_config/hook/cmake_prefix_path.ps1'
+[2.237s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_moveit_config/share/welder_moveit_config/hook/cmake_prefix_path.dsv'
+[2.237s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_moveit_config/share/welder_moveit_config/hook/cmake_prefix_path.sh'
+[2.238s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_moveit_config/bin'
+[2.238s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_moveit_config/lib/pkgconfig/welder_moveit_config.pc'
+[2.238s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_moveit_config/lib/python3.10/site-packages'
+[2.238s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_moveit_config/bin'
+[2.239s] INFO:colcon.colcon_core.shell:Creating package script '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_moveit_config/share/welder_moveit_config/package.ps1'
+[2.239s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_moveit_config/share/welder_moveit_config/package.dsv'
+[2.240s] INFO:colcon.colcon_core.shell:Creating package script '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_moveit_config/share/welder_moveit_config/package.sh'
+[2.240s] INFO:colcon.colcon_core.shell:Creating package script '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_moveit_config/share/welder_moveit_config/package.bash'
+[2.241s] INFO:colcon.colcon_core.shell:Creating package script '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_moveit_config/share/welder_moveit_config/package.zsh'
+[2.241s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_moveit_config/share/colcon-core/packages/welder_moveit_config)
+[2.242s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(welder_mvt_cfg_2)
+[2.243s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_mvt_cfg_2' for CMake module files
+[2.244s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/build/welder_mvt_cfg_2' returned '0': AMENT_PREFIX_PATH=/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_description:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_mvt_cfg_2:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_moveit_config:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_control:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/moveit_control:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_description:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_control:/opt/ros/humble /usr/bin/cmake --install /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/build/welder_mvt_cfg_2
+[2.244s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_mvt_cfg_2' for CMake config files
+[2.244s] Level 1:colcon.colcon_core.shell:create_environment_hook('welder_mvt_cfg_2', 'cmake_prefix_path')
+[2.245s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_mvt_cfg_2/share/welder_mvt_cfg_2/hook/cmake_prefix_path.ps1'
+[2.245s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_mvt_cfg_2/share/welder_mvt_cfg_2/hook/cmake_prefix_path.dsv'
+[2.246s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_mvt_cfg_2/share/welder_mvt_cfg_2/hook/cmake_prefix_path.sh'
+[2.247s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_mvt_cfg_2/bin'
+[2.247s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_mvt_cfg_2/lib/pkgconfig/welder_mvt_cfg_2.pc'
+[2.247s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_mvt_cfg_2/lib/python3.10/site-packages'
+[2.247s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_mvt_cfg_2/bin'
+[2.248s] INFO:colcon.colcon_core.shell:Creating package script '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_mvt_cfg_2/share/welder_mvt_cfg_2/package.ps1'
+[2.248s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_mvt_cfg_2/share/welder_mvt_cfg_2/package.dsv'
+[2.249s] INFO:colcon.colcon_core.shell:Creating package script '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_mvt_cfg_2/share/welder_mvt_cfg_2/package.sh'
+[2.249s] INFO:colcon.colcon_core.shell:Creating package script '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_mvt_cfg_2/share/welder_mvt_cfg_2/package.bash'
+[2.249s] INFO:colcon.colcon_core.shell:Creating package script '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_mvt_cfg_2/share/welder_mvt_cfg_2/package.zsh'
+[2.250s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_mvt_cfg_2/share/colcon-core/packages/welder_mvt_cfg_2)
+[2.250s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(welder_mvt_cfg_2)
+[2.251s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_mvt_cfg_2' for CMake module files
+[2.251s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_mvt_cfg_2' for CMake config files
+[2.251s] Level 1:colcon.colcon_core.shell:create_environment_hook('welder_mvt_cfg_2', 'cmake_prefix_path')
+[2.251s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_mvt_cfg_2/share/welder_mvt_cfg_2/hook/cmake_prefix_path.ps1'
+[2.252s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_mvt_cfg_2/share/welder_mvt_cfg_2/hook/cmake_prefix_path.dsv'
+[2.252s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_mvt_cfg_2/share/welder_mvt_cfg_2/hook/cmake_prefix_path.sh'
+[2.253s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_mvt_cfg_2/bin'
+[2.253s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_mvt_cfg_2/lib/pkgconfig/welder_mvt_cfg_2.pc'
+[2.253s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_mvt_cfg_2/lib/python3.10/site-packages'
+[2.254s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_mvt_cfg_2/bin'
+[2.254s] INFO:colcon.colcon_core.shell:Creating package script '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_mvt_cfg_2/share/welder_mvt_cfg_2/package.ps1'
+[2.255s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_mvt_cfg_2/share/welder_mvt_cfg_2/package.dsv'
+[2.255s] INFO:colcon.colcon_core.shell:Creating package script '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_mvt_cfg_2/share/welder_mvt_cfg_2/package.sh'
+[2.255s] INFO:colcon.colcon_core.shell:Creating package script '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_mvt_cfg_2/share/welder_mvt_cfg_2/package.bash'
+[2.256s] INFO:colcon.colcon_core.shell:Creating package script '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_mvt_cfg_2/share/welder_mvt_cfg_2/package.zsh'
+[2.256s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_mvt_cfg_2/share/colcon-core/packages/welder_mvt_cfg_2)
+[2.802s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/build/welder_mvt_cf3' returned '0': AMENT_PREFIX_PATH=/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_description:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_mvt_cfg_2:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_moveit_config:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_control:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/moveit_control:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_description:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_control:/opt/ros/humble /usr/bin/cmake /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/src/welder_mvt_cf3 -DCMAKE_INSTALL_PREFIX=/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_mvt_cf3
+[2.804s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/build/welder_mvt_cf3': AMENT_PREFIX_PATH=/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_description:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_mvt_cfg_2:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_moveit_config:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_control:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/moveit_control:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_description:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_control:/opt/ros/humble /usr/bin/cmake --build /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/build/welder_mvt_cf3 -- -j4 -l4
+[2.850s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/build/welder_mvt_cf3' returned '0': AMENT_PREFIX_PATH=/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_description:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_mvt_cfg_2:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_moveit_config:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_control:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/moveit_control:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_description:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_control:/opt/ros/humble /usr/bin/cmake --build /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/build/welder_mvt_cf3 -- -j4 -l4
+[2.851s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/build/welder_mvt_cf3': AMENT_PREFIX_PATH=/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_description:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_mvt_cfg_2:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_moveit_config:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_control:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/moveit_control:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_description:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_control:/opt/ros/humble /usr/bin/cmake --install /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/build/welder_mvt_cf3
+[2.863s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(welder_mvt_cf3)
+[2.863s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_mvt_cf3' for CMake module files
+[2.864s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/build/welder_mvt_cf3' returned '0': AMENT_PREFIX_PATH=/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_description:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_mvt_cfg_2:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_moveit_config:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_control:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/moveit_control:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_description:/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_control:/opt/ros/humble /usr/bin/cmake --install /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/build/welder_mvt_cf3
+[2.864s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_mvt_cf3' for CMake config files
+[2.865s] Level 1:colcon.colcon_core.shell:create_environment_hook('welder_mvt_cf3', 'cmake_prefix_path')
+[2.865s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_mvt_cf3/share/welder_mvt_cf3/hook/cmake_prefix_path.ps1'
+[2.865s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_mvt_cf3/share/welder_mvt_cf3/hook/cmake_prefix_path.dsv'
+[2.865s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_mvt_cf3/share/welder_mvt_cf3/hook/cmake_prefix_path.sh'
+[2.866s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_mvt_cf3/bin'
+[2.866s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_mvt_cf3/lib/pkgconfig/welder_mvt_cf3.pc'
+[2.866s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_mvt_cf3/lib/python3.10/site-packages'
+[2.867s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_mvt_cf3/bin'
+[2.867s] INFO:colcon.colcon_core.shell:Creating package script '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_mvt_cf3/share/welder_mvt_cf3/package.ps1'
+[2.867s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_mvt_cf3/share/welder_mvt_cf3/package.dsv'
+[2.868s] INFO:colcon.colcon_core.shell:Creating package script '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_mvt_cf3/share/welder_mvt_cf3/package.sh'
+[2.868s] INFO:colcon.colcon_core.shell:Creating package script '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_mvt_cf3/share/welder_mvt_cf3/package.bash'
+[2.868s] INFO:colcon.colcon_core.shell:Creating package script '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_mvt_cf3/share/welder_mvt_cf3/package.zsh'
+[2.868s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_mvt_cf3/share/colcon-core/packages/welder_mvt_cf3)
+[2.869s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(welder_mvt_cf3)
+[2.869s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_mvt_cf3' for CMake module files
+[2.869s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_mvt_cf3' for CMake config files
+[2.870s] Level 1:colcon.colcon_core.shell:create_environment_hook('welder_mvt_cf3', 'cmake_prefix_path')
+[2.870s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_mvt_cf3/share/welder_mvt_cf3/hook/cmake_prefix_path.ps1'
+[2.870s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_mvt_cf3/share/welder_mvt_cf3/hook/cmake_prefix_path.dsv'
+[2.871s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_mvt_cf3/share/welder_mvt_cf3/hook/cmake_prefix_path.sh'
+[2.871s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_mvt_cf3/bin'
+[2.871s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_mvt_cf3/lib/pkgconfig/welder_mvt_cf3.pc'
+[2.871s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_mvt_cf3/lib/python3.10/site-packages'
+[2.871s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_mvt_cf3/bin'
+[2.872s] INFO:colcon.colcon_core.shell:Creating package script '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_mvt_cf3/share/welder_mvt_cf3/package.ps1'
+[2.872s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_mvt_cf3/share/welder_mvt_cf3/package.dsv'
+[2.872s] INFO:colcon.colcon_core.shell:Creating package script '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_mvt_cf3/share/welder_mvt_cf3/package.sh'
+[2.873s] INFO:colcon.colcon_core.shell:Creating package script '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_mvt_cf3/share/welder_mvt_cf3/package.bash'
+[2.873s] INFO:colcon.colcon_core.shell:Creating package script '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_mvt_cf3/share/welder_mvt_cf3/package.zsh'
+[2.874s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/welder_mvt_cf3/share/colcon-core/packages/welder_mvt_cf3)
+[2.874s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.874s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.874s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.874s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.880s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.880s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.880s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.887s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.887s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/local_setup.ps1'
+[2.888s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/_local_setup_util_ps1.py'
+[2.889s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/setup.ps1'
+[2.890s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/local_setup.sh'
+[2.891s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/_local_setup_util_sh.py'
+[2.891s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/setup.sh'
+[2.892s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/local_setup.bash'
+[2.893s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/setup.bash'
+[2.894s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/local_setup.zsh'
+[2.895s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/setup.zsh'

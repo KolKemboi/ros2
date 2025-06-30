@@ -1,0 +1,19 @@
+[35m[1mConsolidate compiler generated dependencies of target hello_mvt[0m
+[100%] Built target hello_mvt
+-- Install configuration: ""
+-- Up-to-date: /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/moveit_control/lib/moveit_control/hello_mvt
+-- Up-to-date: /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/moveit_control/share/ament_index/resource_index/package_run_dependencies/moveit_control
+-- Up-to-date: /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/moveit_control/share/ament_index/resource_index/parent_prefix_path/moveit_control
+-- Up-to-date: /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/moveit_control/share/moveit_control/environment/ament_prefix_path.sh
+-- Up-to-date: /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/moveit_control/share/moveit_control/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/moveit_control/share/moveit_control/environment/path.sh
+-- Up-to-date: /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/moveit_control/share/moveit_control/environment/path.dsv
+-- Up-to-date: /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/moveit_control/share/moveit_control/local_setup.bash
+-- Up-to-date: /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/moveit_control/share/moveit_control/local_setup.sh
+-- Up-to-date: /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/moveit_control/share/moveit_control/local_setup.zsh
+-- Up-to-date: /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/moveit_control/share/moveit_control/local_setup.dsv
+-- Installing: /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/moveit_control/share/moveit_control/package.dsv
+-- Up-to-date: /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/moveit_control/share/ament_index/resource_index/packages/moveit_control
+-- Up-to-date: /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/moveit_control/share/moveit_control/cmake/moveit_controlConfig.cmake
+-- Up-to-date: /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/moveit_control/share/moveit_control/cmake/moveit_controlConfig-version.cmake
+-- Up-to-date: /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/moveit_control/share/moveit_control/package.xml

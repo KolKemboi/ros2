@@ -1,0 +1,26 @@
+[0.454s] Invoking command in '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/build/moveit_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/build/moveit_control -- -j4 -l4
+[0.514s] [35m[1mConsolidate compiler generated dependencies of target hello_mvt[0m
+[0.533s] [ 50%] [32mBuilding CXX object CMakeFiles/hello_mvt.dir/src/hello_moveit.cpp.o[0m
+[10.889s] [100%] [32m[1mLinking CXX executable hello_mvt[0m
+[12.061s] [100%] Built target hello_mvt
+[12.076s] Invoked command in '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/build/moveit_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/build/moveit_control -- -j4 -l4
+[12.079s] Invoking command in '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/build/moveit_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/build/moveit_control
+[12.089s] -- Install configuration: ""
+[12.089s] -- Installing: /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/moveit_control/lib/moveit_control/hello_mvt
+[12.090s] -- Set runtime path of "/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/moveit_control/lib/moveit_control/hello_mvt" to ""
+[12.090s] -- Up-to-date: /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/moveit_control/share/ament_index/resource_index/package_run_dependencies/moveit_control
+[12.090s] -- Up-to-date: /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/moveit_control/share/ament_index/resource_index/parent_prefix_path/moveit_control
+[12.091s] -- Up-to-date: /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/moveit_control/share/moveit_control/environment/ament_prefix_path.sh
+[12.091s] -- Up-to-date: /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/moveit_control/share/moveit_control/environment/ament_prefix_path.dsv
+[12.091s] -- Up-to-date: /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/moveit_control/share/moveit_control/environment/path.sh
+[12.091s] -- Up-to-date: /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/moveit_control/share/moveit_control/environment/path.dsv
+[12.091s] -- Up-to-date: /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/moveit_control/share/moveit_control/local_setup.bash
+[12.092s] -- Up-to-date: /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/moveit_control/share/moveit_control/local_setup.sh
+[12.092s] -- Up-to-date: /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/moveit_control/share/moveit_control/local_setup.zsh
+[12.092s] -- Up-to-date: /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/moveit_control/share/moveit_control/local_setup.dsv
+[12.092s] -- Installing: /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/moveit_control/share/moveit_control/package.dsv
+[12.092s] -- Up-to-date: /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/moveit_control/share/ament_index/resource_index/packages/moveit_control
+[12.093s] -- Up-to-date: /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/moveit_control/share/moveit_control/cmake/moveit_controlConfig.cmake
+[12.093s] -- Up-to-date: /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/moveit_control/share/moveit_control/cmake/moveit_controlConfig-version.cmake
+[12.093s] -- Up-to-date: /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/install/moveit_control/share/moveit_control/package.xml
+[12.095s] Invoked command in '/home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/build/moveit_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kol/Documents/ros_workstation/Control/six_dof_robot_ws/build/moveit_control
