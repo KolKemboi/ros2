@@ -2,18 +2,17 @@
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro">
     <xacro:macro name="welder_ros2_control" params="name initial_positions_file">
         <xacro:property name="initial_positions" value="${xacro.load_yaml(initial_positions_file)['initial_positions']}"/>
-		
-        <gazebo>
-    <plugin name="gazebo_ros2_control" filename="libgazebo_ros2_control.so">
-        <robot_sim_type>gazebo_ros2_control/GazeboSystem</robot_sim_type>
-        <parameters>$(find welder_moveit_config)/config/ros2_controllers.yaml</parameters>
-    </plugin>
-</gazebo>
+<!-- 		 -->
+<!--         <gazebo> -->
+<!--     <plugin name="gazebo_ros2_control" filename="libgazebo_ros2_control.so"> -->
+<!--         <robot_sim_type>gazebo_ros2_control/GazeboSystem</robot_sim_type> -->
+<!--         <parameters>$(find welder_moveit_config)/config/ros2_controllers.yaml</parameters> -->
+<!--     </plugin> -->
+<!-- </gazebo> -->
 
 
         <ros2_control name="gazebo_ros2_control" type="system">
             <hardware>
-                <!-- By default, set up controllers for simulation. This won't work on real hardware -->
                 <plugin>gazebo_ros2_control/GazeboSystem</plugin>
             </hardware>
 

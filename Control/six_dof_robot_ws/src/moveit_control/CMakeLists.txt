@@ -15,9 +15,13 @@ find_package(rclcpp REQUIRED)
 add_executable(hello_mvt src/hello_moveit.cpp)
 ament_target_dependencies(hello_mvt rclcpp moveit_ros_planning_interface)
 
+add_executable(welder_cont src/WelderArmPlanner.cpp)
+ament_target_dependencies(welder_cont rclcpp moveit_ros_planning_interface)
+
 install(
 	TARGETS
 	hello_mvt
+	welder_cont
 	DESTINATION
 	lib/${PROJECT_NAME}
 )

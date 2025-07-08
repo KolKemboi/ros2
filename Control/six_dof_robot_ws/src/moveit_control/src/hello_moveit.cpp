@@ -17,6 +17,7 @@ int main(int argc, char *argv[]) {
   using moveit::planning_interface::MoveGroupInterface;
   auto move_group_interface = MoveGroupInterface(node, "Welder_Arm");
 
+	// NOTE: lambda
   auto const target_pose = [] {
     geometry_msgs::msg::Pose msg;
     msg.orientation.w = 1.0;
