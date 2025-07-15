@@ -1,57 +1,123 @@
-#include <geometry_msgs/msg/detail/pose__struct.hpp>
-#include <geometry_msgs/msg/pose.hpp>
-#include <iostream>
 #include <moveit/move_group_interface/move_group_interface.h>
-#include <rclcpp/logging.hpp>
+#include <moveit/planning_scene_interface/planning_scene_interface.h>
+
+#include <memory>
 #include <rclcpp/rclcpp.hpp>
-#include <rclcpp/utilities.hpp>
+#include <thread>
 
-class WelderArmPlanner {
-public:
-  WelderArmPlanner(const rclcpp::Node::SharedPtr &node,
-                   const std::string &planning_group)
-      : move_group_interface_(node, planning_group),
-        logger_(rclcpp::get_logger("WelderArmPlanner")) {}
-  geometry_msgs::msg::Pose getDefaultTargetPose() const {
-    geometry_msgs::msg::Pose pose;
-    pose.orientation.w = 1.0;
-    pose.position.x = 0.1;
-    pose.position.y = 0.05;
-    pose.position.z = 0.1;
-    return pose;
-  }
-
-  bool planToPose(const geometry_msgs::msg::Pose &target_pose) {
-    move_group_interface_.setPoseTarget(target_pose);
-    moveit::planning_interface::MoveGroupInterface::Plan plan;
-
-    bool success = static_cast<bool>(move_group_interface_.plan(plan));
-    if (success) {
-      move_group_interface_.execute(plan);
-      RCLCPP_INFO(logger_, "EXECUTED");
-    } else {
-      RCLCPP_WARN(logger_, "FAILED");
-    }
-    return success;
-  }
-
-private:
-  moveit::planning_interface::MoveGroupInterface move_group_interface_;
-  rclcpp::Logger logger_;
-};
-
-int main(int argc, char **argv) {
+int main(int argc, char* argv[])
+{
+  // Initialize ROS and create the Node
   rclcpp::init(argc, argv);
-  auto node = std::make_shared<rclcpp::Node>(
-      "hello_mvt",
-      rclcpp::NodeOptions().automatically_declare_parameters_from_overrides(
-          true));
+  auto const node = std::make_shared<rclcpp::Node>(
+      "hello_moveit", rclcpp::NodeOptions().automatically_declare_parameters_from_overrides(true));
 
-  WelderArmPlanner planner(node, "Welder_Arm");
+  // Create a ROS logger
+  auto const logger = rclcpp::get_logger("hello_moveit");
 
-  auto target_pose = planner.getDefaultTargetPose();
-  planner.planToPose(target_pose);
+  // We spin up a SingleThreadedExecutor for the current state monitor to get
+  // information about the robot's state.
+  rclcpp::executors::SingleThreadedExecutor executor;
+  executor.add_node(node);
+  auto spinner = std::thread([&executor]() { executor.spin(); });
 
+  // Create the MoveIt MoveGroup Interface
+  using moveit::planning_interface::MoveGroupInterface;
+  auto move_group_interface = MoveGroupInterface(node, "Welder_Arm");
+
+
+  // Set a target Pose with updated values !!!
+  auto const target_pose = [] {
+    geometry_msgs::msg::Pose msg;
+    msg.orientation.y = 0.8;
+    msg.orientation.w = 0.6;
+    msg.position.x = 0.1;
+    msg.position.y = 0.05;
+    msg.position.z = 0.3;
+    return msg;
+  }();
+  move_group_interface.setPoseTarget(target_pose);
+
+  // Create collision object for the robot to avoid
+  auto const coll_obj_1 = [frame_id = move_group_interface.getPlanningFrame()] {
+    moveit_msgs::msg::CollisionObject coll_obj_1;
+    coll_obj_1.header.frame_id = frame_id;
+    coll_obj_1.id = "box1";
+    shape_msgs::msg::SolidPrimitive primitive;
+
+    // Define the size of the box in meters
+    primitive.type = primitive.BOX;
+    primitive.dimensions.resize(3);
+    primitive.dimensions[primitive.BOX_X] = 0.5;
+    primitive.dimensions[primitive.BOX_Y] = 0.1;
+    primitive.dimensions[primitive.BOX_Z] = 0.5;
+
+    // Define the pose of the box (relative to the frame_id)
+    geometry_msgs::msg::Pose box_pose;
+    box_pose.orientation.w = 1.0;
+    box_pose.position.x = 0.4;
+    box_pose.position.y = 0.0;
+    box_pose.position.z = 0.25;
+
+    coll_obj_1.primitives.push_back(primitive);
+    coll_obj_1.primitive_poses.push_back(box_pose);
+    coll_obj_1.operation = coll_obj_1.ADD;
+
+    return coll_obj_1;
+  }();
+
+
+  // Create collision object for the robot to avoid
+  auto const coll_obj_2 = [frame_id = move_group_interface.getPlanningFrame()] {
+    moveit_msgs::msg::CollisionObject coll_obj_2;
+    coll_obj_2.header.frame_id = frame_id;
+    coll_obj_2.id = "box2";
+    shape_msgs::msg::SolidPrimitive primitive;
+
+    // Define the size of the box in meters
+    primitive.type = primitive.BOX;
+    primitive.dimensions.resize(3);
+    primitive.dimensions[primitive.BOX_X] = 0.5;
+    primitive.dimensions[primitive.BOX_Y] = 0.1;
+    primitive.dimensions[primitive.BOX_Z] = 0.5;
+
+    // Define the pose of the box (relative to the frame_id)
+    geometry_msgs::msg::Pose box_pose;
+    box_pose.orientation.w = 1.0;
+    box_pose.position.x = -0.4;
+    box_pose.position.y = 0.0;
+    box_pose.position.z = 0.25;
+
+    coll_obj_2.primitives.push_back(primitive);
+    coll_obj_2.primitive_poses.push_back(box_pose);
+    coll_obj_2.operation = coll_obj_2.ADD;
+
+    return coll_obj_2;
+  }();
+
+  // Add the collision object to the scene
+  moveit::planning_interface::PlanningSceneInterface planning_scene_interface;
+  planning_scene_interface.applyCollisionObject(coll_obj_1);
+  planning_scene_interface.applyCollisionObject(coll_obj_2);
+
+  auto const [success, plan] = [&move_group_interface] {
+    moveit::planning_interface::MoveGroupInterface::Plan msg;
+    auto const ok = static_cast<bool>(move_group_interface.plan(msg));
+    return std::make_pair(ok, msg);
+  }();
+
+  // Execute the plan
+  if (success)
+  {
+    move_group_interface.execute(plan);
+  }
+  else
+  {
+    RCLCPP_ERROR(logger, "Planning failed!");
+  }
+
+  // Shutdown ROS
   rclcpp::shutdown();
+  spinner.join();
   return 0;
 }
