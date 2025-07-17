@@ -3,7 +3,10 @@
 
 <xacro:property name="White" value="Gazebo/White" />
 <gazebo>
-  <plugin name="control" filename="libgazebo_ros_control.so"/>
+    <plugin name="gazebo_ros2_control" filename="libgazebo_ros2_control.so">
+        <robot_sim_type>gazebo_ros2_control/GazeboSystem</robot_sim_type>
+        <parameters>$(find panda_description)/config/my_controllers.yaml</parameters>
+    </plugin>
 </gazebo>
 
 <gazebo reference="base_link">
@@ -71,7 +74,7 @@
 </gazebo>
 
 
-<gazebo reference="panda_arm">
+<gazebo reference="panda_hand">
 		<material>${White}</material>
   <mu1>0.2</mu1>
   <mu2>0.2</mu2>
