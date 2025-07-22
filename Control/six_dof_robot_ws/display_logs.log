@@ -1,0 +1,154 @@
+[INFO] [launch]: All log files can be found below /home/kol/.ros/log/2025-07-21-11-20-59-554920-elsa-80360
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [robot_state_publisher-1]: process started with pid [80361]
+[INFO] [joint_state_publisher_gui-2]: process started with pid [80363]
+[INFO] [rviz2-3]: process started with pid [80365]
+[robot_state_publisher-1] [INFO] [1753086059.772329753] [robot_state_publisher]: got segment base_link
+[robot_state_publisher-1] [INFO] [1753086059.772476891] [robot_state_publisher]: got segment link_1_1
+[robot_state_publisher-1] [INFO] [1753086059.772496289] [robot_state_publisher]: got segment link_2_1
+[robot_state_publisher-1] [INFO] [1753086059.772507408] [robot_state_publisher]: got segment link_3_1
+[robot_state_publisher-1] [INFO] [1753086059.772519246] [robot_state_publisher]: got segment link_4_1
+[robot_state_publisher-1] [INFO] [1753086059.772529352] [robot_state_publisher]: got segment link_5_1
+[robot_state_publisher-1] [INFO] [1753086059.772538831] [robot_state_publisher]: got segment link_6_1
+[robot_state_publisher-1] [INFO] [1753086059.772548143] [robot_state_publisher]: got segment world
+[rviz2-3] Warning: Ignoring XDG_SESSION_TYPE=wayland on Gnome. Use QT_QPA_PLATFORM=wayland to run on Wayland anyway.
+[joint_state_publisher_gui-2] Warning: Ignoring XDG_SESSION_TYPE=wayland on Gnome. Use QT_QPA_PLATFORM=wayland to run on Wayland anyway.
+[rviz2-3] [INFO] [1753086060.347750963] [rviz2]: Stereo is NOT SUPPORTED
+[rviz2-3] [INFO] [1753086060.347952036] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+[rviz2-3] [INFO] [1753086060.383638629] [rviz2]: Stereo is NOT SUPPORTED
+[joint_state_publisher_gui-2] [INFO] [1753086060.506837446] [joint_state_publisher_gui]: Waiting for robot_description to be published on the robot_description topic...
+[joint_state_publisher_gui-2] [INFO] [1753086060.521844684] [joint_state_publisher_gui]: Centering
+[joint_state_publisher_gui-2] [INFO] [1753086060.777370968] [joint_state_publisher_gui]: Centering
+[rviz2-3] [ERROR] [1753086062.100972403] [rviz2]: Could not load resource [file:///home/karanikibe/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/g_shape_base_v2_0/visual/base_link.dae]: Unable to open file "file:///home/karanikibe/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/g_shape_base_v2_0/visual/base_link.dae".
+[rviz2-3] [ERROR] [1753086062.113877411] [rviz2]: Could not load resource [file:///home/karanikibe/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/g_shape_base_v2_0/visual/base_link.dae]: Unable to open file "file:///home/karanikibe/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/g_shape_base_v2_0/visual/base_link.dae".
+[rviz2-3] [ERROR] [1753086062.115331232] [rviz2]: Could not load resource [file:///home/karanikibe/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/adaptive_gripper/visual/gripper_base.dae]: Unable to open file "file:///home/karanikibe/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/adaptive_gripper/visual/gripper_base.dae".
+[rviz2-3] [ERROR] [1753086062.115978380] [rviz2]: Could not load resource [file:///home/karanikibe/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/adaptive_gripper/visual/gripper_base.dae]: Unable to open file "file:///home/karanikibe/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/adaptive_gripper/visual/gripper_base.dae".
+[rviz2-3] [ERROR] [1753086062.129209689] [rviz2]: Could not load resource [file:///home/karanikibe/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/adaptive_gripper/visual/gripper_left1.dae]: Unable to open file "file:///home/karanikibe/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/adaptive_gripper/visual/gripper_left1.dae".
+[rviz2-3] [ERROR] [1753086062.132878680] [rviz2]: Could not load resource [file:///home/karanikibe/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/adaptive_gripper/visual/gripper_left1.dae]: Unable to open file "file:///home/karanikibe/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/adaptive_gripper/visual/gripper_left1.dae".
+[rviz2-3] [ERROR] [1753086062.134402518] [rviz2]: Could not load resource [file:///home/karanikibe/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/adaptive_gripper/visual/gripper_left2.dae]: Unable to open file "file:///home/karanikibe/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/adaptive_gripper/visual/gripper_left2.dae".
+[rviz2-3] [ERROR] [1753086062.137671339] [rviz2]: Could not load resource [file:///home/karanikibe/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/adaptive_gripper/visual/gripper_left2.dae]: Unable to open file "file:///home/karanikibe/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/adaptive_gripper/visual/gripper_left2.dae".
+[rviz2-3] [ERROR] [1753086062.141218657] [rviz2]: Could not load resource [file:///home/karanikibe/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/adaptive_gripper/visual/gripper_left3.dae]: Unable to open file "file:///home/karanikibe/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/adaptive_gripper/visual/gripper_left3.dae".
+[rviz2-3] [ERROR] [1753086062.142232352] [rviz2]: Could not load resource [file:///home/karanikibe/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/adaptive_gripper/visual/gripper_left3.dae]: Unable to open file "file:///home/karanikibe/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/adaptive_gripper/visual/gripper_left3.dae".
+[rviz2-3] [ERROR] [1753086062.143519865] [rviz2]: Could not load resource [file:///home/karanikibe/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/adaptive_gripper/visual/gripper_right1.dae]: Unable to open file "file:///home/karanikibe/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/adaptive_gripper/visual/gripper_right1.dae".
+[rviz2-3] [ERROR] [1753086062.144299898] [rviz2]: Could not load resource [file:///home/karanikibe/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/adaptive_gripper/visual/gripper_right1.dae]: Unable to open file "file:///home/karanikibe/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/adaptive_gripper/visual/gripper_right1.dae".
+[rviz2-3] [ERROR] [1753086062.149884926] [rviz2]: Could not load resource [file:///home/karanikibe/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/adaptive_gripper/visual/gripper_right2.dae]: Unable to open file "file:///home/karanikibe/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/adaptive_gripper/visual/gripper_right2.dae".
+[rviz2-3] [ERROR] [1753086062.150875361] [rviz2]: Could not load resource [file:///home/karanikibe/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/adaptive_gripper/visual/gripper_right2.dae]: Unable to open file "file:///home/karanikibe/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/adaptive_gripper/visual/gripper_right2.dae".
+[rviz2-3] [ERROR] [1753086062.154704550] [rviz2]: Could not load resource [file:///home/karanikibe/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/adaptive_gripper/visual/gripper_right3.dae]: Unable to open file "file:///home/karanikibe/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/adaptive_gripper/visual/gripper_right3.dae".
+[rviz2-3] [ERROR] [1753086062.155439513] [rviz2]: Could not load resource [file:///home/karanikibe/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/adaptive_gripper/visual/gripper_right3.dae]: Unable to open file "file:///home/karanikibe/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/adaptive_gripper/visual/gripper_right3.dae".
+[rviz2-3] [ERROR] [1753086062.159101519] [rviz2]: Could not load resource [file:///home/karanikibe/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/link1.dae]: Unable to open file "file:///home/karanikibe/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/link1.dae".
+[rviz2-3] [ERROR] [1753086062.159857386] [rviz2]: Could not load resource [file:///home/karanikibe/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/link1.dae]: Unable to open file "file:///home/karanikibe/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/link1.dae".
+[rviz2-3] [ERROR] [1753086062.161708317] [rviz2]: Could not load resource [file:///home/karanikibe/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/link2.dae]: Unable to open file "file:///home/karanikibe/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/link2.dae".
+[rviz2-3] [ERROR] [1753086062.162742048] [rviz2]: Could not load resource [file:///home/karanikibe/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/link2.dae]: Unable to open file "file:///home/karanikibe/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/link2.dae".
+[rviz2-3] [ERROR] [1753086062.163989496] [rviz2]: Could not load resource [file:///home/karanikibe/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/link3.dae]: Unable to open file "file:///home/karanikibe/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/link3.dae".
+[rviz2-3] [ERROR] [1753086062.167281771] [rviz2]: Could not load resource [file:///home/karanikibe/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/link3.dae]: Unable to open file "file:///home/karanikibe/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/link3.dae".
+[rviz2-3] [ERROR] [1753086062.172270618] [rviz2]: Could not load resource [file:///home/karanikibe/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/link4.dae]: Unable to open file "file:///home/karanikibe/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/link4.dae".
+[rviz2-3] [ERROR] [1753086062.175530827] [rviz2]: Could not load resource [file:///home/karanikibe/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/link4.dae]: Unable to open file "file:///home/karanikibe/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/link4.dae".
+[rviz2-3] [ERROR] [1753086062.181734804] [rviz2]: Could not load resource [file:///home/karanikibe/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/link5.dae]: Unable to open file "file:///home/karanikibe/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/link5.dae".
+[rviz2-3] [ERROR] [1753086062.182456747] [rviz2]: Could not load resource [file:///home/karanikibe/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/link5.dae]: Unable to open file "file:///home/karanikibe/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/link5.dae".
+[rviz2-3] [ERROR] [1753086062.187416117] [rviz2]: Could not load resource [file:///home/karanikibe/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/link6.dae]: Unable to open file "file:///home/karanikibe/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/link6.dae".
+[rviz2-3] [ERROR] [1753086062.188264268] [rviz2]: Could not load resource [file:///home/karanikibe/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/link6.dae]: Unable to open file "file:///home/karanikibe/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/link6.dae".
+[rviz2-3] [ERROR] [1753086062.189703611] [rviz2]: Could not load resource [file:///home/karanikibe/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/link7.dae]: Unable to open file "file:///home/karanikibe/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/link7.dae".
+[rviz2-3] [ERROR] [1753086062.193461207] [rviz2]: Could not load resource [file:///home/karanikibe/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/link7.dae]: Unable to open file "file:///home/karanikibe/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/link7.dae".
+[joint_state_publisher_gui-2] [INFO] [1753086063.695102251] [joint_state_publisher_gui]: Centering
+[joint_state_publisher_gui-2] 
+[joint_state_publisher_gui-2] >>> [rcutils|error_handling.c:108] rcutils_set_error_state()
+[joint_state_publisher_gui-2] This error state is being overwritten:
+[joint_state_publisher_gui-2] 
+[joint_state_publisher_gui-2]   'Fast CDR exception deserializing message of type rmw_dds_common::msg::dds_::ParticipantEntitiesInfo_., at ./src/type_support_common.cpp:118'
+[joint_state_publisher_gui-2] 
+[joint_state_publisher_gui-2] with this new error message:
+[joint_state_publisher_gui-2] 
+[joint_state_publisher_gui-2]   ''Bad alloc' exception deserializing message of type rmw_dds_common::msg::dds_::ParticipantEntitiesInfo_., at ./src/type_support_common.cpp:123'
+[joint_state_publisher_gui-2] 
+[joint_state_publisher_gui-2] rcutils_reset_error() should be called after error handling to avoid this.
+[joint_state_publisher_gui-2] <<<
+[rviz2-3] 
+[rviz2-3] >>> [rcutils|error_handling.c:108] rcutils_set_error_state()
+[rviz2-3] This error state is being overwritten:
+[rviz2-3] 
+[rviz2-3]   'Fast CDR exception deserializing message of type rmw_dds_common::msg::dds_::ParticipantEntitiesInfo_., at ./src/type_support_common.cpp:118'
+[rviz2-3] 
+[rviz2-3] with this new error message:
+[rviz2-3] 
+[rviz2-3]   ''Bad alloc' exception deserializing message of type rmw_dds_common::msg::dds_::ParticipantEntitiesInfo_., at ./src/type_support_common.cpp:123'
+[rviz2-3] 
+[rviz2-3] rcutils_reset_error() should be called after error handling to avoid this.
+[rviz2-3] <<<
+[robot_state_publisher-1] 
+[robot_state_publisher-1] >>> [rcutils|error_handling.c:108] rcutils_set_error_state()
+[robot_state_publisher-1] This error state is being overwritten:
+[robot_state_publisher-1] 
+[robot_state_publisher-1]   'Fast CDR exception deserializing message of type rmw_dds_common::msg::dds_::ParticipantEntitiesInfo_., at ./src/type_support_common.cpp:118'
+[robot_state_publisher-1] 
+[robot_state_publisher-1] with this new error message:
+[robot_state_publisher-1] 
+[robot_state_publisher-1]   ''Bad alloc' exception deserializing message of type rmw_dds_common::msg::dds_::ParticipantEntitiesInfo_., at ./src/type_support_common.cpp:123'
+[robot_state_publisher-1] 
+[robot_state_publisher-1] rcutils_reset_error() should be called after error handling to avoid this.
+[robot_state_publisher-1] <<<
+[rviz2-3] 
+[rviz2-3] >>> [rcutils|error_handling.c:108] rcutils_set_error_state()
+[rviz2-3] This error state is being overwritten:
+[rviz2-3] 
+[rviz2-3]   ''Bad alloc' exception deserializing message of type rmw_dds_common::msg::dds_::ParticipantEntitiesInfo_., at ./src/type_support_common.cpp:123'
+[rviz2-3] 
+[rviz2-3] with this new error message:
+[rviz2-3] 
+[rviz2-3]   'Fast CDR exception deserializing message of type rmw_dds_common::msg::dds_::ParticipantEntitiesInfo_., at ./src/type_support_common.cpp:118'
+[rviz2-3] 
+[rviz2-3] rcutils_reset_error() should be called after error handling to avoid this.
+[rviz2-3] <<<
+[rviz2-3] 
+[rviz2-3] >>> [rcutils|error_handling.c:108] rcutils_set_error_state()
+[rviz2-3] This error state is being overwritten:
+[rviz2-3] 
+[rviz2-3]   'Fast CDR exception deserializing message of type rmw_dds_common::msg::dds_::ParticipantEntitiesInfo_., at ./src/type_support_common.cpp:118'
+[rviz2-3] 
+[rviz2-3] with this new error message:
+[rviz2-3] 
+[rviz2-3]   ''Bad alloc' exception deserializing message of type rmw_dds_common::msg::dds_::ParticipantEntitiesInfo_., at ./src/type_support_common.cpp:123'
+[rviz2-3] 
+[rviz2-3] rcutils_reset_error() should be called after error handling to avoid this.
+[rviz2-3] <<<
+[robot_state_publisher-1] 
+[robot_state_publisher-1] >>> [rcutils|error_handling.c:108] rcutils_set_error_state()
+[robot_state_publisher-1] This error state is being overwritten:
+[robot_state_publisher-1] 
+[robot_state_publisher-1]   ''Bad alloc' exception deserializing message of type rmw_dds_common::msg::dds_::ParticipantEntitiesInfo_., at ./src/type_support_common.cpp:123'
+[robot_state_publisher-1] 
+[robot_state_publisher-1] with this new error message:
+[robot_state_publisher-1] 
+[robot_state_publisher-1]   'Fast CDR exception deserializing message of type rmw_dds_common::msg::dds_::ParticipantEntitiesInfo_., at ./src/type_support_common.cpp:118'
+[robot_state_publisher-1] 
+[robot_state_publisher-1] rcutils_reset_error() should be called after error handling to avoid this.
+[robot_state_publisher-1] <<<
+[joint_state_publisher_gui-2] 
+[joint_state_publisher_gui-2] >>> [rcutils|error_handling.c:108] rcutils_set_error_state()
+[joint_state_publisher_gui-2] This error state is being overwritten:
+[joint_state_publisher_gui-2] 
+[joint_state_publisher_gui-2]   ''Bad alloc' exception deserializing message of type rmw_dds_common::msg::dds_::ParticipantEntitiesInfo_., at ./src/type_support_common.cpp:123'
+[joint_state_publisher_gui-2] 
+[joint_state_publisher_gui-2] with this new error message:
+[joint_state_publisher_gui-2] 
+[joint_state_publisher_gui-2]   'Fast CDR exception deserializing message of type rmw_dds_common::msg::dds_::ParticipantEntitiesInfo_., at ./src/type_support_common.cpp:118'
+[joint_state_publisher_gui-2] 
+[joint_state_publisher_gui-2] rcutils_reset_error() should be called after error handling to avoid this.
+[joint_state_publisher_gui-2] <<<
+[rviz2-3] 
+[rviz2-3] >>> [rcutils|error_handling.c:108] rcutils_set_error_state()
+[rviz2-3] This error state is being overwritten:
+[rviz2-3] 
+[rviz2-3]   ''Bad alloc' exception deserializing message of type rmw_dds_common::msg::dds_::ParticipantEntitiesInfo_., at ./src/type_support_common.cpp:123'
+[rviz2-3] 
+[rviz2-3] with this new error message:
+[rviz2-3] 
+[rviz2-3]   'Fast CDR exception deserializing message of type rmw_dds_common::msg::dds_::ParticipantEntitiesInfo_., at ./src/type_support_common.cpp:118'
+[rviz2-3] 
+[rviz2-3] rcutils_reset_error() should be called after error handling to avoid this.
+[rviz2-3] <<<
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[rviz2-3] [INFO] [1753086076.135555676] [rclcpp]: signal_handler(signum=2)
+[robot_state_publisher-1] [INFO] [1753086076.138202243] [rclcpp]: signal_handler(signum=2)
+[ERROR] [joint_state_publisher_gui-2]: process has died [pid 80363, exit code -2, cmd '/opt/ros/humble/lib/joint_state_publisher_gui/joint_state_publisher_gui --ros-args -r __node:=joint_state_publisher_gui'].
+[INFO] [robot_state_publisher-1]: process has finished cleanly [pid 80361]
+[INFO] [rviz2-3]: process has finished cleanly [pid 80365]
