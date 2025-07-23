@@ -9,6 +9,7 @@ install(
   DIRECTORY
     meshes
     urdf
+		launch
   DESTINATION
     share/${PROJECT_NAME}
 )
