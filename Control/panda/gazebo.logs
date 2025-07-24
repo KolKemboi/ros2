@@ -1,198 +1,159 @@
-[INFO] [launch]: All log files can be found below /home/kol/.ros/log/2025-07-21-11-38-06-851150-elsa-86186
+[INFO] [launch]: All log files can be found below /home/kol/.ros/log/2025-07-24-09-37-53-787956-elsa-40058
 [INFO] [launch]: Default logging verbosity is set to INFO
-[INFO] [robot_state_publisher-1]: process started with pid [86196]
-[INFO] [joint_state_publisher-2]: process started with pid [86198]
-[INFO] [gzserver-3]: process started with pid [86200]
-[INFO] [gzclient-4]: process started with pid [86202]
-[INFO] [spawn_entity.py-5]: process started with pid [86204]
-[INFO] [ros2-6]: process started with pid [86206]
-[INFO] [ros2-7]: process started with pid [86208]
-[INFO] [ros2-8]: process started with pid [86211]
-[robot_state_publisher-1] [INFO] [1753087088.534056402] [robot_state_publisher]: got segment base_link
-[robot_state_publisher-1] [INFO] [1753087088.534224192] [robot_state_publisher]: got segment panda_hand
-[robot_state_publisher-1] [INFO] [1753087088.534243028] [robot_state_publisher]: got segment panda_leftfinger
-[robot_state_publisher-1] [INFO] [1753087088.534253160] [robot_state_publisher]: got segment panda_link1
-[robot_state_publisher-1] [INFO] [1753087088.534263045] [robot_state_publisher]: got segment panda_link2
-[robot_state_publisher-1] [INFO] [1753087088.534272176] [robot_state_publisher]: got segment panda_link3
-[robot_state_publisher-1] [INFO] [1753087088.534281807] [robot_state_publisher]: got segment panda_link4
-[robot_state_publisher-1] [INFO] [1753087088.534292844] [robot_state_publisher]: got segment panda_link5
-[robot_state_publisher-1] [INFO] [1753087088.534307795] [robot_state_publisher]: got segment panda_link6
-[robot_state_publisher-1] [INFO] [1753087088.534318124] [robot_state_publisher]: got segment panda_link7
-[robot_state_publisher-1] [INFO] [1753087088.534328606] [robot_state_publisher]: got segment panda_link8
-[robot_state_publisher-1] [INFO] [1753087088.534338863] [robot_state_publisher]: got segment panda_rightfinger
-[robot_state_publisher-1] [INFO] [1753087088.534349177] [robot_state_publisher]: got segment world
-[joint_state_publisher-2] [INFO] [1753087089.710914106] [joint_state_publisher]: Waiting for robot_description to be published on the robot_description topic...
-[spawn_entity.py-5] [INFO] [1753087090.080955040] [spawn_entity]: Spawn Entity started
-[spawn_entity.py-5] [INFO] [1753087090.082381311] [spawn_entity]: Loading entity published on topic robot_description
-[spawn_entity.py-5] [INFO] [1753087090.086677002] [spawn_entity]: Waiting for entity xml on robot_description
-[spawn_entity.py-5] [INFO] [1753087090.105105348] [spawn_entity]: Waiting for service /spawn_entity, timeout = 30
-[spawn_entity.py-5] [INFO] [1753087090.105864617] [spawn_entity]: Waiting for service /spawn_entity
-[ros2-7] [INFO] [1753087091.659146005] [_ros2cli_86208]: waiting for service /controller_manager/load_controller to become available...
-[ros2-8] [INFO] [1753087091.688002893] [_ros2cli_86211]: waiting for service /controller_manager/load_controller to become available...
-[gzserver-3] 
-[gzserver-3] >>> [rcutils|error_handling.c:108] rcutils_set_error_state()
-[gzserver-3] This error state is being overwritten:
-[gzserver-3] 
-[gzserver-3]   'Fast CDR exception deserializing message of type rmw_dds_common::msg::dds_::ParticipantEntitiesInfo_., at ./src/type_support_common.cpp:118'
-[gzserver-3] 
-[gzserver-3] with this new error message:
-[gzserver-3] 
-[gzserver-3]   ''Bad alloc' exception deserializing message of type rmw_dds_common::msg::dds_::ParticipantEntitiesInfo_., at ./src/type_support_common.cpp:123'
-[gzserver-3] 
-[gzserver-3] rcutils_reset_error() should be called after error handling to avoid this.
-[gzserver-3] <<<
-[ros2-8] 
-[ros2-8] >>> [rcutils|error_handling.c:108] rcutils_set_error_state()
-[ros2-8] This error state is being overwritten:
-[ros2-8] 
-[ros2-8]   'Fast CDR exception deserializing message of type rmw_dds_common::msg::dds_::ParticipantEntitiesInfo_., at ./src/type_support_common.cpp:118'
-[ros2-8] 
-[ros2-8] with this new error message:
-[ros2-8] 
-[ros2-8]   ''Bad alloc' exception deserializing message of type rmw_dds_common::msg::dds_::ParticipantEntitiesInfo_., at ./src/type_support_common.cpp:123'
-[ros2-8] 
-[ros2-8] rcutils_reset_error() should be called after error handling to avoid this.
-[ros2-8] <<<
-[ros2-6] [WARN] [1753087100.521142222] [_ros2cli_86206]: Failed getting a result from calling /controller_manager/load_controller in 10.0. (Attempt 1 of 3.)
-[ros2-7] Error loading controller, check controller_manager logs
-[ERROR] [ros2-7]: process has died [pid 86208, exit code 1, cmd 'ros2 control load_controller --set-state active panda_arm_controller'].
-[joint_state_publisher-2] 
-[joint_state_publisher-2] >>> [rcutils|error_handling.c:108] rcutils_set_error_state()
-[joint_state_publisher-2] This error state is being overwritten:
-[joint_state_publisher-2] 
-[joint_state_publisher-2]   'Fast CDR exception deserializing message of type rmw_dds_common::msg::dds_::ParticipantEntitiesInfo_., at ./src/type_support_common.cpp:118'
-[joint_state_publisher-2] 
-[joint_state_publisher-2] with this new error message:
-[joint_state_publisher-2] 
-[joint_state_publisher-2]   ''Bad alloc' exception deserializing message of type rmw_dds_common::msg::dds_::ParticipantEntitiesInfo_., at ./src/type_support_common.cpp:123'
-[joint_state_publisher-2] 
-[joint_state_publisher-2] rcutils_reset_error() should be called after error handling to avoid this.
-[joint_state_publisher-2] <<<
+[INFO] [robot_state_publisher-1]: process started with pid [40059]
+[INFO] [joint_state_publisher-2]: process started with pid [40061]
+[INFO] [gzserver-3]: process started with pid [40063]
+[INFO] [gzclient-4]: process started with pid [40065]
+[INFO] [spawn_entity.py-5]: process started with pid [40067]
+[INFO] [ros2-6]: process started with pid [40069]
+[INFO] [ros2-7]: process started with pid [40071]
+[INFO] [ros2-8]: process started with pid [40073]
+[robot_state_publisher-1] [INFO] [1753339075.367690097] [robot_state_publisher]: got segment base_link
+[robot_state_publisher-1] [INFO] [1753339075.369994086] [robot_state_publisher]: got segment panda_hand
+[robot_state_publisher-1] [INFO] [1753339075.370035899] [robot_state_publisher]: got segment panda_leftfinger
+[robot_state_publisher-1] [INFO] [1753339075.370048840] [robot_state_publisher]: got segment panda_link1
+[robot_state_publisher-1] [INFO] [1753339075.370059435] [robot_state_publisher]: got segment panda_link2
+[robot_state_publisher-1] [INFO] [1753339075.370069047] [robot_state_publisher]: got segment panda_link3
+[robot_state_publisher-1] [INFO] [1753339075.370078619] [robot_state_publisher]: got segment panda_link4
+[robot_state_publisher-1] [INFO] [1753339075.370088524] [robot_state_publisher]: got segment panda_link5
+[robot_state_publisher-1] [INFO] [1753339075.370098644] [robot_state_publisher]: got segment panda_link6
+[robot_state_publisher-1] [INFO] [1753339075.370108413] [robot_state_publisher]: got segment panda_link7
+[robot_state_publisher-1] [INFO] [1753339075.370118538] [robot_state_publisher]: got segment panda_link8
+[robot_state_publisher-1] [INFO] [1753339075.370128326] [robot_state_publisher]: got segment panda_rightfinger
+[robot_state_publisher-1] [INFO] [1753339075.370137980] [robot_state_publisher]: got segment world
+[joint_state_publisher-2] [INFO] [1753339076.178346737] [joint_state_publisher]: Waiting for robot_description to be published on the robot_description topic...
+[gzserver-3] [37;1m2025-07-24 09:37:56.255 [31;1m[[37;1mXMLPARSER[31;1m Error] [37mrealpath failed No such file or directory[34;1m -> Function [36mloadDefaultXMLFile[m
+[spawn_entity.py-5] [37;1m2025-07-24 09:37:56.330 [31;1m[[37;1mXMLPARSER[31;1m Error] [37mrealpath failed No such file or directory[34;1m -> Function [36mloadDefaultXMLFile[m
+[ros2-7] [37;1m2025-07-24 09:37:56.813 [31;1m[[37;1mXMLPARSER[31;1m Error] [37mrealpath failed No such file or directory[34;1m -> Function [36mloadDefaultXMLFile[m
+[spawn_entity.py-5] [INFO] [1753339076.914844896] [spawn_entity]: Spawn Entity started
+[spawn_entity.py-5] [INFO] [1753339076.915644414] [spawn_entity]: Loading entity published on topic robot_description
+[spawn_entity.py-5] [INFO] [1753339076.919356669] [spawn_entity]: Waiting for entity xml on robot_description
+[spawn_entity.py-5] [INFO] [1753339076.930821701] [spawn_entity]: Waiting for service /spawn_entity, timeout = 30
+[spawn_entity.py-5] [INFO] [1753339076.931529249] [spawn_entity]: Waiting for service /spawn_entity
+[spawn_entity.py-5] [INFO] [1753339077.446065299] [spawn_entity]: Calling service /spawn_entity
+[ros2-7] [INFO] [1753339077.708686261] [_ros2cli_40071]: waiting for service /controller_manager/load_controller to become available...
+[spawn_entity.py-5] [INFO] [1753339077.815397982] [spawn_entity]: Spawn status: SpawnEntity: Successfully spawned entity [panda]
+[ros2-8] [37;1m2025-07-24 09:37:57.828 [31;1m[[37;1mXMLPARSER[31;1m Error] [37mrealpath failed No such file or directory[34;1m -> Function [36mloadDefaultXMLFile[m
+[ros2-6] [37;1m2025-07-24 09:37:57.831 [31;1m[[37;1mXMLPARSER[31;1m Error] [37mrealpath failed No such file or directory[34;1m -> Function [36mloadDefaultXMLFile[m
+[gzserver-3] [INFO] [1753339077.877346835] [gazebo_ros2_control]: Loading gazebo_ros2_control plugin
+[gzserver-3] [INFO] [1753339077.894797961] [gazebo_ros2_control]: Starting gazebo_ros2_control plugin in namespace: /
+[gzserver-3] [INFO] [1753339077.896481983] [gazebo_ros2_control]: Starting gazebo_ros2_control plugin in ros 2 node: gazebo_ros2_control
+[gzserver-3] [INFO] [1753339077.908666928] [gazebo_ros2_control]: connected to service!! robot_state_publisher
+[gzserver-3] [INFO] [1753339077.909994107] [gazebo_ros2_control]: Received urdf from param server, parsing...
+[gzserver-3] [INFO] [1753339077.910089575] [gazebo_ros2_control]: Loading parameter files /home/kol/Documents/ros2/Control/panda/install/panda_description/share/panda_description/config/my_controllers.yaml
+[gzserver-3] [INFO] [1753339077.932040019] [gazebo_ros2_control]: Loading joint: panda_joint1
+[gzserver-3] [INFO] [1753339077.932095520] [gazebo_ros2_control]: 	State:
+[gzserver-3] [INFO] [1753339077.932122079] [gazebo_ros2_control]: 		 position
+[gzserver-3] [INFO] [1753339077.932142576] [gazebo_ros2_control]: 			 found initial value: 0.000000
+[gzserver-3] [INFO] [1753339077.932166145] [gazebo_ros2_control]: 		 velocity
+[gzserver-3] [INFO] [1753339077.932184389] [gazebo_ros2_control]: 	Command:
+[gzserver-3] [INFO] [1753339077.932199481] [gazebo_ros2_control]: 		 position
+[gzserver-3] [INFO] [1753339077.932529391] [gazebo_ros2_control]: Loading joint: panda_joint2
+[gzserver-3] [INFO] [1753339077.932558726] [gazebo_ros2_control]: 	State:
+[gzserver-3] [INFO] [1753339077.932572287] [gazebo_ros2_control]: 		 position
+[gzserver-3] [INFO] [1753339077.932586940] [gazebo_ros2_control]: 			 found initial value: 0.000000
+[gzserver-3] [INFO] [1753339077.932614712] [gazebo_ros2_control]: 		 velocity
+[gzserver-3] [INFO] [1753339077.932639321] [gazebo_ros2_control]: 	Command:
+[gzserver-3] [INFO] [1753339077.932663066] [gazebo_ros2_control]: 		 position
+[gzserver-3] [INFO] [1753339077.932796964] [gazebo_ros2_control]: Loading joint: panda_joint3
+[gzserver-3] [INFO] [1753339077.932819758] [gazebo_ros2_control]: 	State:
+[gzserver-3] [INFO] [1753339077.932834471] [gazebo_ros2_control]: 		 position
+[gzserver-3] [INFO] [1753339077.932848413] [gazebo_ros2_control]: 			 found initial value: 0.000000
+[gzserver-3] [INFO] [1753339077.932865521] [gazebo_ros2_control]: 		 velocity
+[gzserver-3] [INFO] [1753339077.932891040] [gazebo_ros2_control]: 	Command:
+[gzserver-3] [INFO] [1753339077.932905445] [gazebo_ros2_control]: 		 position
+[gzserver-3] [INFO] [1753339077.933183466] [gazebo_ros2_control]: Loading joint: panda_joint4
+[gzserver-3] [INFO] [1753339077.933215356] [gazebo_ros2_control]: 	State:
+[gzserver-3] [INFO] [1753339077.933230591] [gazebo_ros2_control]: 		 position
+[gzserver-3] [INFO] [1753339077.933252064] [gazebo_ros2_control]: 			 found initial value: 0.000000
+[gzserver-3] [INFO] [1753339077.933276105] [gazebo_ros2_control]: 		 velocity
+[gzserver-3] [INFO] [1753339077.933290291] [gazebo_ros2_control]: 	Command:
+[gzserver-3] [INFO] [1753339077.933311103] [gazebo_ros2_control]: 		 position
+[gzserver-3] [INFO] [1753339077.933843062] [gazebo_ros2_control]: Loading joint: panda_joint5
+[gzserver-3] [INFO] [1753339077.933904519] [gazebo_ros2_control]: 	State:
+[gzserver-3] [INFO] [1753339077.933930782] [gazebo_ros2_control]: 		 position
+[gzserver-3] [INFO] [1753339077.933976795] [gazebo_ros2_control]: 			 found initial value: 0.000000
+[gzserver-3] [INFO] [1753339077.934001980] [gazebo_ros2_control]: 		 velocity
+[gzserver-3] [INFO] [1753339077.934024686] [gazebo_ros2_control]: 	Command:
+[gzserver-3] [INFO] [1753339077.934038701] [gazebo_ros2_control]: 		 position
+[gzserver-3] [INFO] [1753339077.934227671] [gazebo_ros2_control]: Loading joint: panda_joint6
+[gzserver-3] [INFO] [1753339077.934251903] [gazebo_ros2_control]: 	State:
+[gzserver-3] [INFO] [1753339077.934267022] [gazebo_ros2_control]: 		 position
+[gzserver-3] [INFO] [1753339077.934280366] [gazebo_ros2_control]: 			 found initial value: 0.000000
+[gzserver-3] [INFO] [1753339077.934296903] [gazebo_ros2_control]: 		 velocity
+[gzserver-3] [INFO] [1753339077.934311014] [gazebo_ros2_control]: 	Command:
+[gzserver-3] [INFO] [1753339077.934324416] [gazebo_ros2_control]: 		 position
+[gzserver-3] [INFO] [1753339077.934457947] [gazebo_ros2_control]: Loading joint: panda_joint7
+[gzserver-3] [INFO] [1753339077.934480746] [gazebo_ros2_control]: 	State:
+[gzserver-3] [INFO] [1753339077.934495557] [gazebo_ros2_control]: 		 position
+[gzserver-3] [INFO] [1753339077.934509492] [gazebo_ros2_control]: 			 found initial value: 0.000000
+[gzserver-3] [INFO] [1753339077.934525340] [gazebo_ros2_control]: 		 velocity
+[gzserver-3] [INFO] [1753339077.934539921] [gazebo_ros2_control]: 	Command:
+[gzserver-3] [INFO] [1753339077.934553958] [gazebo_ros2_control]: 		 position
+[gzserver-3] [INFO] [1753339077.934725327] [gazebo_ros2_control]: Loading joint: panda_finger_joint1
+[gzserver-3] [INFO] [1753339077.934749084] [gazebo_ros2_control]: 	State:
+[gzserver-3] [INFO] [1753339077.934765031] [gazebo_ros2_control]: 		 position
+[gzserver-3] [INFO] [1753339077.934779891] [gazebo_ros2_control]: 			 found initial value: 0.000000
+[gzserver-3] [INFO] [1753339077.934797651] [gazebo_ros2_control]: 		 velocity
+[gzserver-3] [INFO] [1753339077.934813234] [gazebo_ros2_control]: 	Command:
+[gzserver-3] [INFO] [1753339077.934827864] [gazebo_ros2_control]: 		 position
+[gzserver-3] [INFO] [1753339077.935025042] [gazebo_ros2_control]: Loading joint: panda_finger_joint2
+[gzserver-3] [INFO] [1753339077.935058413] [gazebo_ros2_control]: 	State:
+[gzserver-3] [INFO] [1753339077.935077176] [gazebo_ros2_control]: 		 position
+[gzserver-3] [INFO] [1753339077.935104996] [gazebo_ros2_control]: 			 found initial value: 0.000000
+[gzserver-3] [INFO] [1753339077.935125749] [gazebo_ros2_control]: 		 velocity
+[gzserver-3] [INFO] [1753339077.935141096] [gazebo_ros2_control]: 	Command:
+[gzserver-3] [INFO] [1753339077.935155216] [gazebo_ros2_control]: 		 position
+[gzserver-3] [INFO] [1753339077.935471058] [resource_manager]: Initialize hardware 'panda' 
+[gzserver-3] [INFO] [1753339077.935778267] [resource_manager]: Successful initialization of hardware 'panda'
+[gzserver-3] [INFO] [1753339077.935982065] [resource_manager]: 'configure' hardware 'panda' 
+[gzserver-3] [INFO] [1753339077.936002393] [resource_manager]: Successful 'configure' of hardware 'panda'
+[gzserver-3] [INFO] [1753339077.936021889] [resource_manager]: 'activate' hardware 'panda' 
+[gzserver-3] [INFO] [1753339077.936034942] [resource_manager]: Successful 'activate' of hardware 'panda'
+[gzserver-3] [INFO] [1753339077.936148329] [gazebo_ros2_control]: Loading controller_manager
+[gzserver-3] [WARN] [1753339077.959144693] [gazebo_ros2_control]:  Desired controller update period (0.01 s) is slower than the gazebo simulation period (0.001 s).
+[gzserver-3] [INFO] [1753339077.959399925] [gazebo_ros2_control]: Loaded gazebo_ros2_control.
+[gzserver-3] [INFO] [1753339077.959738850] [controller_manager]: Loading controller 'panda_arm_controller'
+[gzserver-3] [WARN] [1753339077.987492325] [panda_arm_controller]: [Deprecated]: "allow_nonzero_velocity_at_trajectory_end" is set to true. The default behavior will change to false.
+[gzserver-3] [INFO] [1753339077.993626358] [controller_manager]: Configuring controller 'panda_arm_controller'
+[gzserver-3] [INFO] [1753339077.994698104] [panda_arm_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[gzserver-3] [INFO] [1753339077.994770457] [panda_arm_controller]: Command interfaces are [position] and state interfaces are [position velocity].
+[gzserver-3] [INFO] [1753339077.994835854] [panda_arm_controller]: Using 'splines' interpolation method.
+[gzserver-3] [INFO] [1753339077.997327864] [panda_arm_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [spawn_entity.py-5]: process has finished cleanly [pid 40067]
+[gzserver-3] [INFO] [1753339078.009403142] [panda_arm_controller]: Action status changes will be monitored at 20.00 Hz.
+[ros2-7] Successfully loaded controller panda_arm_controller into state active
+[INFO] [ros2-7]: process has finished cleanly [pid 40071]
+[gzserver-3] [INFO] [1753339078.444942945] [controller_manager]: Loading controller 'hand_controller'
+[gzserver-3] [INFO] [1753339078.520417130] [controller_manager]: Configuring controller 'hand_controller'
+[gzserver-3] [INFO] [1753339078.520766349] [hand_controller]: Action status changes will be monitored at 20.000000 Hz.
+[ros2-6] [INFO] [1753339078.543174412] [_ros2cli_40069]: waiting for service /controller_manager/load_controller to become available...
+[ros2-8] Successfully loaded controller hand_controller into state active
+[INFO] [ros2-8]: process has finished cleanly [pid 40073]
+[gzserver-3] [INFO] [1753339080.546786315] [controller_manager]: Loading controller 'joint_state_broadcaster'
+[gzserver-3] [INFO] [1753339080.626103615] [controller_manager]: Configuring controller 'joint_state_broadcaster'
+[gzserver-3] [INFO] [1753339080.626513755] [joint_state_broadcaster]: 'joints' or 'interfaces' parameter is empty. All available state interfaces will be published
+[ros2-6] Successfully loaded controller joint_state_broadcaster into state active
+[INFO] [ros2-6]: process has finished cleanly [pid 40069]
+[gzserver-3] [INFO] [1753339111.336272579] [controller_manager]: Configuring controller 'hand_controller'
+[gzserver-3] [ERROR] [1753339111.336537896] [controller_manager]: Controller 'hand_controller' can not be configured from 'active' state.
+[gzserver-3] [INFO] [1753339111.910655058] [controller_manager]: Configuring controller 'panda_arm_controller'
+[gzserver-3] [ERROR] [1753339111.910767886] [controller_manager]: Controller 'panda_arm_controller' can not be configured from 'active' state.
+[gzserver-3] [INFO] [1753339112.200245579] [controller_manager]: Configuring controller 'joint_state_broadcaster'
+[gzserver-3] [ERROR] [1753339112.200368743] [controller_manager]: Controller 'joint_state_broadcaster' can not be configured from 'active' state.
+[gzserver-3] [INFO] [1753339135.040036865] [controller_manager]: Configuring controller 'joint_state_broadcaster'
+[gzserver-3] [ERROR] [1753339135.040269246] [controller_manager]: Controller 'joint_state_broadcaster' can not be configured from 'active' state.
+[gzserver-3] [INFO] [1753339135.479572887] [controller_manager]: Configuring controller 'hand_controller'
+[gzserver-3] [ERROR] [1753339135.479855627] [controller_manager]: Controller 'hand_controller' can not be configured from 'active' state.
+[gzserver-3] [INFO] [1753339135.547967501] [controller_manager]: Configuring controller 'panda_arm_controller'
+[gzserver-3] [ERROR] [1753339135.548102168] [controller_manager]: Controller 'panda_arm_controller' can not be configured from 'active' state.
+[gzserver-3] [INFO] [1753339176.991064831] [panda_arm_controller]: Received new action goal
+[gzserver-3] [INFO] [1753339176.991519958] [panda_arm_controller]: Accepted new action goal
+[gzserver-3] [INFO] [1753339189.076643758] [panda_arm_controller]: Got request to cancel goal
+[gzserver-3] [INFO] [1753339189.076797329] [panda_arm_controller]: Canceling active action goal because cancel callback received.
 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
-[spawn_entity.py-5] Traceback (most recent call last):
-[spawn_entity.py-5]   File "/opt/ros/humble/lib/gazebo_ros/spawn_entity.py", line 372, in <module>
-[spawn_entity.py-5]     main()
-[spawn_entity.py-5]   File "/opt/ros/humble/lib/gazebo_ros/spawn_entity.py", line 367, in main
-[spawn_entity.py-5]     exit_code = spawn_entity_node.run()
-[spawn_entity.py-5]   File "/opt/ros/humble/lib/gazebo_ros/spawn_entity.py", line 228, in run
-[spawn_entity.py-5]     success = self._spawn_entity(entity_xml, initial_pose, spawn_service_timeout)
-[spawn_entity.py-5]   File "/opt/ros/humble/lib/gazebo_ros/spawn_entity.py", line 277, in _spawn_entity
-[spawn_entity.py-5]     if client.wait_for_service(timeout_sec=timeout):
-[spawn_entity.py-5]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/client.py", line 177, in wait_for_service
-[spawn_entity.py-5]     time.sleep(sleep_time)
-[spawn_entity.py-5] KeyboardInterrupt
-[ros2-8] 
-[ros2-8] >>> [rcutils|error_handling.c:108] rcutils_set_error_state()
-[ros2-8] This error state is being overwritten:
-[ros2-8] 
-[ros2-8]   ''Bad alloc' exception deserializing message of type rmw_dds_common::msg::dds_::ParticipantEntitiesInfo_., at ./src/type_support_common.cpp:123'
-[ros2-8] 
-[ros2-8] with this new error message:
-[ros2-8] 
-[ros2-8]   'Fast CDR exception deserializing message of type rmw_dds_common::msg::dds_::ParticipantEntitiesInfo_., at ./src/type_support_common.cpp:118'
-[ros2-8] 
-[ros2-8] rcutils_reset_error() should be called after error handling to avoid this.
-[ros2-8] <<<
-[gzserver-3] 
-[gzserver-3] >>> [rcutils|error_handling.c:108] rcutils_set_error_state()
-[gzserver-3] This error state is being overwritten:
-[gzserver-3] 
-[gzserver-3]   ''Bad alloc' exception deserializing message of type rmw_dds_common::msg::dds_::ParticipantEntitiesInfo_., at ./src/type_support_common.cpp:123'
-[gzserver-3] 
-[gzserver-3] with this new error message:
-[gzserver-3] 
-[gzserver-3]   'Fast CDR exception deserializing message of type rmw_dds_common::msg::dds_::ParticipantEntitiesInfo_., at ./src/type_support_common.cpp:118'
-[gzserver-3] 
-[gzserver-3] rcutils_reset_error() should be called after error handling to avoid this.
-[gzserver-3] <<<
-[robot_state_publisher-1] [INFO] [1753087110.130365016] [rclcpp]: signal_handler(signum=2)
-[robot_state_publisher-1] 
-[robot_state_publisher-1] >>> [rcutils|error_handling.c:108] rcutils_set_error_state()
-[robot_state_publisher-1] This error state is being overwritten:
-[robot_state_publisher-1] 
-[robot_state_publisher-1]   'Fast CDR exception deserializing message of type rmw_dds_common::msg::dds_::ParticipantEntitiesInfo_., at ./src/type_support_common.cpp:118'
-[robot_state_publisher-1] 
-[robot_state_publisher-1] with this new error message:
-[robot_state_publisher-1] 
-[robot_state_publisher-1]   ''Bad alloc' exception deserializing message of type rmw_dds_common::msg::dds_::ParticipantEntitiesInfo_., at ./src/type_support_common.cpp:123'
-[robot_state_publisher-1] 
-[robot_state_publisher-1] rcutils_reset_error() should be called after error handling to avoid this.
-[robot_state_publisher-1] <<<
-[robot_state_publisher-1] 
-[robot_state_publisher-1] >>> [rcutils|error_handling.c:108] rcutils_set_error_state()
-[robot_state_publisher-1] This error state is being overwritten:
-[robot_state_publisher-1] 
-[robot_state_publisher-1]   ''Bad alloc' exception deserializing message of type rmw_dds_common::msg::dds_::ParticipantEntitiesInfo_., at ./src/type_support_common.cpp:123'
-[robot_state_publisher-1] 
-[robot_state_publisher-1] with this new error message:
-[robot_state_publisher-1] 
-[robot_state_publisher-1]   'Fast CDR exception deserializing message of type rmw_dds_common::msg::dds_::ParticipantEntitiesInfo_., at ./src/type_support_common.cpp:118'
-[robot_state_publisher-1] 
-[robot_state_publisher-1] rcutils_reset_error() should be called after error handling to avoid this.
-[robot_state_publisher-1] <<<
-[ros2-6] 
-[ros2-6] >>> [rcutils|error_handling.c:108] rcutils_set_error_state()
-[ros2-6] This error state is being overwritten:
-[ros2-6] 
-[ros2-6]   'Fast CDR exception deserializing message of type rmw_dds_common::msg::dds_::ParticipantEntitiesInfo_., at ./src/type_support_common.cpp:118'
-[ros2-6] 
-[ros2-6] with this new error message:
-[ros2-6] 
-[ros2-6]   ''Bad alloc' exception deserializing message of type rmw_dds_common::msg::dds_::ParticipantEntitiesInfo_., at ./src/type_support_common.cpp:123'
-[ros2-6] 
-[ros2-6] rcutils_reset_error() should be called after error handling to avoid this.
-[ros2-6] <<<
-[INFO] [robot_state_publisher-1]: process has finished cleanly [pid 86196]
-[WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
-[INFO] [gzserver-3]: process has finished cleanly [pid 86200]
-[ERROR] [spawn_entity.py-5]: process has died [pid 86204, exit code -2, cmd '/opt/ros/humble/lib/gazebo_ros/spawn_entity.py -entity panda -topic robot_description --ros-args'].
-[WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
-[joint_state_publisher-2] 
-[joint_state_publisher-2] >>> [rcutils|error_handling.c:108] rcutils_set_error_state()
-[joint_state_publisher-2] This error state is being overwritten:
-[joint_state_publisher-2] 
-[joint_state_publisher-2]   ''Bad alloc' exception deserializing message of type rmw_dds_common::msg::dds_::ParticipantEntitiesInfo_., at ./src/type_support_common.cpp:123'
-[joint_state_publisher-2] 
-[joint_state_publisher-2] with this new error message:
-[joint_state_publisher-2] 
-[joint_state_publisher-2]   'Fast CDR exception deserializing message of type rmw_dds_common::msg::dds_::ParticipantEntitiesInfo_., at ./src/type_support_common.cpp:118'
-[joint_state_publisher-2] 
-[joint_state_publisher-2] rcutils_reset_error() should be called after error handling to avoid this.
-[joint_state_publisher-2] <<<
-[WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
-[ros2-6] 
-[ros2-6] >>> [rcutils|error_handling.c:108] rcutils_set_error_state()
-[ros2-6] This error state is being overwritten:
-[ros2-6] 
-[ros2-6]   ''Bad alloc' exception deserializing message of type rmw_dds_common::msg::dds_::ParticipantEntitiesInfo_., at ./src/type_support_common.cpp:123'
-[ros2-6] 
-[ros2-6] with this new error message:
-[ros2-6] 
-[ros2-6]   'Fast CDR exception deserializing message of type rmw_dds_common::msg::dds_::ParticipantEntitiesInfo_., at ./src/type_support_common.cpp:118'
-[ros2-6] 
-[ros2-6] rcutils_reset_error() should be called after error handling to avoid this.
-[ros2-6] <<<
-[joint_state_publisher-2] Traceback (most recent call last):
-[joint_state_publisher-2]   File "/opt/ros/humble/lib/joint_state_publisher/joint_state_publisher", line 33, in <module>
-[joint_state_publisher-2]     sys.exit(load_entry_point('joint-state-publisher==2.4.0', 'console_scripts', 'joint_state_publisher')())
-[joint_state_publisher-2]   File "/opt/ros/humble/lib/python3.10/site-packages/joint_state_publisher/joint_state_publisher.py", line 470, in main
-[joint_state_publisher-2]     jsp.destroy_node()
-[joint_state_publisher-2]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/node.py", line 1686, in destroy_node
-[joint_state_publisher-2]     self.destroy_publisher(self._publishers[0])
-[joint_state_publisher-2]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/node.py", line 1566, in destroy_publisher
-[joint_state_publisher-2]     publisher.destroy()
-[joint_state_publisher-2]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/publisher.py", line 93, in destroy
-[ERROR] [ros2-8]: process[ros2-8] failed to terminate '5' seconds after receiving 'SIGINT', escalating to 'SIGTERM'
-[ERROR] [ros2-6]: process[ros2-6] failed to terminate '5' seconds after receiving 'SIGINT', escalating to 'SIGTERM'
-[ERROR] [gzclient-4]: process[gzclient-4] failed to terminate '5' seconds after receiving 'SIGINT', escalating to 'SIGTERM'
-[ERROR] [joint_state_publisher-2]: process[joint_state_publisher-2] failed to terminate '5' seconds after receiving 'SIGINT', escalating to 'SIGTERM'
-[INFO] [ros2-8]: sending signal 'SIGTERM' to process[ros2-8]
-[joint_state_publisher-2]     self.__publisher.destroy_when_not_in_use()
-[joint_state_publisher-2] KeyboardInterrupt
-[INFO] [ros2-6]: sending signal 'SIGTERM' to process[ros2-6]
-[INFO] [gzclient-4]: sending signal 'SIGTERM' to process[gzclient-4]
-[INFO] [joint_state_publisher-2]: sending signal 'SIGTERM' to process[joint_state_publisher-2]
-[ERROR] [gzclient-4]: process has died [pid 86202, exit code -15, cmd 'gzclient --gui-client-plugin=libgazebo_ros_eol_gui.so'].
-[ERROR] [ros2-8]: process has died [pid 86211, exit code 2, cmd 'ros2 control load_controller --set-state active hand_controller'].
-[ERROR] [joint_state_publisher-2]: process has died [pid 86198, exit code -2, cmd '/opt/ros/humble/lib/joint_state_publisher/joint_state_publisher --ros-args -r __node:=joint_state_publisher'].
-[ERROR] [ros2-6]: process has died [pid 86206, exit code 2, cmd 'ros2 control load_controller --set-state active joint_state_broadcaster'].
+[robot_state_publisher-1] [INFO] [1753339210.620062236] [rclcpp]: signal_handler(signum=2)
+[INFO] [robot_state_publisher-1]: process has finished cleanly [pid 40059]
+[INFO] [joint_state_publisher-2]: process has finished cleanly [pid 40061]
+[INFO] [gzserver-3]: process has finished cleanly [pid 40063]
+[INFO] [gzclient-4]: process has finished cleanly [pid 40065]
